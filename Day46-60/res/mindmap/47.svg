@@ -1,140 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="823" viewBox="0 0 1230 823" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1230" height="823" fill="#ffffff"/>
-<rect x="515.4" y="388.5" width="199.8" height="46" rx="10" fill="#35495E"/>
-<text x="535.4" y="411.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 47 · 深入模型</text>
-<path d="M715.2,411.5 C748.2,411.5 748.2,156.5 781.2,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="781.2" y="139.5" width="207.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="795.2" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建项目和应用</text>
-<path d="M989.1,156.5 C1017.1,156.5 1017.1,122.5 1045.1,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="109.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vote</text>
-<path d="M989.1,156.5 C1017.1,156.5 1017.1,156.5 1045.1,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="143.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">polls</text>
-<path d="M989.1,156.5 C1017.1,156.5 1017.1,190.5 1045.1,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="177.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tempaltes</text>
-<path d="M715.2,411.5 C748.2,411.5 748.2,326.5 781.2,326.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="781.2" y="309.5" width="207.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="795.2" y="326.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置关系型数据库MySQL</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,241.5 1045.1,241.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="228.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">双向转换</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,275.5 1045.1,275.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="262.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">polls</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,309.5 1045.1,309.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="296.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Model</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,343.5 1045.1,343.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="330.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pymysql</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,377.5 1045.1,377.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="364.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mysqlclient</text>
-<path d="M989.1,326.5 C1017.1,326.5 1017.1,411.5 1045.1,411.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="398.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSTALLED_APPS</text>
-<path d="M715.2,411.5 C748.2,411.5 748.2,581.5 781.2,581.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="781.2" y="564.5" width="207.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="795.2" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用ORM完成模型的CRUD操作</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,462.5 1045.1,462.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="449.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">新增</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,496.5 1045.1,496.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="483.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">删除</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,530.5 1045.1,530.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="517.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更新</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,564.5 1045.1,564.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="551.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,598.5 1045.1,598.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="585.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update()</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,632.5 1045.1,632.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="619.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ForeingKey</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,666.5 1045.1,666.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="653.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">teacher_set</text>
-<path d="M989.1,581.5 C1017.1,581.5 1017.1,700.5 1045.1,700.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1045.1" y="687.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1057.1" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">related_name</text>
-<path d="M515.4,411.5 C482.4,411.5 482.4,88.5 449.4,88.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="241.5" y="71.5" width="207.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="255.5" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">利用Django后台管理模型</text>
-<path d="M241.5,88.5 C213.5,88.5 213.5,37.5 185.5,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="24.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">admin</text>
-<path d="M241.5,88.5 C213.5,88.5 213.5,71.5 185.5,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="58.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">polls</text>
-<path d="M241.5,88.5 C213.5,88.5 213.5,105.5 185.5,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="92.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Subject</text>
-<path d="M241.5,88.5 C213.5,88.5 213.5,139.5 185.5,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="126.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__str__</text>
-<path d="M515.4,411.5 C482.4,411.5 482.4,275.5 449.4,275.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="241.5" y="258.5" width="207.9" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="255.5" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现学科页和老师页效果</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,190.5 185.5,190.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="177.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show_subjects</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,224.5 185.5,224.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="211.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subjects</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,258.5 185.5,258.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="245.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,292.5 185.5,292.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="279.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show_teachers</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,326.5 185.5,326.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="313.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sno</text>
-<path d="M241.5,275.5 C213.5,275.5 213.5,360.5 185.5,360.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="347.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">teachers</text>
-<path d="M515.4,411.5 C482.4,411.5 482.4,598.5 449.4,598.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="241.5" y="581.5" width="207.9" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="255.5" y="598.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">补充内容</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,411.5 185.5,411.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="398.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Django模型最佳实践</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,445.5 185.5,445.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="432.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模型定义参考</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,479.5 185.5,479.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="466.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,513.5 185.5,513.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="500.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段属性</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,547.5 185.5,547.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="534.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模型元数据选项</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,581.5 185.5,581.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="568.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询参考</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,615.5 185.5,615.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="602.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">按字段查找可以用的条件</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,649.5 185.5,649.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="636.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">len()</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,683.5 185.5,683.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="670.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">exists()</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,717.5 185.5,717.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="704.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gte</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,751.5 185.5,751.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="738.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lte</text>
-<path d="M241.5,598.5 C213.5,598.5 213.5,785.5 185.5,785.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="772.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">day</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1339" height="720" viewBox="0 0 1339 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1339" height="720" fill="#ffffff"/>
+<rect x="570.0" y="337.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="590.0" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 47 · 深入模型</text>
+<path d="M769.8,360.0 C802.8,360.0 802.8,146.0 835.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.8" y="129.0" width="186.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="849.8" y="146.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置关系型数据库MySQL</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,56.0 1078.0,56.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="42.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="56.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DATABASES 配置数据库连接</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,92.0 1078.0,92.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="78.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="92.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mysqlclient 连接 MySQL 数据库</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,128.0 1078.0,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="114.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="128.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">install_as_MySQLdb 替代驱动</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,164.0 1078.0,164.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="150.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="164.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">inspectdb 反向生成模型类</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,200.0 1078.0,200.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="186.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="200.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ForeignKey 定义多对一关联</text>
+<path d="M1022.0,146.0 C1050.0,146.0 1050.0,236.0 1078.0,236.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="222.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="236.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Meta.db_table 指定数据表名</text>
+<path d="M769.8,360.0 C802.8,360.0 802.8,360.0 835.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.8" y="343.0" width="186.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="849.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">ORM 增删改</text>
+<path d="M1022.0,360.0 C1050.0,360.0 1050.0,288.0 1078.0,288.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="274.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="288.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模型类(字段=值) 创建对象</text>
+<path d="M1022.0,360.0 C1050.0,360.0 1050.0,324.0 1078.0,324.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="310.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="324.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">save() 新增或更新记录</text>
+<path d="M1022.0,360.0 C1050.0,360.0 1050.0,360.0 1078.0,360.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="346.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="360.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objects.get(条件) 取单条记录</text>
+<path d="M1022.0,360.0 C1050.0,360.0 1050.0,396.0 1078.0,396.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="382.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="396.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delete() 删除模型对象</text>
+<path d="M1022.0,360.0 C1050.0,360.0 1050.0,432.0 1078.0,432.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="418.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="432.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update(字段=值) 批量更新</text>
+<path d="M769.8,360.0 C802.8,360.0 802.8,574.0 835.8,574.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.8" y="557.0" width="186.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="849.8" y="574.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">ORM 查询</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,484.0 1078.0,484.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="470.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="484.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objects.all() 查询全部记录</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,520.0 1078.0,520.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="506.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="520.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objects.filter(条件) 过滤记录</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,556.0 1078.0,556.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="542.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="556.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段__gt/__lt 比较查询</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,592.0 1078.0,592.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="578.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="592.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段__contains 模糊匹配</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,628.0 1078.0,628.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="614.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="628.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段__range=(起, 止) 范围查询</text>
+<path d="M1022.0,574.0 C1050.0,574.0 1050.0,664.0 1078.0,664.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.0" y="650.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.0" y="664.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">order_by(&#x27;-字段&#x27;) 降序排序</text>
+<path d="M570.0,360.0 C537.0,360.0 537.0,128.0 504.0,128.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.8" y="111.0" width="186.2" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="331.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">利用Django后台管理模型</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,38.0 261.8,38.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">admin.site.register 注册模型</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,74.0 261.8,74.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="60.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list_display 配置列表显示字段</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,110.0 261.8,110.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="96.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">search_fields 配置后台搜索字段</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,146.0 261.8,146.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="132.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ordering 配置默认排序</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,182.0 261.8,182.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="168.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__str__ 定义对象显示文本</text>
+<path d="M317.8,128.0 C289.8,128.0 289.8,218.0 261.8,218.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="204.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">createsuperuser 创建超级用户</text>
+<path d="M570.0,360.0 C537.0,360.0 537.0,360.0 504.0,360.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.8" y="343.0" width="186.2" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="331.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现学科页和老师页效果</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,270.0 261.8,270.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="256.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render 传入字典作为上下文</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,306.0 261.8,306.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="292.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.GET.get 读取查询参数</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,342.0 261.8,342.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="328.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">only(&#x27;字段&#x27;) 只查询指定列</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,378.0 261.8,378.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">redirect 返回重定向响应</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,414.0 261.8,414.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="400.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">path 映射页面访问路径</text>
+<path d="M317.8,360.0 C289.8,360.0 289.8,450.0 261.8,450.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="436.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模板 for/if 渲染查询结果</text>
+<path d="M570.0,360.0 C537.0,360.0 537.0,592.0 504.0,592.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.8" y="575.0" width="186.2" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="331.8" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型定义与字段</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,502.0 261.8,502.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="488.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CharField(max_length) 存短字符串</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,538.0 261.8,538.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="524.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DecimalField 存固定精度小数</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,574.0 261.8,574.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="560.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DateField 加 auto_now_add</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,610.0 261.8,610.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="596.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ForeignKey(on_delete) 设删除策略</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,646.0 261.8,646.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="632.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">null/blank/default 设字段选项</text>
+<path d="M317.8,592.0 C289.8,592.0 289.8,682.0 261.8,682.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="668.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">related_name 指定反向查询名</text>
 </svg>

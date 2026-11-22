@@ -1,53 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="638" height="534" viewBox="0 0 638 534" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="638" height="534" fill="#ffffff"/>
-<rect x="24.0" y="244.0" width="238.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="267.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 37 · SQL详解之DDL</text>
-<path d="M262.9,267.0 C295.9,267.0 295.9,224.5 328.9,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="328.9" y="207.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="342.9" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建库建表</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,37.5 510.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">help</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,71.5 510.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">school</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,105.5 510.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">schema</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,139.5 510.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,173.5 510.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="160.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">comment</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,207.5 510.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">database</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,241.5 510.9,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_course</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,275.5 510.9,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="262.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_record</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,309.5 510.9,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="296.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_college</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,343.5 510.9,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="330.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_student</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,377.5 510.9,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="364.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_teacher</text>
-<path d="M454.9,224.5 C482.9,224.5 482.9,411.5 510.9,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="398.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">references</text>
-<path d="M262.9,267.0 C295.9,267.0 295.9,479.5 328.9,479.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="328.9" y="462.5" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="342.9" y="479.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">删除表和修改表</text>
-<path d="M454.9,479.5 C482.9,479.5 482.9,462.5 510.9,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="449.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cascade</text>
-<path d="M454.9,479.5 C482.9,479.5 482.9,496.5 510.9,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="510.9" y="483.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="522.9" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">restrict</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="772" height="488" viewBox="0 0 772 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="772" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="238.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 37 · SQL详解之DDL</text>
+<path d="M262.9,244.0 C295.9,244.0 295.9,128.0 328.9,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="111.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="342.9" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建库建表</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,38.0 510.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="24.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE DATABASE 创建数据库</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,74.0 510.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="60.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DEFAULT CHARACTER SET 指定字符集</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,110.0 510.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="96.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE TABLE 表名 (列 类型 约束)</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,146.0 510.9,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="132.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AUTO_INCREMENT 自增主键</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,182.0 510.9,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="168.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PRIMARY KEY 主键约束</text>
+<path d="M454.9,128.0 C482.9,128.0 482.9,218.0 510.9,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="204.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FOREIGN KEY REFERENCES 外键约束</text>
+<path d="M262.9,244.0 C295.9,244.0 295.9,360.0 328.9,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="343.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="342.9" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">删除表和修改表</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,270.0 510.9,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="256.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DROP TABLE 删除表</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,306.0 510.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="292.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALTER TABLE ADD COLUMN 添加列</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,342.0 510.9,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="328.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALTER TABLE DROP COLUMN 删除列</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,378.0 510.9,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="364.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MODIFY COLUMN 修改列类型</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,414.0 510.9,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="400.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CHANGE COLUMN 重命名列</text>
+<path d="M454.9,360.0 C482.9,360.0 482.9,450.0 510.9,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="436.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ADD CONSTRAINT 添加外键约束</text>
 </svg>

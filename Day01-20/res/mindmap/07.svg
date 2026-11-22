@@ -1,74 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1147" height="415" viewBox="0 0 1147 415" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1147" height="415" fill="#ffffff"/>
-<rect x="431.6" y="184.5" width="284.8" height="46" rx="10" fill="#35495E"/>
-<text x="451.6" y="207.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 07 · 分支和循环结构实战</text>
-<path d="M716.4,207.5 C749.4,207.5 749.4,71.5 782.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="782.4" y="54.5" width="172.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="796.4" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子1：100以内的素数</text>
-<path d="M954.6,71.5 C982.6,71.5 982.6,37.5 1010.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="24.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
-<path d="M954.6,71.5 C982.6,71.5 982.6,71.5 1010.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="58.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
-<path d="M954.6,71.5 C982.6,71.5 982.6,105.5 1010.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="92.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_prime</text>
-<path d="M716.4,207.5 C749.4,207.5 749.4,173.5 782.4,173.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="782.4" y="156.5" width="172.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="796.4" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子2：斐波那契数列</text>
-<path d="M954.6,173.5 C982.6,173.5 982.6,156.5 1010.6,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="143.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
-<path d="M954.6,173.5 C982.6,173.5 982.6,190.5 1010.6,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="177.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
-<path d="M716.4,207.5 C749.4,207.5 749.4,309.5 782.4,309.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="782.4" y="292.5" width="172.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="796.4" y="309.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子3：寻找水仙花数</text>
-<path d="M954.6,309.5 C982.6,309.5 982.6,241.5 1010.6,241.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="228.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
-<path d="M954.6,309.5 C982.6,309.5 982.6,275.5 1010.6,275.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="262.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
-<path d="M954.6,309.5 C982.6,309.5 982.6,309.5 1010.6,309.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="296.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">low</text>
-<path d="M954.6,309.5 C982.6,309.5 982.6,343.5 1010.6,343.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="330.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mid</text>
-<path d="M954.6,309.5 C982.6,309.5 982.6,377.5 1010.6,377.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1010.6" y="364.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1022.6" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">high</text>
-<path d="M431.6,207.5 C398.6,207.5 398.6,97.0 365.6,97.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="193.4" y="80.0" width="172.2" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="207.4" y="97.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子4：百钱百鸡问题</text>
-<path d="M193.4,97.0 C165.4,97.0 165.4,80.0 137.4,80.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="66.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="80.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">穷举法</text>
-<path d="M193.4,97.0 C165.4,97.0 165.4,114.0 137.4,114.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="100.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="114.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">暴力搜索法</text>
-<path d="M431.6,207.5 C398.6,207.5 398.6,250.0 365.6,250.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="193.4" y="233.0" width="172.2" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="207.4" y="250.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子5：CRAPS赌博游戏</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,165.0 137.4,165.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="151.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="165.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,199.0 137.4,199.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="185.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,233.0 137.4,233.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="219.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="233.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">money</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,267.0 137.4,267.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="253.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="267.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">debt</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,301.0 137.4,301.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="287.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="301.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">first_point</text>
-<path d="M193.4,250.0 C165.4,250.0 165.4,335.0 137.4,335.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="321.5" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="335.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">current_point</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1454" height="540" viewBox="0 0 1454 540" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1454" height="540" fill="#ffffff"/>
+<rect x="584.7" y="247.0" width="284.8" height="46" rx="10" fill="#35495E"/>
+<text x="604.7" y="270.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 07 · 分支和循环结构实战</text>
+<path d="M869.5,270.0 C902.5,270.0 902.5,110.0 935.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="935.5" y="93.0" width="172.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="949.5" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子1：100以内的素数</text>
+<path d="M1107.7,110.0 C1135.7,110.0 1135.7,38.0 1163.7,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="24.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for 嵌套遍历候选数</text>
+<path d="M1107.7,110.0 C1135.7,110.0 1135.7,74.0 1163.7,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="60.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">range(2, int(n ** 0.5) + 1) 缩小范围</text>
+<path d="M1107.7,110.0 C1135.7,110.0 1135.7,110.0 1163.7,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="96.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">% 取模判断整除</text>
+<path d="M1107.7,110.0 C1135.7,110.0 1135.7,146.0 1163.7,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="132.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">break 找到因子即退出</text>
+<path d="M1107.7,110.0 C1135.7,110.0 1135.7,182.0 1163.7,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="168.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">布尔标志记录是否素数</text>
+<path d="M869.5,270.0 C902.5,270.0 902.5,270.0 935.5,270.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="935.5" y="253.0" width="172.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="949.5" y="270.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子2：斐波那契数列</text>
+<path d="M1107.7,270.0 C1135.7,270.0 1135.7,234.0 1163.7,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="220.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for _ in range(n) 控制迭代次数</text>
+<path d="M1107.7,270.0 C1135.7,270.0 1135.7,270.0 1163.7,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="256.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">a, b = b, a + b 多重赋值递推</text>
+<path d="M1107.7,270.0 C1135.7,270.0 1135.7,306.0 1163.7,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="292.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">变量迭代保存相邻两项</text>
+<path d="M869.5,270.0 C902.5,270.0 902.5,430.0 935.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="935.5" y="413.0" width="172.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="949.5" y="430.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子3：寻找水仙花数</text>
+<path d="M1107.7,430.0 C1135.7,430.0 1135.7,358.0 1163.7,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="344.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">// 10 去掉个位</text>
+<path d="M1107.7,430.0 C1135.7,430.0 1135.7,394.0 1163.7,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="380.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">% 10 取出个位</text>
+<path d="M1107.7,430.0 C1135.7,430.0 1135.7,430.0 1163.7,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="416.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">// 与 % 组合拆分各数位</text>
+<path d="M1107.7,430.0 C1135.7,430.0 1135.7,466.0 1163.7,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="452.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">** 3 计算各位立方和</text>
+<path d="M1107.7,430.0 C1135.7,430.0 1135.7,502.0 1163.7,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1163.7" y="488.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1175.7" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">while 循环逐位反转整数</text>
+<path d="M584.7,270.0 C551.7,270.0 551.7,172.0 518.7,172.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="346.5" y="155.0" width="172.2" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="360.5" y="172.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子4：百钱百鸡问题</text>
+<path d="M346.5,172.0 C318.5,172.0 318.5,118.0 290.5,118.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="104.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="118.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for 嵌套枚举候选值</text>
+<path d="M346.5,172.0 C318.5,172.0 318.5,154.0 290.5,154.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="140.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="154.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">range(start, stop, step) 限定步长</text>
+<path d="M346.5,172.0 C318.5,172.0 318.5,190.0 290.5,190.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="176.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">and 组合多个约束条件</text>
+<path d="M346.5,172.0 C318.5,172.0 318.5,226.0 290.5,226.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="212.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="226.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">由总和关系推出变量减少循环</text>
+<path d="M584.7,270.0 C551.7,270.0 551.7,350.0 518.7,350.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="346.5" y="333.0" width="172.2" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="360.5" y="350.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子5：CRAPS赌博游戏</text>
+<path d="M346.5,350.0 C318.5,350.0 318.5,278.0 290.5,278.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="264.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="278.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random.randrange(1, 7) 模拟掷骰</text>
+<path d="M346.5,350.0 C318.5,350.0 318.5,314.0 290.5,314.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="300.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="314.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">while 条件控制游戏继续</text>
+<path d="M346.5,350.0 C318.5,350.0 318.5,350.0 290.5,350.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="336.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="350.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">while True 配合 break 校验输入</text>
+<path d="M346.5,350.0 C318.5,350.0 318.5,386.0 290.5,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if/elif 判断胜负分支</text>
+<path d="M346.5,350.0 C318.5,350.0 318.5,422.0 290.5,422.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="408.0" width="266.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="422.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">+= / -= 更新余额</text>
 </svg>

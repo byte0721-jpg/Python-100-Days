@@ -1,116 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1075" height="626" viewBox="0 0 1075 626" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1075" height="626" fill="#ffffff"/>
-<rect x="419.8" y="290.0" width="235.5" height="46" rx="10" fill="#35495E"/>
-<text x="439.8" y="313.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 78 · 数据可视化-1</text>
-<path d="M655.2,313.0 C688.2,313.0 688.2,92.0 721.2,92.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="721.2" y="75.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="735.2" y="92.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导入和配置</text>
-<path d="M847.2,92.0 C875.2,92.0 875.2,41.0 903.2,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="27.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pyplot</text>
-<path d="M847.2,92.0 C875.2,92.0 875.2,75.0 903.2,75.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="61.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="75.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SimHei</text>
-<path d="M847.2,92.0 C875.2,92.0 875.2,109.0 903.2,109.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="95.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="109.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rcParams</text>
-<path d="M847.2,92.0 C875.2,92.0 875.2,143.0 903.2,143.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="129.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="143.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">axes.unicode_minus</text>
-<path d="M655.2,313.0 C688.2,313.0 688.2,279.0 721.2,279.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="721.2" y="262.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="735.2" y="279.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建画布</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,194.0 903.2,194.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="180.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="194.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dpi</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,228.0 903.2,228.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="214.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="228.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pyplot</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,262.0 903.2,262.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="248.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="262.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">figure</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,296.0 903.2,296.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="282.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="296.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Figure</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,330.0 903.2,330.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="316.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="330.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">figsize</text>
-<path d="M847.2,279.0 C875.2,279.0 875.2,364.0 903.2,364.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="350.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="364.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">facecolor</text>
-<path d="M655.2,313.0 C688.2,313.0 688.2,500.0 721.2,500.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="721.2" y="483.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="735.2" y="500.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建坐标系</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,415.0 903.2,415.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="401.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="415.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Axes</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,449.0 903.2,449.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="435.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="449.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pyplot</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,483.0 903.2,483.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="469.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="483.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Figure</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,517.0 903.2,517.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="503.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="517.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subplot</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,551.0 903.2,551.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="537.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="551.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_axes</text>
-<path d="M847.2,500.0 C875.2,500.0 875.2,585.0 903.2,585.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.2" y="571.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.2" y="585.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_subplot</text>
-<path d="M419.8,313.0 C386.8,313.0 386.8,224.5 353.8,224.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="227.8" y="207.5" width="126.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="241.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">绘制图表</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,37.5 171.8,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="24.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">折线图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,71.5 171.8,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="58.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">散点图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,105.5 171.8,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="92.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">柱状图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,139.5 171.8,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="126.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">饼状图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,173.5 171.8,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="160.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">直方图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,207.5 171.8,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="194.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">箱线图</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,241.5 171.8,241.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="228.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bar</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,275.5 171.8,275.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="262.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pie</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,309.5 171.8,309.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="296.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,343.5 171.8,343.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="330.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">barh</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,377.5 171.8,377.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="364.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hist</text>
-<path d="M227.8,224.5 C199.8,224.5 199.8,411.5 171.8,411.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="398.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bins</text>
-<path d="M419.8,313.0 C386.8,313.0 386.8,496.5 353.8,496.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="227.8" y="479.5" width="126.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="241.8" y="496.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">显示和保存图表</text>
-<path d="M227.8,496.5 C199.8,496.5 199.8,462.5 171.8,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="449.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show</text>
-<path d="M227.8,496.5 C199.8,496.5 199.8,496.5 171.8,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="483.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pyplot</text>
-<path d="M227.8,496.5 C199.8,496.5 199.8,530.5 171.8,530.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="517.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">savefig</text>
-<path d="M419.8,313.0 C386.8,313.0 386.8,585.0 353.8,585.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="227.8" y="568.0" width="126.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="241.8" y="585.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他图表</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1281" height="808" viewBox="0 0 1281 808" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1281" height="808" fill="#ffffff"/>
+<rect x="523.1" y="381.0" width="235.5" height="46" rx="10" fill="#35495E"/>
+<text x="543.1" y="404.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 78 · 数据可视化-1</text>
+<path d="M758.6,404.0 C791.6,404.0 791.6,164.0 824.6,164.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="824.6" y="147.0" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="838.6" y="164.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导入和配置</text>
+<path d="M964.6,164.0 C992.6,164.0 992.6,110.0 1020.6,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="96.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">import matplotlib.pyplot as plt</text>
+<path d="M964.6,164.0 C992.6,164.0 992.6,146.0 1020.6,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="132.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rcParams 设置中文字体</text>
+<path d="M964.6,164.0 C992.6,164.0 992.6,182.0 1020.6,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="168.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">axes.unicode_minus=False 负号</text>
+<path d="M964.6,164.0 C992.6,164.0 992.6,218.0 1020.6,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="204.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">%matplotlib inline 嵌入图表</text>
+<path d="M758.6,404.0 C791.6,404.0 791.6,324.0 824.6,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="824.6" y="307.0" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="838.6" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建画布和坐标系</text>
+<path d="M964.6,324.0 C992.6,324.0 992.6,270.0 1020.6,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="256.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">figure(figsize=,dpi=) 建画布</text>
+<path d="M964.6,324.0 C992.6,324.0 992.6,306.0 1020.6,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="292.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">facecolor 设置背景色</text>
+<path d="M964.6,324.0 C992.6,324.0 992.6,342.0 1020.6,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="328.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subplot(行,列,序号) 分区</text>
+<path d="M964.6,324.0 C992.6,324.0 992.6,378.0 1020.6,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="364.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_subplot 添加坐标系</text>
+<path d="M758.6,404.0 C791.6,404.0 791.6,502.0 824.6,502.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="824.6" y="485.0" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="838.6" y="502.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">折线图</text>
+<path d="M964.6,502.0 C992.6,502.0 992.6,430.0 1020.6,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="416.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot(x,y) 绘制折线图</text>
+<path d="M964.6,502.0 C992.6,502.0 992.6,466.0 1020.6,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="452.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">color/marker 颜色与标记</text>
+<path d="M964.6,502.0 C992.6,502.0 992.6,502.0 1020.6,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="488.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linestyle/linewidth 线型线宽</text>
+<path d="M964.6,502.0 C992.6,502.0 992.6,538.0 1020.6,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="524.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">annotate 添加箭头标注</text>
+<path d="M964.6,502.0 C992.6,502.0 992.6,574.0 1020.6,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="560.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">legend 显示图例</text>
+<path d="M758.6,404.0 C791.6,404.0 791.6,662.0 824.6,662.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="824.6" y="645.0" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="838.6" y="662.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">散点图</text>
+<path d="M964.6,662.0 C992.6,662.0 992.6,626.0 1020.6,626.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="612.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scatter(x,y) 绘制散点图</text>
+<path d="M964.6,662.0 C992.6,662.0 992.6,662.0 1020.6,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="648.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">s= 控制点大小</text>
+<path d="M964.6,662.0 C992.6,662.0 992.6,698.0 1020.6,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1020.6" y="684.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1032.6" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">c=/cmap= 控制颜色</text>
+<path d="M523.1,404.0 C490.1,404.0 490.1,110.0 457.1,110.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.1" y="93.0" width="140.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="331.1" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">柱状图</text>
+<path d="M317.1,110.0 C289.1,110.0 289.1,38.0 261.1,38.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bar(x,height) 绘制柱状图</text>
+<path d="M317.1,110.0 C289.1,110.0 289.1,74.0 261.1,74.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="60.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">width= 设置柱宽</text>
+<path d="M317.1,110.0 C289.1,110.0 289.1,110.0 261.1,110.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="96.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bottom= 堆叠柱状图</text>
+<path d="M317.1,110.0 C289.1,110.0 289.1,146.0 261.1,146.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="132.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xticks 设置刻度标签</text>
+<path d="M317.1,110.0 C289.1,110.0 289.1,182.0 261.1,182.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="168.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">label/legend 图例</text>
+<path d="M523.1,404.0 C490.1,404.0 490.1,324.0 457.1,324.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.1" y="307.0" width="140.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="331.1" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">饼状图</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,234.0 261.1,234.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="220.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pie(数据) 绘制饼图</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,270.0 261.1,270.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="256.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">labels= 设置扇形标签</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,306.0 261.1,306.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="292.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">autopct 显示百分比</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,342.0 261.1,342.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="328.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">radius/pctdistance 半径距离</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,378.0 261.1,378.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">explode 分离扇形</text>
+<path d="M317.1,324.0 C289.1,324.0 289.1,414.0 261.1,414.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="400.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wedgeprops 设置环状</text>
+<path d="M523.1,404.0 C490.1,404.0 490.1,556.0 457.1,556.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.1" y="539.0" width="140.0" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="331.1" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">直方图和箱线图</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,466.0 261.1,466.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="452.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hist(数据,bins=) 直方图</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,502.0 261.1,502.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="488.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">density=True 概率密度</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,538.0 261.1,538.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="524.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cumulative=True 累积分布</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,574.0 261.1,574.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="560.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">boxplot 绘制箱线图</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,610.0 261.1,610.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="596.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">whis= 异常值范围</text>
+<path d="M317.1,556.0 C289.1,556.0 289.1,646.0 261.1,646.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="632.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">showmeans=True 显示均值</text>
+<path d="M523.1,404.0 C490.1,404.0 490.1,734.0 457.1,734.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.1" y="717.0" width="140.0" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="331.1" y="734.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">显示和保存图表</text>
+<path d="M317.1,734.0 C289.1,734.0 289.1,698.0 261.1,698.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="684.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show() 显示图表</text>
+<path d="M317.1,734.0 C289.1,734.0 289.1,734.0 261.1,734.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="720.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">savefig(文件名) 保存图表</text>
+<path d="M317.1,734.0 C289.1,734.0 289.1,770.0 261.1,770.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="756.0" width="237.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">先 savefig 后 show</text>
 </svg>

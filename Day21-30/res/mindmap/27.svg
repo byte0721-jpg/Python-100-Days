@@ -1,83 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1210" height="524" viewBox="0 0 1210 524" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1210" height="524" fill="#ffffff"/>
-<rect x="463.2" y="239.0" width="284.0" height="46" rx="10" fill="#35495E"/>
-<text x="483.2" y="262.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 27 · Python操作PDF文件</text>
-<path d="M747.2,262.0 C780.2,262.0 780.2,41.0 813.2,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="813.2" y="24.0" width="135.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="827.2" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">从PDF中提取文本</text>
-<path d="M948.3,41.0 C976.3,41.0 976.3,41.0 1004.3,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="27.5" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader</text>
-<path d="M747.2,262.0 C780.2,262.0 780.2,180.5 813.2,180.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="813.2" y="163.5" width="135.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="827.2" y="180.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">旋转和叠加页面</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,95.5 1004.3,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="82.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">getPage</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,129.5 1004.3,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="116.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PageObject</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,163.5 1004.3,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="150.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">addBlankPage</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,197.5 1004.3,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="184.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PdfFileReader</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,231.5 1004.3,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="218.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rotateClockwise</text>
-<path d="M948.3,180.5 C976.3,180.5 976.3,265.5 1004.3,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="252.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rotateCounterClockwise</text>
-<path d="M747.2,262.0 C780.2,262.0 780.2,401.5 813.2,401.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="813.2" y="384.5" width="135.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="827.2" y="401.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">加密PDF文件</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,316.5 1004.3,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="303.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PdfFileWrite</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,350.5 1004.3,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="337.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,384.5 1004.3,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="371.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,418.5 1004.3,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="405.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer.add_page</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,452.5 1004.3,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="439.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer.encrypt</text>
-<path d="M948.3,401.5 C976.3,401.5 976.3,486.5 1004.3,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1004.3" y="473.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1016.3" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer.write</text>
-<path d="M463.2,262.0 C430.2,262.0 430.2,151.5 397.2,151.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="262.1" y="134.5" width="135.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="276.1" y="151.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">批量添加水印</text>
-<path d="M262.1,151.5 C234.1,151.5 234.1,134.5 206.1,134.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="121.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="134.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mergePage</text>
-<path d="M262.1,151.5 C234.1,151.5 234.1,168.5 206.1,168.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="155.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="168.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PageObject</text>
-<path d="M463.2,262.0 C430.2,262.0 430.2,304.5 397.2,304.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="262.1" y="287.5" width="135.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="276.1" y="304.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建PDF文件</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,219.5 206.1,219.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="206.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="219.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reportlab</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,253.5 206.1,253.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="240.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="253.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf_canvas</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,287.5 206.1,287.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="274.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="287.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">image</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,321.5 206.1,321.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="308.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="321.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf_canvas.drawImage</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,355.5 206.1,355.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="342.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="355.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf_canvas.showPage</text>
-<path d="M262.1,304.5 C234.1,304.5 234.1,389.5 206.1,389.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="376.0" width="182.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="389.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdfmetrics.registerFont</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1277" height="576" viewBox="0 0 1277 576" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1277" height="576" fill="#ffffff"/>
+<rect x="497.0" y="265.0" width="284.0" height="46" rx="10" fill="#35495E"/>
+<text x="517.0" y="288.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 27 · Python操作PDF文件</text>
+<path d="M780.9,288.0 C813.9,288.0 813.9,110.0 846.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="846.9" y="93.0" width="135.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="860.9" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">从PDF中提取文本</text>
+<path d="M982.0,110.0 C1010.0,110.0 1010.0,38.0 1038.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="24.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PdfReader(文件名) 打开 PDF</text>
+<path d="M982.0,110.0 C1010.0,110.0 1010.0,74.0 1038.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="60.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader.pages 遍历所有页面</text>
+<path d="M982.0,110.0 C1010.0,110.0 1010.0,110.0 1038.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="96.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">extract_text() 提取页面文本</text>
+<path d="M982.0,110.0 C1010.0,110.0 1010.0,146.0 1038.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="132.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip install PyPDF2 安装库</text>
+<path d="M982.0,110.0 C1010.0,110.0 1010.0,182.0 1038.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="168.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdfminer.six 命令行提取文本</text>
+<path d="M780.9,288.0 C813.9,288.0 813.9,306.0 846.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="846.9" y="289.0" width="135.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="860.9" y="306.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">旋转和叠加页面</text>
+<path d="M982.0,306.0 C1010.0,306.0 1010.0,234.0 1038.0,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="220.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PdfWriter() 创建写入对象</text>
+<path d="M982.0,306.0 C1010.0,306.0 1010.0,270.0 1038.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="256.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">page.rotate(角度) 旋转页面</text>
+<path d="M982.0,306.0 C1010.0,306.0 1010.0,306.0 1038.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="292.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_page(page) 添加页面</text>
+<path d="M982.0,306.0 C1010.0,306.0 1010.0,342.0 1038.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="328.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer.write(文件) 输出 PDF</text>
+<path d="M982.0,306.0 C1010.0,306.0 1010.0,378.0 1038.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="364.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">open 用 wb 模式写二进制</text>
+<path d="M780.9,288.0 C813.9,288.0 813.9,484.0 846.9,484.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="846.9" y="467.0" width="135.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="860.9" y="484.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">加密PDF文件</text>
+<path d="M982.0,484.0 C1010.0,484.0 1010.0,430.0 1038.0,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="416.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer.encrypt(口令) 设置密码</text>
+<path d="M982.0,484.0 C1010.0,484.0 1010.0,466.0 1038.0,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="452.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_page 先加入全部页面</text>
+<path d="M982.0,484.0 C1010.0,484.0 1010.0,502.0 1038.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="488.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">write 输出加密后的 PDF</text>
+<path d="M982.0,484.0 C1010.0,484.0 1010.0,538.0 1038.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1038.0" y="524.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1050.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">统一口令可批量加密文档</text>
+<path d="M497.0,288.0 C464.0,288.0 464.0,172.0 431.0,172.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="295.9" y="155.0" width="135.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="309.9" y="172.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">批量添加水印</text>
+<path d="M295.9,172.0 C267.9,172.0 267.9,100.0 239.9,100.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="86.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="100.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">merge_page(水印页) 叠加页面</text>
+<path d="M295.9,172.0 C267.9,172.0 267.9,136.0 239.9,136.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="122.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="136.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader.pages 读取水印页</text>
+<path d="M295.9,172.0 C267.9,172.0 267.9,172.0 239.9,172.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="158.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="172.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">循环每页 merge_page 加水印</text>
+<path d="M295.9,172.0 C267.9,172.0 267.9,208.0 239.9,208.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="208.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_page 收集合并后的页</text>
+<path d="M295.9,172.0 C267.9,172.0 267.9,244.0 239.9,244.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">write 保存带水印 PDF</text>
+<path d="M497.0,288.0 C464.0,288.0 464.0,386.0 431.0,386.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="295.9" y="369.0" width="135.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="309.9" y="386.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建PDF文件</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,296.0 239.9,296.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="282.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="296.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Canvas 创建画布并定页面尺寸</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,332.0 239.9,332.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="318.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="332.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">drawImage 在指定位置绘制图片</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,368.0 239.9,368.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="354.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="368.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">registerFont 注册字体</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,404.0 239.9,404.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setFont 设置字体与字号</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,440.0 239.9,440.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">drawString 按坐标绘制文字</text>
+<path d="M295.9,386.0 C267.9,386.0 267.9,476.0 239.9,476.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="215.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">showPage 新建页 save 保存</text>
 </svg>

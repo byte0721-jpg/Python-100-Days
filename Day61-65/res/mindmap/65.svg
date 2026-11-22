@@ -1,53 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="715" height="534" viewBox="0 0 715 534" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="715" height="534" fill="#ffffff"/>
-<rect x="24.0" y="244.0" width="289.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="267.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 65 · 爬虫框架Scrapy简介</text>
-<path d="M313.9,267.0 C346.9,267.0 346.9,54.5 379.9,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="379.9" y="37.5" width="144.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="393.9" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Scrapy 概述</text>
-<path d="M524.1,54.5 C552.1,54.5 552.1,37.5 580.1,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="24.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Scrapy的组件</text>
-<path d="M524.1,54.5 C552.1,54.5 552.1,71.5 580.1,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="58.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据处理流程</text>
-<path d="M313.9,267.0 C346.9,267.0 346.9,309.5 379.9,309.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="379.9" y="292.5" width="144.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="393.9" y="309.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装和使用Scrapy</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,122.5 580.1,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="109.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">一个简单的例子</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,156.5 580.1,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="143.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,190.5 580.1,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="177.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">url</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,224.5 580.1,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="211.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">demo</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,258.5 580.1,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="245.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Item</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,292.5 580.1,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="279.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xpath</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,326.5 580.1,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="313.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yield</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,360.5 580.1,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="347.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">parse</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,394.5 580.1,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="381.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scrapy</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,428.5 580.1,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="415.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">douban</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,462.5 580.1,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="449.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">spiders</text>
-<path d="M524.1,309.5 C552.1,309.5 552.1,496.5 580.1,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="580.1" y="483.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="592.1" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Request</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="896" height="488" viewBox="0 0 896 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="896" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="289.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 65 · 爬虫框架Scrapy简介</text>
+<path d="M313.9,244.0 C346.9,244.0 346.9,128.0 379.9,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="111.0" width="144.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="393.9" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Scrapy 概述</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,38.0 580.1,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="24.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Engine 控制整体数据流</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,74.0 580.1,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="60.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Scheduler 排队并调度请求</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,110.0 580.1,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="96.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Downloader 下载网页内容</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,146.0 580.1,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="132.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Spider 定义抓取解析规则</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,182.0 580.1,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="168.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Item Pipeline 清理验证存储</text>
+<path d="M524.1,128.0 C552.1,128.0 552.1,218.0 580.1,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="204.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Middleware 钩子扩展功能</text>
+<path d="M313.9,244.0 C346.9,244.0 346.9,360.0 379.9,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="343.0" width="144.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="393.9" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装和使用Scrapy</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,270.0 580.1,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="256.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scrapy startproject/genspider 建项目蜘蛛</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,306.0 580.1,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="292.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scrapy.Field() 定义 Item 字段</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,342.0 580.1,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="328.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">css::text 提取节点文本</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,378.0 580.1,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="364.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yield Request(url,callback) 跟进链接</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,414.0 580.1,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="400.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">process_item 管道持久化数据</text>
+<path d="M524.1,360.0 C552.1,360.0 552.1,450.0 580.1,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="580.1" y="436.0" width="292.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="592.1" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ITEM_PIPELINES 配置管道优先级</text>
 </svg>

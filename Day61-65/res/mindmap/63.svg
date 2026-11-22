@@ -1,62 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="729" height="619" viewBox="0 0 729 619" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="729" height="619" fill="#ffffff"/>
-<rect x="24.0" y="286.5" width="318.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="309.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · 并发编程在爬虫中的应用</text>
-<path d="M342.8,309.5 C375.8,309.5 375.8,122.5 408.8,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="408.8" y="105.5" width="107.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="422.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">单线程版本</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,37.5 571.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="24.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">time</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,71.5 571.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="58.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">download_picture</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,105.5 571.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="92.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filename</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,139.5 571.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="126.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resp</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,173.5 571.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="160.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">file.write</text>
-<path d="M515.9,122.5 C543.9,122.5 543.9,207.5 571.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="194.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">main</text>
-<path d="M342.8,309.5 C375.8,309.5 375.8,343.5 408.8,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="408.8" y="326.5" width="107.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="422.8" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多线程版本</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,258.5 571.9,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="245.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">download_picture</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,292.5 571.9,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="279.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filename</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,326.5 571.9,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="313.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resp</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,360.5 571.9,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="347.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">file.write</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,394.5 571.9,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="381.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">main</text>
-<path d="M515.9,343.5 C543.9,343.5 543.9,428.5 571.9,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="415.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">os.path.exists</text>
-<path d="M342.8,309.5 C375.8,309.5 375.8,530.5 408.8,530.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="408.8" y="513.5" width="107.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="422.8" y="530.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">异步I/O版本</text>
-<path d="M515.9,530.5 C543.9,530.5 543.9,479.5 571.9,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="466.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">open</text>
-<path d="M515.9,530.5 C543.9,530.5 543.9,513.5 571.9,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="500.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">aiohttp</text>
-<path d="M515.9,530.5 C543.9,530.5 543.9,547.5 571.9,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="534.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">aiofile</text>
-<path d="M515.9,530.5 C543.9,530.5 543.9,581.5 571.9,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="571.9" y="568.0" width="134.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="583.9" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">async_open</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="720" viewBox="0 0 846 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="846" height="720" fill="#ffffff"/>
+<rect x="24.0" y="337.0" width="318.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · 并发编程在爬虫中的应用</text>
+<path d="M342.8,360.0 C375.8,360.0 375.8,128.0 408.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="111.0" width="107.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="422.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">单线程版本</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,38.0 571.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="24.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get(url) 串行请求页面</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,74.0 571.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="60.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json() 解析接口 JSON 数据</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,110.0 571.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="96.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content 取图片二进制</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,146.0 571.9,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="132.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">open(path,&#x27;wb&#x27;) 写入文件</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,182.0 571.9,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="168.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">os.makedirs 创建保存目录</text>
+<path d="M515.9,128.0 C543.9,128.0 543.9,218.0 571.9,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="204.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rfind(&#x27;/&#x27;) 截取 URL 文件名</text>
+<path d="M342.8,360.0 C375.8,360.0 375.8,360.0 408.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="343.0" width="107.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="422.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多线程版本</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,270.0 571.9,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="256.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ThreadPoolExecutor 创建线程池</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,306.0 571.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="292.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">submit() 提交下载任务</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,342.0 571.9,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="328.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_workers 设置并发数</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,378.0 571.9,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="364.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json() 解析接口 JSON 数据</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,414.0 571.9,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="400.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content 属性取二进制</text>
+<path d="M515.9,360.0 C543.9,360.0 543.9,450.0 571.9,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="436.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">write 以 wb 模式保存</text>
+<path d="M342.8,360.0 C375.8,360.0 375.8,592.0 408.8,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="575.0" width="107.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="422.8" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">异步I/O版本</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,502.0 571.9,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="488.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">aiohttp.ClientSession 创建异步会话</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,538.0 571.9,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="524.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get(url,ssl=False) 异步请求</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,574.0 571.9,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="560.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">await read() 读取响应字节</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,610.0 571.9,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="596.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">aiofile.async_open() 异步打开文件</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,646.0 571.9,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="632.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">await write() 异步写数据</text>
+<path d="M515.9,592.0 C543.9,592.0 543.9,682.0 571.9,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="571.9" y="668.0" width="250.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="583.9" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json.loads() 解析 JSON 字符串</text>
 </svg>

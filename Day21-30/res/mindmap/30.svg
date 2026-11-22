@@ -1,50 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="895" height="507" viewBox="0 0 895 507" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="895" height="507" fill="#ffffff"/>
-<rect x="24.0" y="230.5" width="267.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="253.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 30 · 正则表达式的应用</text>
-<path d="M291.8,253.5 C324.8,253.5 324.8,41.0 357.8,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="357.8" y="24.0" width="200.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="371.8" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">正则表达式相关知识</text>
-<path d="M558.0,41.0 C586.0,41.0 586.0,41.0 614.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="27.5" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">b.t</text>
-<path d="M291.8,253.5 C324.8,253.5 324.8,282.5 357.8,282.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="357.8" y="265.5" width="200.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="371.8" y="282.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python对正则表达式的支持</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,95.5 614.0,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="82.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子1：验证输入用户名和QQ号是否有效…</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,129.5 614.0,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="116.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子2：从一段文字中提取出国内手机号码</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,163.5 614.0,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="150.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子3：替换字符串中的不良内容</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,197.5 614.0,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="184.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子4：拆分长字符串</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,231.5 614.0,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="218.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">purge()</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,265.5 614.0,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="252.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.I</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,299.5 614.0,299.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="286.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="299.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.M</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,333.5 614.0,333.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="320.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="333.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">match</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,367.5 614.0,367.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="354.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="367.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flags</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,401.5 614.0,401.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="388.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="401.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Pattern</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,435.5 614.0,435.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="422.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="435.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">compile</text>
-<path d="M558.0,282.5 C586.0,282.5 586.0,469.5 614.0,469.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="614.0" y="456.0" width="257.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="626.0" y="469.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.MULTILINE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="488" viewBox="0 0 900 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="900" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 30 · 正则表达式的应用</text>
+<path d="M291.8,244.0 C324.8,244.0 324.8,128.0 357.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="111.0" width="200.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="371.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">正则表达式相关知识</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,38.0 614.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="24.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">. \d \w \s 匹配字符、数字、单词、空白</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,74.0 614.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="60.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">^ 与 $ 锚定字符串首尾</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,110.0 614.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="96.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">* + ? {M,N} 控制重复次数</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,146.0 614.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="132.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[abc] 与 [^abc] 匹配字符集</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,182.0 614.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="168.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">() 分组捕获匹配内容</text>
+<path d="M558.0,128.0 C586.0,128.0 586.0,218.0 614.0,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="204.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">(?=) 与 (?&lt;=) 实现前瞻回顾</text>
+<path d="M291.8,244.0 C324.8,244.0 324.8,360.0 357.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="343.0" width="200.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="371.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python对正则表达式的支持</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,270.0 614.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="256.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.match 从字符串开头匹配</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,306.0 614.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="292.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.fullmatch 要求整串完全匹配</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,342.0 614.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="328.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.search 搜索首个匹配</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,378.0 614.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="364.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.findall 返回全部匹配列表</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,414.0 614.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="400.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.sub 按模式替换文本</text>
+<path d="M558.0,360.0 C586.0,360.0 586.0,450.0 614.0,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="614.0" y="436.0" width="262.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="626.0" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">re.split 按模式拆分字符串</text>
 </svg>

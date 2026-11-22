@@ -1,305 +1,245 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1349" height="1690" viewBox="0 0 1349 1690" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1349" height="1690" fill="#ffffff"/>
-<rect x="520.5" y="822.0" width="308.6" height="46" rx="10" fill="#35495E"/>
-<text x="540.5" y="845.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 34-35 · 玩转Linux操作系统</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,180.0 895.1,180.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="163.0" width="150.5" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="909.1" y="180.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">操作系统发展史</text>
-<path d="M1045.6,180.0 C1073.6,180.0 1073.6,129.0 1101.6,129.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="115.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="129.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">没有操作系统（手工操作）</text>
-<path d="M1045.6,180.0 C1073.6,180.0 1073.6,163.0 1101.6,163.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="149.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="163.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">批处理系统</text>
-<path d="M1045.6,180.0 C1073.6,180.0 1073.6,197.0 1101.6,197.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="183.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="197.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分时系统和实时系统</text>
-<path d="M1045.6,180.0 C1073.6,180.0 1073.6,231.0 1101.6,231.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="217.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="231.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通用操作系统</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,285.5 895.1,285.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="268.5" width="150.5" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="909.1" y="285.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Linux概述</text>
-<path d="M1045.6,285.5 C1073.6,285.5 1073.6,285.5 1101.6,285.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="272.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="285.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Linux是一个通用操作系统</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,343.5 895.1,343.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="326.5" width="150.5" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="909.1" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Linux系统优点</text>
-<path d="M1045.6,343.5 C1073.6,343.5 1073.6,343.5 1101.6,343.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="330.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通用操作系统，不跟特定的硬件绑定</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,401.5 895.1,401.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="384.5" width="150.5" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="909.1" y="401.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Linux系统发行版本</text>
-<path d="M1045.6,401.5 C1073.6,401.5 1073.6,401.5 1101.6,401.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="388.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="401.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Redhat</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,575.0 895.1,575.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="558.0" width="150.5" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="909.1" y="575.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基础命令</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,456.0 1101.6,456.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="442.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="456.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">who</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,490.0 1101.6,490.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="476.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="490.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">last</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,524.0 1101.6,524.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="510.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="524.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lastb</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,558.0 1101.6,558.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="544.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="558.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ps</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,592.0 1101.6,592.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="578.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="592.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">whatis</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,626.0 1101.6,626.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="612.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">which</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,660.0 1101.6,660.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="646.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="660.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">whereis</text>
-<path d="M1045.6,575.0 C1073.6,575.0 1073.6,694.0 1101.6,694.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="680.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="694.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">clear</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,864.0 895.1,864.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="847.0" width="150.5" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="909.1" y="864.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实用程序</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,745.0 1101.6,745.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="731.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="745.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文件和文件夹操作</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,779.0 1101.6,779.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="765.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="779.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">管道和重定向</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,813.0 1101.6,813.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="799.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="813.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">别名</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,847.0 1101.6,847.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="833.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="847.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文本处理</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,881.0 1101.6,881.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="867.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="881.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mkdir</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,915.0 1101.6,915.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="901.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="915.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rmdir</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,949.0 1101.6,949.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="935.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="949.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">touch</text>
-<path d="M1045.6,864.0 C1073.6,864.0 1073.6,983.0 1101.6,983.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="969.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="983.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rm</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,1153.0 895.1,1153.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="1136.0" width="150.5" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
-<text x="909.1" y="1153.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用户管理</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1034.0 1101.6,1034.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1020.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1034.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">useradd</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1068.0 1101.6,1068.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1054.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1068.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">userdel</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1102.0 1101.6,1102.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1088.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1102.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">groupadd</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1136.0 1101.6,1136.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1122.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1136.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">groupdel</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1170.0 1101.6,1170.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1156.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1170.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">passwd</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1204.0 1101.6,1204.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1190.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1204.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chage</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1238.0 1101.6,1238.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1224.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1238.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">su</text>
-<path d="M1045.6,1153.0 C1073.6,1153.0 1073.6,1272.0 1101.6,1272.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1258.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1272.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sudo</text>
-<path d="M829.1,845.0 C862.1,845.0 862.1,1442.0 895.1,1442.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="895.1" y="1425.0" width="150.5" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
-<text x="909.1" y="1442.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">文件系统</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1323.0 1101.6,1323.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1309.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1323.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文件和路径</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1357.0 1101.6,1357.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1343.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1357.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">目录结构</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1391.0 1101.6,1391.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1377.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1391.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">访问权限</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1425.0 1101.6,1425.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1411.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1425.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">磁盘管理</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1459.0 1101.6,1459.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1445.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1459.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">/etc</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1493.0 1101.6,1493.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1479.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1493.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">/root</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1527.0 1101.6,1527.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1513.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1527.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">/usr</text>
-<path d="M1045.6,1442.0 C1073.6,1442.0 1073.6,1561.0 1101.6,1561.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1101.6" y="1547.5" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1113.6" y="1561.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chmod</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,105.5 454.5,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="88.5" width="150.5" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="318.0" y="105.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编辑器 - vim</text>
-<path d="M304.0,105.5 C276.0,105.5 276.0,37.5 248.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="24.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vim</text>
-<path d="M304.0,105.5 C276.0,105.5 276.0,71.5 248.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="58.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Esc</text>
-<path d="M304.0,105.5 C276.0,105.5 276.0,105.5 248.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="92.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nore</text>
-<path d="M304.0,105.5 C276.0,105.5 276.0,139.5 248.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="126.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__main</text>
-<path d="M304.0,105.5 C276.0,105.5 276.0,173.5 248.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="160.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">inoremap</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,292.5 454.5,292.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="275.5" width="150.5" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="318.0" y="292.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">软件安装和配置</text>
-<path d="M304.0,292.5 C276.0,292.5 276.0,224.5 248.0,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="211.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用包管理工具</text>
-<path d="M304.0,292.5 C276.0,292.5 276.0,258.5 248.0,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="245.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">下载解压配置环境变量</text>
-<path d="M304.0,292.5 C276.0,292.5 276.0,292.5 248.0,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="279.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">源代码构建安装</text>
-<path d="M304.0,292.5 C276.0,292.5 276.0,326.5 248.0,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="313.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yum</text>
-<path d="M304.0,292.5 C276.0,292.5 276.0,360.5 248.0,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="347.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rpm</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,445.5 454.5,445.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="428.5" width="150.5" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="318.0" y="445.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置服务</text>
-<path d="M304.0,445.5 C276.0,445.5 276.0,411.5 248.0,411.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="398.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">daemon</text>
-<path d="M304.0,445.5 C276.0,445.5 276.0,445.5 248.0,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="432.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">service</text>
-<path d="M304.0,445.5 C276.0,445.5 276.0,479.5 248.0,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="466.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">systemctl</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,581.5 454.5,581.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="564.5" width="150.5" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="318.0" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计划任务</text>
-<path d="M304.0,581.5 C276.0,581.5 276.0,530.5 248.0,530.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="517.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">at</text>
-<path d="M304.0,581.5 C276.0,581.5 276.0,564.5 248.0,564.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="551.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">atq</text>
-<path d="M304.0,581.5 C276.0,581.5 276.0,598.5 248.0,598.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="585.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">atrm</text>
-<path d="M304.0,581.5 C276.0,581.5 276.0,632.5 248.0,632.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="619.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">crontab</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,802.5 454.5,802.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="785.5" width="150.5" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="318.0" y="802.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">网络访问和管理</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,683.5 248.0,683.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="670.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ssh</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,717.5 248.0,717.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="704.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wget</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,751.5 248.0,751.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="738.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mail</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,785.5 248.0,785.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="772.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ifconfig</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,819.5 248.0,819.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="806.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ip</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,853.5 248.0,853.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="840.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ping</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,887.5 248.0,887.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="874.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">route</text>
-<path d="M304.0,802.5 C276.0,802.5 276.0,921.5 248.0,921.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="908.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">netstat</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,1091.5 454.5,1091.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="1074.5" width="150.5" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="318.0" y="1091.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">进程管理</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,972.5 248.0,972.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="959.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="972.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ps</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1006.5 248.0,1006.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="993.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1006.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pstree</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1040.5 248.0,1040.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1027.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1040.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pgrep</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1074.5 248.0,1074.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1061.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1074.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kill</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1108.5 248.0,1108.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1095.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1108.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">killall</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1142.5 248.0,1142.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1129.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1142.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pkill</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1176.5 248.0,1176.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1163.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1176.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">jobs</text>
-<path d="M304.0,1091.5 C276.0,1091.5 276.0,1210.5 248.0,1210.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1197.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1210.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bg</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,1380.5 454.5,1380.5" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="1363.5" width="150.5" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
-<text x="318.0" y="1380.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">系统诊断</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1261.5 248.0,1261.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1248.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1261.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dmesg</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1295.5 248.0,1295.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1282.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1295.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sar</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1329.5 248.0,1329.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1316.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1329.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">free</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1363.5 248.0,1363.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1350.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1363.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vmstat</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1397.5 248.0,1397.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1384.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1397.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mpstat</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1431.5 248.0,1431.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1418.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1431.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pmap</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1465.5 248.0,1465.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1452.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1465.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">iostat</text>
-<path d="M304.0,1380.5 C276.0,1380.5 276.0,1499.5 248.0,1499.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1486.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1499.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lspci</text>
-<path d="M520.5,845.0 C487.5,845.0 487.5,1601.5 454.5,1601.5" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="304.0" y="1584.5" width="150.5" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
-<text x="318.0" y="1601.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Shell编程</text>
-<path d="M304.0,1601.5 C276.0,1601.5 276.0,1550.5 248.0,1550.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1537.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1550.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sum</text>
-<path d="M304.0,1601.5 C276.0,1601.5 276.0,1584.5 248.0,1584.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1571.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1584.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index</text>
-<path d="M304.0,1601.5 C276.0,1601.5 276.0,1618.5 248.0,1618.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1605.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1618.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pre</text>
-<path d="M304.0,1601.5 C276.0,1601.5 276.0,1652.5 248.0,1652.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1639.0" width="224.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1652.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">install_redis</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1509" height="1416" viewBox="0 0 1509 1416" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1509" height="1416" fill="#ffffff"/>
+<rect x="600.4" y="685.0" width="308.6" height="46" rx="10" fill="#35495E"/>
+<text x="620.4" y="708.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 34-35 · 玩转Linux操作系统</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,128.0 975.0,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="111.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="989.0" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基础命令</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,38.0 1157.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="24.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">命令名称 [选项] [对象] 基本命令格式</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,74.0 1157.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="60.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">w/who/last 查看登录与登录历史</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,110.0 1157.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="96.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">which/whereis 查找命令所在路径</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,146.0 1157.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="132.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">man/info/--help 查看命令帮助</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,182.0 1157.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="168.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">shutdown -h/-r +5 定时关机重启</text>
+<path d="M1101.0,128.0 C1129.0,128.0 1129.0,218.0 1157.0,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="204.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">history + !编号 复用历史命令</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,360.0 975.0,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="343.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="989.0" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实用程序</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,270.0 1157.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="256.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mkdir -p/rm -rf 创建与强制删除</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,306.0 1157.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="292.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cd/pwd + ls -l/-a 浏览目录</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,342.0 1157.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="328.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cp/mv/find -name 复制移动与查找</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,378.0 1157.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="364.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tar -cvf/-xvf 创建与解归档</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,414.0 1157.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="400.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">| 管道 + &gt;/&gt;&gt;/2&gt; 重定向输出</text>
+<path d="M1101.0,360.0 C1129.0,360.0 1129.0,450.0 1157.0,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="436.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sed 替换 + awk 按列提取 文本处理</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,592.0 975.0,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="575.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="989.0" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用户管理</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,502.0 1157.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="488.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">useradd -d/-g、userdel 建删用户</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,538.0 1157.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="524.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">groupadd/groupdel 管理用户组</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,574.0 1157.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="560.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">passwd 改密码，-l/-u 锁定解锁</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,610.0 1157.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="596.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chage -M/-W/-I 设置密码有效期</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,646.0 1157.0,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="632.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">su 切换用户，sudo 提权执行</text>
+<path d="M1101.0,592.0 C1129.0,592.0 1129.0,682.0 1157.0,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="668.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">id 查看用户与所属组</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,824.0 975.0,824.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="807.0" width="126.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="989.0" y="824.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">文件系统</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,734.0 1157.0,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="720.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chmod 644 或 g+w 修改访问权限</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,770.0 1157.0,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="756.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chown/chgrp 修改所有者与用户组</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,806.0 1157.0,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="792.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">df -h 查看磁盘使用情况</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,842.0 1157.0,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="828.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fdisk -l 查看磁盘分区表</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,878.0 1157.0,878.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="864.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="878.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mkfs -t ext4 格式化文件系统</text>
+<path d="M1101.0,824.0 C1129.0,824.0 1129.0,914.0 1157.0,914.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="900.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="914.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mount/umount 挂载与卸载文件系统</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,1056.0 975.0,1056.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="1039.0" width="126.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="989.0" y="1056.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编辑器 - vim</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,966.0 1157.0,966.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="952.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="966.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">i 进入编辑模式，Esc 返回命令模式</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,1002.0 1157.0,1002.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="988.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1002.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wq 保存退出，:q! 放弃修改退出</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,1038.0 1157.0,1038.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1024.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1038.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">h/j/k/l 移动光标，gg/G 到首尾</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,1074.0 1157.0,1074.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1060.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1074.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dd/yy/p 删除复制粘贴整行</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,1110.0 1157.0,1110.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1096.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">/关键词 查找，n/N 切换匹配</text>
+<path d="M1101.0,1056.0 C1129.0,1056.0 1129.0,1146.0 1157.0,1146.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1132.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">1,$s/旧/新/g 全文替换</text>
+<path d="M909.0,708.0 C942.0,708.0 942.0,1288.0 975.0,1288.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="975.0" y="1271.0" width="126.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="989.0" y="1288.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">软件安装和配置</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1198.0 1157.0,1198.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1184.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yum search/install/remove/update 管理包</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1234.0 1157.0,1234.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1220.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rpm -ivh/-e/-qa 安装删除查询rpm</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1270.0 1157.0,1270.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1256.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wget URL -O 文件 下载资源</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1306.0 1157.0,1306.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1292.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gunzip + tar -xvf 解压与解包</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1342.0 1157.0,1342.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1328.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">修改 .bash_profile 后 source 生效</text>
+<path d="M1101.0,1288.0 C1129.0,1288.0 1129.0,1378.0 1157.0,1378.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1157.0" y="1364.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1169.0" y="1378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">./configure --prefix= + make install 源码安装</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,164.0 534.4,164.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="147.0" width="126.0" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="422.4" y="164.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置服务</text>
+<path d="M408.4,164.0 C380.4,164.0 380.4,110.0 352.4,110.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="96.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">systemctl start/stop/restart 启停服务</text>
+<path d="M408.4,164.0 C380.4,164.0 380.4,146.0 352.4,146.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="132.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">systemctl status 查看服务状态</text>
+<path d="M408.4,164.0 C380.4,164.0 380.4,182.0 352.4,182.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="168.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">systemctl enable/disable 设开机自启</text>
+<path d="M408.4,164.0 C380.4,164.0 380.4,218.0 352.4,218.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="204.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">守护进程名以 d 结尾标识服务</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,342.0 534.4,342.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="325.0" width="126.0" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="422.4" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计划任务</text>
+<path d="M408.4,342.0 C380.4,342.0 380.4,270.0 352.4,270.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="256.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">at 5pm+3days 排队一次性任务</text>
+<path d="M408.4,342.0 C380.4,342.0 380.4,306.0 352.4,306.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="292.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">atq/atrm 查看与删除任务队列</text>
+<path d="M408.4,342.0 C380.4,342.0 380.4,342.0 352.4,342.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="328.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">crontab -e 编辑周期计划任务</text>
+<path d="M408.4,342.0 C380.4,342.0 380.4,378.0 352.4,378.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Cron 五字段 分/时/日/月/周</text>
+<path d="M408.4,342.0 C380.4,342.0 380.4,414.0 352.4,414.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="400.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">命令 &gt;&gt; 日志 2&gt;&amp;1 保存输出与错误</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,556.0 534.4,556.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="539.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="422.4" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">网络访问和管理</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,466.0 352.4,466.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="452.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ssh 用户@主机 安全远程登录</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,502.0 352.4,502.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="488.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wget -b/-O/-r 下载资源</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,538.0 352.4,538.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="524.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ping -c 3 主机 检查网络连通性</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,574.0 352.4,574.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="560.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ip address/ifconfig 查看网络配置</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,610.0 352.4,610.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="596.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">netstat -nap | grep 端口 查看监听</text>
+<path d="M408.4,556.0 C380.4,556.0 380.4,646.0 352.4,646.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="632.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scp 用户@主机:路径 跨机拷贝文件</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,788.0 534.4,788.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="771.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="422.4" y="788.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">进程管理</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,698.0 352.4,698.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="684.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ps -ef | grep 名称 查找进程</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,734.0 352.4,734.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="720.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pstree/pgrep 查看进程树与PID</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,770.0 352.4,770.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="756.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kill -9 PID 与 pkill -u 终止进程</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,806.0 352.4,806.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="792.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">命令 &amp; + jobs/bg/fg 后台调度</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,842.0 352.4,842.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="828.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nohup 命令 &gt; 日志 &amp; 登出继续运行</text>
+<path d="M408.4,788.0 C380.4,788.0 380.4,878.0 352.4,878.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="864.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="878.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">top -d/-p 实时监控进程资源</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,1002.0 534.4,1002.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="985.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="422.4" y="1002.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">系统诊断</text>
+<path d="M408.4,1002.0 C380.4,1002.0 380.4,930.0 352.4,930.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="916.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="930.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dmesg 查看内核启动日志</text>
+<path d="M408.4,1002.0 C380.4,1002.0 380.4,966.0 352.4,966.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="952.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="966.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sar -u/-r/-d 5 10 采样系统活动</text>
+<path d="M408.4,1002.0 C380.4,1002.0 380.4,1002.0 352.4,1002.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="988.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1002.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">free -h 查看内存使用情况</text>
+<path d="M408.4,1002.0 C380.4,1002.0 380.4,1038.0 352.4,1038.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1024.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1038.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vmstat/iostat 统计内存与磁盘I/O</text>
+<path d="M408.4,1002.0 C380.4,1002.0 380.4,1074.0 352.4,1074.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1060.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1074.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lspci/ipcs 查看设备与进程间通信</text>
+<path d="M600.4,708.0 C567.4,708.0 567.4,1216.0 534.4,1216.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.4" y="1199.0" width="126.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="422.4" y="1216.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Shell编程</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1126.0 352.4,1126.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1112.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1126.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">#!/usr/bin/bash 指定脚本解释器</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1162.0 352.4,1162.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1148.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1162.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">read 变量 从标准输入读取</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1198.0 352.4,1198.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1184.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">$变量 与 $[算术表达式] 取值计算</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1234.0 352.4,1234.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1220.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if [ 条件 ]; then ... fi 分支</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1270.0 352.4,1270.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1256.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">while [ 条件 ]; do ... done 循环</text>
+<path d="M408.4,1216.0 C380.4,1216.0 380.4,1306.0 352.4,1306.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1292.0" width="328.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">函数名() { 命令 } 定义并调用函数</text>
 </svg>

@@ -1,29 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="769" height="252" viewBox="0 0 769 252" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="769" height="252" fill="#ffffff"/>
-<rect x="24.0" y="103.0" width="288.2" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="126.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 48 · 静态资源和Ajax请求</text>
-<path d="M312.2,126.0 C345.2,126.0 345.2,54.5 378.2,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="378.2" y="37.5" width="156.8" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="392.2" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">加载静态资源</text>
-<path d="M535.0,54.5 C563.0,54.5 563.0,37.5 591.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="591.0" y="24.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="603.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vote</text>
-<path d="M535.0,54.5 C563.0,54.5 563.0,71.5 591.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="591.0" y="58.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="603.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">static</text>
-<path d="M312.2,126.0 C345.2,126.0 345.2,126.0 378.2,126.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="378.2" y="109.0" width="156.8" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="392.2" y="126.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Ajax概述</text>
-<path d="M535.0,126.0 C563.0,126.0 563.0,126.0 591.0,126.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="591.0" y="112.5" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="603.0" y="126.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JSON格式</text>
-<path d="M312.2,126.0 C345.2,126.0 345.2,197.5 378.2,197.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="378.2" y="180.5" width="156.8" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="392.2" y="197.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用Ajax实现投票功能</text>
-<path d="M535.0,197.5 C563.0,197.5 563.0,180.5 591.0,180.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="591.0" y="167.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="603.0" y="180.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">getJSON</text>
-<path d="M535.0,197.5 C563.0,197.5 563.0,214.5 591.0,214.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="591.0" y="201.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="603.0" y="214.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">praise_or_criticize</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="504" viewBox="0 0 850 504" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="850" height="504" fill="#ffffff"/>
+<rect x="24.0" y="229.0" width="288.2" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="252.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 48 · 静态资源和Ajax请求</text>
+<path d="M312.2,252.0 C345.2,252.0 345.2,74.0 378.2,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="378.2" y="57.0" width="156.8" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="392.2" y="74.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">加载静态资源</text>
+<path d="M535.0,74.0 C563.0,74.0 563.0,38.0 591.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="24.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STATICFILES_DIRS 指定静态目录</text>
+<path d="M535.0,74.0 C563.0,74.0 563.0,74.0 591.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="60.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STATIC_URL 设置访问前缀</text>
+<path d="M535.0,74.0 C563.0,74.0 563.0,110.0 591.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="96.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">/static/ 前缀引用静态资源</text>
+<path d="M312.2,252.0 C345.2,252.0 345.2,198.0 378.2,198.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="378.2" y="181.0" width="156.8" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="392.2" y="198.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Ajax概述</text>
+<path d="M535.0,198.0 C563.0,198.0 563.0,162.0 591.0,162.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="148.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="162.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Ajax 异步请求实现局部刷新</text>
+<path d="M535.0,198.0 C563.0,198.0 563.0,198.0 591.0,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="184.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JSON 比 XML 更紧凑易解析</text>
+<path d="M535.0,198.0 C563.0,198.0 563.0,234.0 591.0,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="220.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步请求不中断页面操作</text>
+<path d="M312.2,252.0 C345.2,252.0 345.2,376.0 378.2,376.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="378.2" y="359.0" width="156.8" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="392.2" y="376.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用Ajax实现投票功能</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,286.0 591.0,286.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="272.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="286.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">path 为好/差评映射 URL</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,322.0 591.0,322.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="308.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="322.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JsonResponse 把字典序列化为 JSON</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,358.0 591.0,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="344.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.GET.get 读取请求参数</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,394.0 591.0,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="380.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">startswith 判断操作路径</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,430.0 591.0,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="416.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">save() 保存计数更新</text>
+<path d="M535.0,376.0 C563.0,376.0 563.0,466.0 591.0,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="591.0" y="452.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="603.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">$.getJSON(url, 回调) 发异步请求</text>
 </svg>

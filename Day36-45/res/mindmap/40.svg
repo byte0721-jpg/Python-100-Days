@@ -1,32 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="596" height="279" viewBox="0 0 596 279" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="596" height="279" fill="#ffffff"/>
-<rect x="24.0" y="116.5" width="238.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="139.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 40 · SQL详解之DCL</text>
-<path d="M262.9,139.5 C295.9,139.5 295.9,54.5 328.9,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="328.9" y="37.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="342.9" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建用户</text>
-<path d="M412.9,54.5 C440.9,54.5 440.9,37.5 468.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE</text>
-<path d="M412.9,54.5 C440.9,54.5 440.9,71.5 468.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DROP</text>
-<path d="M262.9,139.5 C295.9,139.5 295.9,139.5 328.9,139.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="328.9" y="122.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="342.9" y="139.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">授予权限</text>
-<path d="M412.9,139.5 C440.9,139.5 440.9,122.5 468.9,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="109.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_college</text>
-<path d="M412.9,139.5 C440.9,139.5 440.9,156.5 468.9,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="143.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GRANT</text>
-<path d="M262.9,139.5 C295.9,139.5 295.9,224.5 328.9,224.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="328.9" y="207.5" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="342.9" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">召回权限</text>
-<path d="M412.9,224.5 C440.9,224.5 440.9,207.5 468.9,207.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">REVOKE</text>
-<path d="M412.9,224.5 C440.9,224.5 440.9,241.5 468.9,241.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="468.9" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="480.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FLUSH</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="825" height="396" viewBox="0 0 825 396" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="825" height="396" fill="#ffffff"/>
+<rect x="24.0" y="175.0" width="238.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="198.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 40 · SQL详解之DCL</text>
+<path d="M262.9,198.0 C295.9,198.0 295.9,74.0 328.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="57.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="342.9" y="74.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建用户</text>
+<path d="M412.9,74.0 C440.9,74.0 440.9,38.0 468.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="24.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE USER &#x27;用户&#x27;@&#x27;主机&#x27; IDENTIFIED BY &#x27;口令&#x27;</text>
+<path d="M412.9,74.0 C440.9,74.0 440.9,74.0 468.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="60.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DROP USER IF EXISTS 删除用户</text>
+<path d="M412.9,74.0 C440.9,74.0 440.9,110.0 468.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="96.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">@&#x27;%&#x27; 允许任意主机访问</text>
+<path d="M262.9,198.0 C295.9,198.0 295.9,198.0 328.9,198.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="181.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="342.9" y="198.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">授予权限</text>
+<path d="M412.9,198.0 C440.9,198.0 440.9,162.0 468.9,162.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="148.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="162.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GRANT 权限 ON 库.表 TO 用户</text>
+<path d="M412.9,198.0 C440.9,198.0 440.9,198.0 468.9,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="184.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GRANT ALL PRIVILEGES 全部权限</text>
+<path d="M412.9,198.0 C440.9,198.0 440.9,234.0 468.9,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="220.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ON *.* 所有库所有表</text>
+<path d="M262.9,198.0 C295.9,198.0 295.9,322.0 328.9,322.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="305.0" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="342.9" y="322.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">召回权限</text>
+<path d="M412.9,322.0 C440.9,322.0 440.9,286.0 468.9,286.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="272.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="286.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">REVOKE 权限 ON 库.表 FROM 用户</text>
+<path d="M412.9,322.0 C440.9,322.0 440.9,322.0 468.9,322.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="308.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="322.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">REVOKE ALL PRIVILEGES 收回全部权限</text>
+<path d="M412.9,322.0 C440.9,322.0 440.9,358.0 468.9,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="468.9" y="344.0" width="332.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="480.9" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FLUSH PRIVILEGES 刷新权限缓存</text>
 </svg>

@@ -1,71 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="749" height="738" viewBox="0 0 749 738" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="749" height="738" fill="#ffffff"/>
-<rect x="24.0" y="346.0" width="233.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="369.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 17 · 函数高级应用</text>
-<path d="M257.8,369.0 C290.8,369.0 290.8,224.5 323.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="323.8" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="337.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">装饰器</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,37.5 463.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">用一个函数装饰另外一个函数并为其提供…</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,71.5 463.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">重复的代码是万恶之源</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,105.5 463.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">语法糖</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,139.5 463.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">装饰器函数本身也可以参数化</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,173.5 463.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">func</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,207.5 463.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wraps</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,241.5 463.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">upload</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,275.5 463.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wrapper</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,309.5 463.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">downlaod</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,343.5 463.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="330.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">download</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,377.5 463.8,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="364.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">functools</text>
-<path d="M407.8,224.5 C435.8,224.5 435.8,411.5 463.8,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="398.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">record_time</text>
-<path d="M257.8,369.0 C290.8,369.0 290.8,581.5 323.8,581.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="323.8" y="564.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="337.8" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">递归调用</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,462.5 463.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="449.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">递归调用一定要确保能够快速收敛</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,496.5 463.8,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="483.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sys</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,530.5 463.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="517.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">range</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,564.5 463.8,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="551.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">maxsize</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,598.5 463.8,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="585.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">functools</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,632.5 463.8,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="619.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lru_cache</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,666.5 463.8,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="653.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RecursionError</text>
-<path d="M407.8,581.5 C435.8,581.5 435.8,700.5 463.8,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="463.8" y="687.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="475.8" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setrecursionlimit</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="758" height="488" viewBox="0 0 758 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="758" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 17 · 函数高级应用</text>
+<path d="M257.8,244.0 C290.8,244.0 290.8,128.0 323.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="111.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="337.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">装饰器</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,38.0 463.8,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="24.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">装饰器接收函数并返回新函数</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,74.0 463.8,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="60.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wrapper(*args, **kwargs) 接收任意参数</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,110.0 463.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="96.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">@装饰器名 语法糖应用</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,146.0 463.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="132.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">functools.wraps 保留原函数信息</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,182.0 463.8,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="168.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__wrapped__ 访问未装饰函数</text>
+<path d="M407.8,128.0 C435.8,128.0 435.8,218.0 463.8,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="204.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">time.time() 记录时间戳</text>
+<path d="M257.8,244.0 C290.8,244.0 290.8,360.0 323.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="343.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="337.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">递归调用</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,270.0 463.8,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="256.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">函数内部直接或间接调用自身</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,306.0 463.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="292.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if 收敛条件终止递归</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,342.0 463.8,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="328.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">递归公式拆解原问题</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,378.0 463.8,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="364.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">return 返回递归结果</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,414.0 463.8,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="400.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">递归过深引发 RecursionError</text>
+<path d="M407.8,360.0 C435.8,360.0 435.8,450.0 463.8,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="463.8" y="436.0" width="270.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="475.8" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lru_cache() 缓存递归结果</text>
 </svg>

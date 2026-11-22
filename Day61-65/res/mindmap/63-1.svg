@@ -1,98 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1179" height="653" viewBox="0 0 1179 653" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1179" height="653" fill="#ffffff"/>
-<rect x="435.5" y="303.5" width="308.6" height="46" rx="10" fill="#35495E"/>
-<text x="455.5" y="326.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · Python中的并发编程-1</text>
-<path d="M744.1,326.5 C777.1,326.5 777.1,54.5 810.1,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="810.1" y="37.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="824.1" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">线程和进程</text>
-<path d="M908.1,54.5 C936.1,54.5 936.1,37.5 964.1,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="24.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">并发</text>
-<path d="M908.1,54.5 C936.1,54.5 936.1,71.5 964.1,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="58.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">并行</text>
-<path d="M744.1,326.5 C777.1,326.5 777.1,275.5 810.1,275.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="810.1" y="258.5" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="824.1" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多线程编程</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,122.5 964.1,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="109.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用 Thread 类创建线程对象</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,156.5 964.1,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="143.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承 Thread 类自定义线程</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,190.5 964.1,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="177.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用线程池</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,224.5 964.1,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="211.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">run()</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,258.5 964.1,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="245.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">start()</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,292.5 964.1,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="279.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">time.sleep()</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,326.5 964.1,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="313.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Thread</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,360.5 964.1,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="347.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">target</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,394.5 964.1,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="381.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">threading</text>
-<path d="M908.1,275.5 C936.1,275.5 936.1,428.5 964.1,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="415.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">concurrent.futures</text>
-<path d="M744.1,326.5 C777.1,326.5 777.1,547.5 810.1,547.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="810.1" y="530.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="824.1" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">守护线程</text>
-<path d="M908.1,547.5 C936.1,547.5 936.1,479.5 964.1,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="466.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">思考</text>
-<path d="M908.1,547.5 C936.1,547.5 936.1,513.5 964.1,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="500.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Ping</text>
-<path d="M908.1,547.5 C936.1,547.5 936.1,547.5 964.1,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="534.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Pong</text>
-<path d="M908.1,547.5 C936.1,547.5 936.1,581.5 964.1,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="568.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flush</text>
-<path d="M908.1,547.5 C936.1,547.5 936.1,615.5 964.1,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="964.1" y="602.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="976.1" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">daemon</text>
-<path d="M435.5,326.5 C402.5,326.5 402.5,297.5 369.5,297.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="271.5" y="280.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="285.5" y="297.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">资源竞争</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,161.5 215.5,161.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="148.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="161.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">思考</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,195.5 215.5,195.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="182.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="195.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Lock</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,229.5 215.5,229.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="216.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="229.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">money</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,263.5 215.5,263.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="250.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="263.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RLock</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,297.5 215.5,297.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="284.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="297.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Account</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,331.5 215.5,331.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="318.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="331.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">deposit</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,365.5 215.5,365.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="352.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="365.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">threading</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,399.5 215.5,399.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="386.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="399.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Condition</text>
-<path d="M271.5,297.5 C243.5,297.5 243.5,433.5 215.5,433.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="420.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="433.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">time.sleep</text>
-<path d="M435.5,326.5 C402.5,326.5 402.5,488.0 369.5,488.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="271.5" y="471.0" width="98.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="285.5" y="488.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">GIL问题</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="648" viewBox="0 0 1230 648" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1230" height="648" fill="#ffffff"/>
+<rect x="461.1" y="301.0" width="308.6" height="46" rx="10" fill="#35495E"/>
+<text x="481.1" y="324.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · Python中的并发编程-1</text>
+<path d="M769.7,324.0 C802.7,324.0 802.7,128.0 835.7,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.7" y="111.0" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="849.7" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">线程和进程</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,38.0 989.7,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="24.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">进程是操作系统分配资源的单位</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,74.0 989.7,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="60.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">线程共享进程的上下文</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,110.0 989.7,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="96.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fork/spawn 创建新进程</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,146.0 989.7,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="132.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">管道/信号/套接字进程通信</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,182.0 989.7,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="168.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">并发靠时间片快速轮换</text>
+<path d="M933.7,128.0 C961.7,128.0 961.7,218.0 989.7,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="204.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">并行依赖多处理器同时执行</text>
+<path d="M769.7,324.0 C802.7,324.0 802.7,360.0 835.7,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.7" y="343.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="849.7" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多线程编程</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,270.0 989.7,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="256.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Thread 传 target/args 建线程</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,306.0 989.7,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="292.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">start() 启动线程</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,342.0 989.7,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="328.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">join() 等待线程结束</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,378.0 989.7,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="364.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承 Thread 重写 run()</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,414.0 989.7,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="400.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ThreadPoolExecutor 创建线程池</text>
+<path d="M933.7,360.0 C961.7,360.0 961.7,450.0 989.7,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="436.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">submit() 提交任务到线程池</text>
+<path d="M769.7,324.0 C802.7,324.0 802.7,556.0 835.7,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="835.7" y="539.0" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="849.7" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">守护线程</text>
+<path d="M933.7,556.0 C961.7,556.0 961.7,502.0 989.7,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="488.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">daemon=True 标记守护线程</text>
+<path d="M933.7,556.0 C961.7,556.0 961.7,538.0 989.7,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="524.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">主线程结束守护线程销毁</text>
+<path d="M933.7,556.0 C961.7,556.0 961.7,574.0 989.7,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="560.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flush=True 强制刷新输出缓冲</text>
+<path d="M933.7,556.0 C961.7,556.0 961.7,610.0 989.7,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="989.7" y="596.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1001.7" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sleep() 控制主线程存活时间</text>
+<path d="M461.1,324.0 C428.1,324.0 428.1,244.0 395.1,244.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="297.1" y="227.0" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="311.1" y="244.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">资源竞争</text>
+<path d="M297.1,244.0 C269.1,244.0 269.1,190.0 241.1,190.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="176.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RLock() 创建可重入锁</text>
+<path d="M297.1,244.0 C269.1,244.0 269.1,226.0 241.1,226.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="212.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="226.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">acquire() 获取锁</text>
+<path d="M297.1,244.0 C269.1,244.0 269.1,262.0 241.1,262.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="248.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="262.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">release() 释放锁</text>
+<path d="M297.1,244.0 C269.1,244.0 269.1,298.0 241.1,298.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="284.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="298.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">with lock 自动加锁解锁</text>
+<path d="M461.1,324.0 C428.1,324.0 428.1,404.0 395.1,404.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="297.1" y="387.0" width="98.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="311.1" y="404.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">GIL问题</text>
+<path d="M297.1,404.0 C269.1,404.0 269.1,350.0 241.1,350.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="336.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="350.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GIL 限制同一时刻单线程执行</text>
+<path d="M297.1,404.0 C269.1,404.0 269.1,386.0 241.1,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每 100 条字节码释放 GIL</text>
+<path d="M297.1,404.0 C269.1,404.0 269.1,422.0 241.1,422.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="408.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="422.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多进程各自拥有独立 GIL</text>
+<path d="M297.1,404.0 C269.1,404.0 269.1,458.0 241.1,458.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="444.0" width="217.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="458.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">计算密集型宜用多进程</text>
 </svg>

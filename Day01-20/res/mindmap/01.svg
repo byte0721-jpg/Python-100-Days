@@ -1,59 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="658" height="602" viewBox="0 0 658 602" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="658" height="602" fill="#ffffff"/>
-<rect x="24.0" y="278.0" width="221.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="301.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 01 · 初识Python</text>
-<path d="M245.9,301.0 C278.9,301.0 278.9,190.5 311.9,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="311.9" y="173.5" width="130.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="325.9" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python简介</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,37.5 498.1,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="24.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python编年史</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,71.5 498.1,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="58.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python优缺点</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,105.5 498.1,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="92.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">简单优雅</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,139.5 498.1,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="126.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更容易上手</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,173.5 498.1,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="160.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">提升开发效率</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,207.5 498.1,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="194.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">强大的社区和生态圈</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,241.5 498.1,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="228.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">能够做的事情非常多</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,275.5 498.1,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="262.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">胶水语言</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,309.5 498.1,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="296.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">跨平台</text>
-<path d="M442.1,190.5 C470.1,190.5 470.1,343.5 498.1,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="330.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">执行效率低</text>
-<path d="M245.9,301.0 C278.9,301.0 278.9,479.5 311.9,479.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="311.9" y="462.5" width="130.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="325.9" y="479.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装Python环境</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,394.5 498.1,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="381.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Windows环境</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,428.5 498.1,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="415.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">macOS环境</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,462.5 498.1,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="449.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他安装方式</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,496.5 498.1,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="483.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">最小惊讶原则</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,530.5 498.1,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="517.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pkg</text>
-<path d="M442.1,479.5 C470.1,479.5 470.1,564.5 498.1,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="498.1" y="551.0" width="136.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="510.1" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="781" height="488" viewBox="0 0 781 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="781" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="221.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 01 · 初识Python</text>
+<path d="M245.9,244.0 C278.9,244.0 278.9,128.0 311.9,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="311.9" y="111.0" width="130.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="325.9" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python简介</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,38.0 498.1,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="24.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">解释型语言，跨平台运行</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,74.0 498.1,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="60.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">语法简洁，代码可读性强</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,110.0 498.1,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="96.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">胶水语言，可黏合其他语言</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,146.0 498.1,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="132.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">生态强大，覆盖多个领域</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,182.0 498.1,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="168.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">执行效率低于编译型语言</text>
+<path d="M442.1,128.0 C470.1,128.0 470.1,218.0 498.1,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="204.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python 3 为当前主流版本</text>
+<path d="M245.9,244.0 C278.9,244.0 278.9,360.0 311.9,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="311.9" y="343.0" width="130.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="325.9" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装Python环境</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,270.0 498.1,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="256.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python --version 查看解释器版本</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,306.0 498.1,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="292.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip --version 检查包管理工具</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,342.0 498.1,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="328.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Windows 安装勾选 Add Python to PATH</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,378.0 498.1,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="364.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">macOS 使用 python3 命令</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,414.0 498.1,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="400.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">安装路径避免中文和空格</text>
+<path d="M442.1,360.0 C470.1,360.0 470.1,450.0 498.1,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="498.1" y="436.0" width="259.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="510.1" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通过官网安装程序安装解释器</text>
 </svg>

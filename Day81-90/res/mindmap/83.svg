@@ -1,101 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="739" height="1061" viewBox="0 0 739 1061" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="739" height="1061" fill="#ffffff"/>
-<rect x="24.0" y="507.5" width="267.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="530.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 83 · 决策树和随机森林</text>
-<path d="M291.8,530.5 C324.8,530.5 324.8,224.5 357.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="357.8" y="207.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="371.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">决策树的构建</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,37.5 539.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="24.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征选择</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,71.5 539.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="58.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据分裂</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,105.5 539.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="92.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">树的剪枝</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,139.5 539.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="126.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">纯度</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,173.5 539.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="160.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息增益</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,207.5 539.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="194.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息增益比</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,241.5 539.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="228.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基尼指数</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,275.5 539.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="262.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息熵</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,309.5 539.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="296.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">条件熵</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,343.5 539.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="330.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基尼不纯度</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,377.5 539.8,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="364.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">后剪枝</text>
-<path d="M483.8,224.5 C511.8,224.5 511.8,411.5 539.8,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="398.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预剪枝</text>
-<path d="M291.8,530.5 C324.8,530.5 324.8,649.5 357.8,649.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="357.8" y="632.5" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="371.8" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现决策树模型</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,462.5 539.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="449.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tree</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,496.5 539.8,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="483.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">splitter</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,530.5 539.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="517.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">criterion</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,564.5 539.8,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="551.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_depth</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,598.5 539.8,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="585.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ccp_alpha</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,632.5 539.8,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="619.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random_state</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,666.5 539.8,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="653.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_features</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,700.5 539.8,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="687.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">class_weight</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,734.5 539.8,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="721.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_leaf_nodes</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,768.5 539.8,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="755.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_samples_leaf</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,802.5 539.8,802.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="789.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_samples_split</text>
-<path d="M483.8,649.5 C511.8,649.5 511.8,836.5 539.8,836.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="823.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DecisionTreeRegressor</text>
-<path d="M291.8,530.5 C324.8,530.5 324.8,955.5 357.8,955.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="357.8" y="938.5" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="371.8" y="955.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">随机森林概述</text>
-<path d="M483.8,955.5 C511.8,955.5 511.8,887.5 539.8,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="874.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_jobs</text>
-<path d="M483.8,955.5 C511.8,955.5 511.8,921.5 539.8,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="908.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ensemble</text>
-<path d="M483.8,955.5 C511.8,955.5 511.8,955.5 539.8,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="942.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">boostrap</text>
-<path d="M483.8,955.5 C511.8,955.5 511.8,989.5 539.8,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="976.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">estimator</text>
-<path d="M483.8,955.5 C511.8,955.5 511.8,1023.5 539.8,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="539.8" y="1010.0" width="175.3" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="551.8" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RandomForestClassifier</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="819" height="720" viewBox="0 0 819 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="819" height="720" fill="#ffffff"/>
+<rect x="24.0" y="337.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 83 · 决策树和随机森林</text>
+<path d="M291.8,360.0 C324.8,360.0 324.8,128.0 357.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="111.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="371.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">决策树的构建</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,38.0 539.8,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="24.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息熵衡量数据集不确定性</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,74.0 539.8,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="60.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息增益选择分类能力强的特征</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,110.0 539.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="96.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息增益比抑制多取值偏好</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,146.0 539.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="132.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基尼指数衡量数据不纯度</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,182.0 539.8,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="168.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">递归分裂直到满足停止条件</text>
+<path d="M483.8,128.0 C511.8,128.0 511.8,218.0 539.8,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="204.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预剪枝与后剪枝防止过拟合</text>
+<path d="M291.8,360.0 C324.8,360.0 324.8,360.0 357.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="343.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="371.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现决策树模型</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,270.0 539.8,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="256.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DecisionTreeClassifier 创建分类树</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,306.0 539.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="292.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">criterion 取 gini 或 entropy</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,342.0 539.8,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="328.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_depth 限制树的最大深度</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,378.0 539.8,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="364.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_samples_leaf 限制叶结点样本数</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,414.0 539.8,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="400.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ccp_alpha 控制后剪枝强度</text>
+<path d="M483.8,360.0 C511.8,360.0 511.8,450.0 539.8,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="436.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot_tree 可视化树结构</text>
+<path d="M291.8,360.0 C324.8,360.0 324.8,592.0 357.8,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="575.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="371.8" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">随机森林概述</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,502.0 539.8,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="488.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Bootstrap 有放回抽样建子集</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,538.0 539.8,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="524.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">结点分裂随机选择部分特征</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,574.0 539.8,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="560.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分类投票 / 回归取平均</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,610.0 539.8,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="596.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RandomForestClassifier 创建森林</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,646.0 539.8,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="632.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_estimators 设置树的数量</text>
+<path d="M483.8,592.0 C511.8,592.0 511.8,682.0 539.8,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="539.8" y="668.0" width="255.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="551.8" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">feature_importances_ 查看特征重要性</text>
 </svg>

@@ -1,137 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="701" height="1452" viewBox="0 0 701 1452" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="701" height="1452" fill="#ffffff"/>
-<rect x="24.0" y="703.0" width="248.3" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="726.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 71 · NumPy的应用-4</text>
-<path d="M272.2,726.0 C305.2,726.0 305.2,224.5 338.2,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="207.5" width="70.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="352.2" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">向量</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,37.5 464.2,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="24.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">向量的加法</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,71.5 464.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="58.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">向量的数乘</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,105.5 464.2,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="92.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">向量的点积</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,139.5 464.2,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="126.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">向量的叉积</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,173.5 464.2,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="160.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">向量</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,207.5 464.2,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="194.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矢量</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,241.5 464.2,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="228.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">标量</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,275.5 464.2,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="262.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数量</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,309.5 464.2,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="296.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dot</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,343.5 464.2,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="330.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">norm</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,377.5 464.2,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="364.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cross</text>
-<path d="M408.2,224.5 C436.2,224.5 436.2,411.5 464.2,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="398.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linalg</text>
-<path d="M272.2,726.0 C305.2,726.0 305.2,513.5 338.2,513.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="496.5" width="70.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="352.2" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">行列式</text>
-<path d="M408.2,513.5 C436.2,513.5 436.2,462.5 464.2,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="449.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">行列式的性质</text>
-<path d="M408.2,513.5 C436.2,513.5 436.2,496.5 464.2,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="483.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">行列式的计算</text>
-<path d="M408.2,513.5 C436.2,513.5 436.2,530.5 464.2,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="517.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">行列式</text>
-<path d="M408.2,513.5 C436.2,513.5 436.2,564.5 464.2,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="551.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">代数余子式</text>
-<path d="M272.2,726.0 C305.2,726.0 305.2,802.5 338.2,802.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="785.5" width="70.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="352.2" y="802.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">矩阵</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,615.5 464.2,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="602.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矩阵对象</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,649.5 464.2,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="636.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">线性代数模块</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,683.5 464.2,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="670.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矩阵</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,717.5 464.2,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="704.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">加法</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,751.5 464.2,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="738.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">减法</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,785.5 464.2,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="772.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数乘</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,819.5 464.2,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="806.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">转置</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,853.5 464.2,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="840.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矩阵乘法</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,887.5 464.2,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="874.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矩阵乘法不满足交换律</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,921.5 464.2,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="908.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mat</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,955.5 464.2,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="942.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">det</text>
-<path d="M408.2,802.5 C436.2,802.5 436.2,989.5 464.2,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="976.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eig</text>
-<path d="M272.2,726.0 C305.2,726.0 305.2,1227.5 338.2,1227.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="1210.5" width="70.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="352.2" y="1227.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多项式</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1040.5 464.2,1040.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1027.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1040.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">创建多项式对象</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1074.5 464.2,1074.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1061.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1074.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多项式的操作</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1108.5 464.2,1108.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1095.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1108.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">最小二乘解</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1142.5 464.2,1142.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1129.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1142.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多项式</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1176.5 464.2,1176.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1163.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1176.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">获取多项式的系数</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1210.5 464.2,1210.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1197.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1210.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">两个多项式的四则运算</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1244.5 464.2,1244.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1231.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1244.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">带入 $\small{x}$ 求多项式的值</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1278.5 464.2,1278.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1265.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1278.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多项式求导和不定积分</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1312.5 464.2,1312.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1299.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1312.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">求多项式的根</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1346.5 464.2,1346.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1333.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1346.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fit</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1380.5 464.2,1380.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1367.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1380.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cov</text>
-<path d="M408.2,1227.5 C436.2,1227.5 436.2,1414.5 464.2,1414.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="464.2" y="1401.0" width="213.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="476.2" y="1414.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">polyfit</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="916" viewBox="0 0 690 916" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="690" height="916" fill="#ffffff"/>
+<rect x="24.0" y="435.0" width="248.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="458.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 71 · NumPy的应用-4</text>
+<path d="M272.2,458.0 C305.2,458.0 305.2,128.0 338.2,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="111.0" width="70.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="352.2" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">向量</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,38.0 464.2,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="24.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">array 函数表示向量</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,74.0 464.2,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="60.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">+ 向量对应分量相加</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,110.0 464.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="96.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">* 标量实现向量数乘</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,146.0 464.2,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="132.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dot 计算向量点积</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,182.0 464.2,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="168.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linalg.norm 求向量模长</text>
+<path d="M408.2,128.0 C436.2,128.0 436.2,218.0 464.2,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="204.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cross 计算向量叉积</text>
+<path d="M272.2,458.0 C305.2,458.0 305.2,342.0 338.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="325.0" width="70.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="352.2" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">行列式</text>
+<path d="M408.2,342.0 C436.2,342.0 436.2,270.0 464.2,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="256.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linalg.det 求行列式</text>
+<path d="M408.2,342.0 C436.2,342.0 436.2,306.0 464.2,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="292.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">某行全零则值为0</text>
+<path d="M408.2,342.0 C436.2,342.0 436.2,342.0 464.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="328.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">两行成比例则为0</text>
+<path d="M408.2,342.0 C436.2,342.0 436.2,378.0 464.2,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="364.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">互换两行行列式变号</text>
+<path d="M408.2,342.0 C436.2,342.0 436.2,414.0 464.2,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="400.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">转置不改变行列式值</text>
+<path d="M272.2,458.0 C305.2,458.0 305.2,556.0 338.2,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="539.0" width="70.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="352.2" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">矩阵</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,466.0 464.2,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="452.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">matrix/字符串创建矩阵</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,502.0 464.2,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="488.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">* 运算符做矩阵乘法</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,538.0 464.2,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="524.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">@ 运算符做矩阵乘法</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,574.0 464.2,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="560.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">.T 属性求转置</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,610.0 464.2,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="596.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linalg.inv 求逆矩阵</text>
+<path d="M408.2,556.0 C436.2,556.0 436.2,646.0 464.2,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="632.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linalg.solve 解线性方程组</text>
+<path d="M272.2,458.0 C305.2,458.0 305.2,788.0 338.2,788.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="771.0" width="70.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="352.2" y="788.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多项式</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,698.0 464.2,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="684.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">poly1d(系数) 建多项式</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,734.0 464.2,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="720.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">调用对象求函数值</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,770.0 464.2,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="756.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">roots 求多项式根</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,806.0 464.2,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="792.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">deriv/integ 求导与积分</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,842.0 464.2,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="828.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Polynomial.fit 最小二乘拟合</text>
+<path d="M408.2,788.0 C436.2,788.0 436.2,878.0 464.2,878.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="464.2" y="864.0" width="202.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="476.2" y="878.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">polyfit 最小二乘拟合</text>
 </svg>

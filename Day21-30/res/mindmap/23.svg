@@ -1,86 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="757" height="881" viewBox="0 0 757 881" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="757" height="881" fill="#ffffff"/>
-<rect x="24.0" y="417.5" width="284.0" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="440.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 23 · Python读写CSV文件</text>
-<path d="M308.0,440.5 C341.0,440.5 341.0,41.0 374.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.0" y="24.0" width="164.5" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="388.0" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">CSV 文件介绍</text>
-<path d="M538.5,41.0 C566.5,41.0 566.5,41.0 594.5,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="27.5" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CSV 文件有以下特点</text>
-<path d="M308.0,440.5 C341.0,440.5 341.0,214.5 374.0,214.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.0" y="197.5" width="164.5" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="388.0" y="214.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据组织的维度</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,95.5 594.5,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="82.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据组织的维度</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,129.5 594.5,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="116.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">一维数据</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,163.5 594.5,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="150.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列表</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,197.5 594.5,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="184.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">集合</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,231.5 594.5,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="218.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">二维数据</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,265.5 594.5,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="252.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表格</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,299.5 594.5,299.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="286.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="299.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">嵌套列表</text>
-<path d="M538.5,214.5 C566.5,214.5 566.5,333.5 594.5,333.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="320.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="333.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多维数据</text>
-<path d="M308.0,440.5 C341.0,440.5 341.0,537.5 374.0,537.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.0" y="520.5" width="164.5" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="388.0" y="537.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">将数据写入 CSV 文件</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,384.5 594.5,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="371.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csv</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,418.5 594.5,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="405.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">excel</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,452.5 594.5,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="439.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writer</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,486.5 594.5,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="473.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dialect</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,520.5 594.5,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="507.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quoting</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,554.5 594.5,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="541.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writerow</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,588.5 594.5,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="575.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csvwriter</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,622.5 594.5,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="609.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writerows</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,656.5 594.5,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="643.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delimiter</text>
-<path d="M538.5,537.5 C566.5,537.5 566.5,690.5 594.5,690.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="677.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="690.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quotechar</text>
-<path d="M308.0,440.5 C341.0,440.5 341.0,792.5 374.0,792.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.0" y="775.5" width="164.5" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="388.0" y="792.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">从 CSV 文件读取数据</text>
-<path d="M538.5,792.5 C566.5,792.5 566.5,741.5 594.5,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="728.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csv</text>
-<path d="M538.5,792.5 C566.5,792.5 566.5,775.5 594.5,775.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="762.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="775.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">next</text>
-<path d="M538.5,792.5 C566.5,792.5 566.5,809.5 594.5,809.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="796.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="809.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader</text>
-<path d="M538.5,792.5 C566.5,792.5 566.5,843.5 594.5,843.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="594.5" y="830.0" width="139.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="606.5" y="843.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csvreader</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="811" height="844" viewBox="0 0 811 844" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="811" height="844" fill="#ffffff"/>
+<rect x="24.0" y="399.0" width="284.0" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="422.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 23 · Python读写CSV文件</text>
+<path d="M308.0,422.0 C341.0,422.0 341.0,110.0 374.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.0" y="93.0" width="164.5" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="388.0" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">CSV 文件介绍</text>
+<path d="M538.5,110.0 C566.5,110.0 566.5,38.0 594.5,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="24.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CSV 逗号分隔的纯文本格式</text>
+<path d="M538.5,110.0 C566.5,110.0 566.5,74.0 594.5,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="60.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每行一条记录</text>
+<path d="M538.5,110.0 C566.5,110.0 566.5,110.0 594.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="96.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分隔符划分各字段</text>
+<path d="M538.5,110.0 C566.5,110.0 566.5,146.0 594.5,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="132.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">各记录字段序列相同</text>
+<path d="M538.5,110.0 C566.5,110.0 566.5,182.0 594.5,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="168.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Excel 可直接打开编辑</text>
+<path d="M308.0,422.0 C341.0,422.0 341.0,306.0 374.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.0" y="289.0" width="164.5" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="388.0" y="306.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据组织的维度</text>
+<path d="M538.5,306.0 C566.5,306.0 566.5,234.0 594.5,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="220.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">一维数据对应列表或集合</text>
+<path d="M538.5,306.0 C566.5,306.0 566.5,270.0 594.5,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="256.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">二维数据对应嵌套列表</text>
+<path d="M538.5,306.0 C566.5,306.0 566.5,306.0 594.5,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="292.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多维数据层层嵌套组织</text>
+<path d="M538.5,306.0 C566.5,306.0 566.5,342.0 594.5,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="328.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CSV 每行对应二维数据一行</text>
+<path d="M538.5,306.0 C566.5,306.0 566.5,378.0 594.5,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="364.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字段对应二维数据的各列</text>
+<path d="M308.0,422.0 C341.0,422.0 341.0,520.0 374.0,520.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.0" y="503.0" width="164.5" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="388.0" y="520.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">将数据写入 CSV 文件</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,430.0 594.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="416.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csv.writer 创建写入对象</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,466.0 594.5,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="452.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writerow(列表) 写入一行</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,502.0 594.5,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="488.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">writerows 批量写入多行</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,538.0 594.5,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="524.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delimiter 参数指定分隔符</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,574.0 594.5,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="560.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quotechar 指定包围字符</text>
+<path d="M538.5,520.0 C566.5,520.0 566.5,610.0 594.5,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="596.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dialect=&#x27;excel&#x27; 选定方言</text>
+<path d="M308.0,422.0 C341.0,422.0 341.0,734.0 374.0,734.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.0" y="717.0" width="164.5" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="388.0" y="734.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">从 CSV 文件读取数据</text>
+<path d="M538.5,734.0 C566.5,734.0 566.5,662.0 594.5,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="648.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">csv.reader 创建读取迭代器</text>
+<path d="M538.5,734.0 C566.5,734.0 566.5,698.0 594.5,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="684.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for-in 遍历每次取一行列表</text>
+<path d="M538.5,734.0 C566.5,734.0 566.5,734.0 594.5,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="720.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">next(reader) 跳过表头行</text>
+<path d="M538.5,734.0 C566.5,734.0 566.5,770.0 594.5,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="756.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reader.line_num 获取行号</text>
+<path d="M538.5,734.0 C566.5,734.0 566.5,806.0 594.5,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="594.5" y="792.0" width="192.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="606.5" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delimiter 与写入时保持一致</text>
 </svg>

@@ -1,167 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="993" viewBox="0 0 1228 993" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1228" height="993" fill="#ffffff"/>
-<rect x="497.1" y="473.5" width="233.8" height="46" rx="10" fill="#35495E"/>
-<text x="517.1" y="496.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 87 · 集成学习算法</text>
-<path d="M730.9,496.5 C763.9,496.5 763.9,71.5 796.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="796.9" y="54.5" width="89.6" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="810.9" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法分类</text>
-<path d="M886.5,71.5 C914.5,71.5 914.5,37.5 942.5,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Bagging</text>
-<path d="M886.5,71.5 C914.5,71.5 914.5,71.5 942.5,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Boosting</text>
-<path d="M886.5,71.5 C914.5,71.5 914.5,105.5 942.5,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Stacking</text>
-<path d="M730.9,496.5 C763.9,496.5 763.9,343.5 796.9,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="796.9" y="326.5" width="89.6" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="810.9" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">AdaBoost</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,156.5 942.5,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="143.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">提高前一轮被弱分类器分类错误的样本的…</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,190.5 942.5,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="177.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">提高分类效果好的弱分类器的权重</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,224.5 942.5,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="211.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">初始化样本权重</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,258.5 942.5,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="245.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">训练弱学习器</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,292.5 942.5,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="279.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更新分类器权重</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,326.5 942.5,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="313.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更新样本权重</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,360.5 942.5,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="347.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">归一化权重</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,394.5 942.5,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="381.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">最终分类器</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,428.5 942.5,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="415.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SVC</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,462.5 942.5,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="449.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">algorithm</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,496.5 942.5,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="483.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_estimators</text>
-<path d="M886.5,343.5 C914.5,343.5 914.5,530.5 942.5,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="517.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">learning_rate</text>
-<path d="M730.9,496.5 C763.9,496.5 763.9,768.5 796.9,768.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="796.9" y="751.5" width="89.6" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="810.9" y="768.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">GBDT</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,581.5 942.5,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="568.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">梯度提升</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,615.5 942.5,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="602.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">loss</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,649.5 942.5,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="636.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">deviance</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,683.5 942.5,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="670.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subsample</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,717.5 942.5,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="704.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">criterion</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,751.5 942.5,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="738.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_depth</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,785.5 942.5,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="772.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">exponential</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,819.5 942.5,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="806.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_estimators</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,853.5 942.5,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="840.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">learning_rate</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,887.5 942.5,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="874.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">early_stopping</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,921.5 942.5,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="908.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_iter_no_change</text>
-<path d="M886.5,768.5 C914.5,768.5 914.5,955.5 942.5,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="942.5" y="942.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="954.5" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_samples_split</text>
-<path d="M497.1,496.5 C464.1,496.5 464.1,318.0 431.1,318.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="341.5" y="301.0" width="89.6" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="355.5" y="318.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">XGBoost</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,131.0 285.5,131.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="117.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="131.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eta</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,165.0 285.5,165.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="151.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="165.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">obj</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,199.0 285.5,199.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="185.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">name</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,233.0 285.5,233.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="219.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="233.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">param</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,267.0 285.5,267.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="253.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="267.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">alpha</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,301.0 285.5,301.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="287.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="301.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gamma</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,335.0 285.5,335.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="321.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="335.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">train</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,369.0 285.5,369.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="355.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="369.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">feval</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,403.0 285.5,403.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="389.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="403.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,437.0 285.5,437.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="423.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="437.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">evals</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,471.0 285.5,471.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="457.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="471.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lambda</text>
-<path d="M341.5,318.0 C313.5,318.0 313.5,505.0 285.5,505.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="491.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="505.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">booster</text>
-<path d="M497.1,496.5 C464.1,496.5 464.1,709.0 431.1,709.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="341.5" y="692.0" width="89.6" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="355.5" y="709.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">LightGBM</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,556.0 285.5,556.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="542.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="556.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">metric</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,590.0 285.5,590.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="576.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_bin</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,624.0 285.5,624.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="610.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="624.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objective</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,658.0 285.5,658.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="644.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="658.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_depth</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,692.0 285.5,692.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="678.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="692.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">num_leaves</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,726.0 285.5,726.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="712.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="726.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">boosting_type</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,760.0 285.5,760.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="746.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="760.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">feature_fraction</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,794.0 285.5,794.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="780.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="794.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">early_stopping_rounds</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,828.0 285.5,828.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="814.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="828.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;rf&#x27;</text>
-<path d="M341.5,709.0 C313.5,709.0 313.5,862.0 285.5,862.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="848.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="862.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;auc&#x27;</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1174" height="684" viewBox="0 0 1174 684" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1174" height="684" fill="#ffffff"/>
+<rect x="470.2" y="319.0" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="490.2" y="342.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 87 · 集成学习算法</text>
+<path d="M704.0,342.0 C737.0,342.0 737.0,110.0 770.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="770.0" y="93.0" width="89.6" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="784.0" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法分类</text>
+<path d="M859.6,110.0 C887.6,110.0 887.6,38.0 915.6,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="24.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Bagging 并行抽样训练后结合</text>
+<path d="M859.6,110.0 C887.6,110.0 887.6,74.0 915.6,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="60.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Boosting 串行关注错分样本</text>
+<path d="M859.6,110.0 C887.6,110.0 887.6,110.0 915.6,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="96.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Stacking 用二级模型融合预测</text>
+<path d="M859.6,110.0 C887.6,110.0 887.6,146.0 915.6,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="132.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">随机森林是Bagging代表</text>
+<path d="M859.6,110.0 C887.6,110.0 887.6,182.0 915.6,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="168.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AdaBoost/GBDT属Boosting</text>
+<path d="M704.0,342.0 C737.0,342.0 737.0,324.0 770.0,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="770.0" y="307.0" width="89.6" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="784.0" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">AdaBoost</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,234.0 915.6,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="220.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">初始化每个样本等权重</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,270.0 915.6,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="256.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">按加权误差训练弱分类器</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,306.0 915.6,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="292.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">alpha 按误差计算分类器权重</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,342.0 915.6,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="328.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">提高被错分样本的权重</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,378.0 915.6,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="364.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sign 加权投票得最终类别</text>
+<path d="M859.6,324.0 C887.6,324.0 887.6,414.0 915.6,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="400.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AdaBoostClassifier 实现提升</text>
+<path d="M704.0,342.0 C737.0,342.0 737.0,556.0 770.0,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="770.0" y="539.0" width="89.6" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="784.0" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">GBDT</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,466.0 915.6,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="452.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每轮拟合前一轮的残差</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,502.0 915.6,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="488.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对数损失用于分类任务</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,538.0 915.6,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="524.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">梯度为预测概率减真实标签</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,574.0 915.6,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="560.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">F_{m+1}=F_m+ηh_m 累加树</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,610.0 915.6,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="596.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GradientBoostingClassifier 实现</text>
+<path d="M859.6,556.0 C887.6,556.0 887.6,646.0 915.6,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="915.6" y="632.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="927.6" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subsample 增加随机性防过拟合</text>
+<path d="M470.2,342.0 C437.2,342.0 437.2,226.0 404.2,226.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="314.6" y="209.0" width="89.6" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="328.6" y="226.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">XGBoost</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,136.0 258.6,136.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="122.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="136.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xgb.DMatrix 封装训练数据</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,172.0 258.6,172.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="158.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="172.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objective 指定损失函数</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,208.0 258.6,208.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="208.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eta 设置学习率</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,244.0 258.6,244.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gamma 控制分裂最小增益</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,280.0 258.6,280.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="266.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="280.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lambda 与 alpha 控制正则化</text>
+<path d="M314.6,226.0 C286.6,226.0 286.6,316.0 258.6,316.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="302.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="316.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xgb.train 训练提升树模型</text>
+<path d="M470.2,342.0 C437.2,342.0 437.2,458.0 404.2,458.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="314.6" y="441.0" width="89.6" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="328.6" y="458.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">LightGBM</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,368.0 258.6,368.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="354.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="368.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lgb.Dataset 封装训练数据</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,404.0 258.6,404.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">objective 设多分类或回归任务</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,440.0 258.6,440.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">num_leaves 控制树复杂度</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,476.0 258.6,476.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">learning_rate 控制每棵树贡献</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,512.0 258.6,512.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="498.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="512.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lgb.train 训练模型</text>
+<path d="M314.6,458.0 C286.6,458.0 286.6,548.0 258.6,548.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="234.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="548.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">early_stopping_rounds 提前停止</text>
 </svg>

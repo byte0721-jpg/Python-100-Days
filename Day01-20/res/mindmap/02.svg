@@ -1,50 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="490" viewBox="0 0 830 490" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="830" height="490" fill="#ffffff"/>
-<rect x="24.0" y="222.0" width="272.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="245.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 02 · 第一个Python程序</text>
-<path d="M296.9,245.0 C329.9,245.0 329.9,156.5 362.9,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="362.9" y="139.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="376.9" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编写代码的工具</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,37.5 544.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">默认的交互式环境</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,71.5 544.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更好的交互式环境 - IPython</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,105.5 544.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文本编辑神器 - Visual Studio Code</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,139.5 544.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">集成开发环境 - PyCharm</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,173.5 544.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quit()</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,207.5 544.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,241.5 544.9,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Enter</text>
-<path d="M488.9,156.5 C516.9,156.5 516.9,275.5 544.9,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python</text>
-<path d="M296.9,245.0 C329.9,245.0 329.9,330.0 362.9,330.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="362.9" y="313.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="376.9" y="330.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">你好世界</text>
-<path d="M488.9,330.0 C516.9,330.0 516.9,330.0 544.9,330.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="316.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="330.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">main</text>
-<path d="M296.9,245.0 C329.9,245.0 329.9,418.5 362.9,418.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="362.9" y="401.5" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="376.9" y="418.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">注释你的代码</text>
-<path d="M488.9,418.5 C516.9,418.5 516.9,384.5 544.9,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="371.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">注释会让代码更容易看懂但不会影响代码…</text>
-<path d="M488.9,418.5 C516.9,418.5 516.9,418.5 544.9,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="405.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
-<path d="M488.9,418.5 C516.9,418.5 516.9,452.5 544.9,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="544.9" y="439.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="556.9" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="648" viewBox="0 0 810 648" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="810" height="648" fill="#ffffff"/>
+<rect x="24.0" y="301.0" width="272.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="324.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 02 · 第一个Python程序</text>
+<path d="M296.9,324.0 C329.9,324.0 329.9,128.0 362.9,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="362.9" y="111.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="376.9" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编写代码的工具</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,38.0 544.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="24.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python 进入交互式环境</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,74.0 544.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="60.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quit() 退出交互式环境</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,110.0 544.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="96.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip install ipython 安装 IPython</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,146.0 544.9,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="132.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ipython 启动增强交互环境</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,182.0 544.9,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="168.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">IDE 集成编写、运行与调试</text>
+<path d="M488.9,128.0 C516.9,128.0 516.9,218.0 544.9,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="204.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">VSCode 提供语法高亮与补全</text>
+<path d="M296.9,324.0 C329.9,324.0 329.9,360.0 362.9,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="362.9" y="343.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="376.9" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">你好世界</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,270.0 544.9,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="256.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">print(内容) 输出指定内容</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,306.0 544.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="292.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">单引号或双引号定义字符串</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,342.0 544.9,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="328.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">语句以换行结束，无需分号</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,378.0 544.9,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="364.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">无需 main 入口函数</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,414.0 544.9,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="400.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python 文件路径 运行脚本</text>
+<path d="M488.9,360.0 C516.9,360.0 516.9,450.0 544.9,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="436.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每行只写一条语句</text>
+<path d="M296.9,324.0 C329.9,324.0 329.9,556.0 362.9,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="362.9" y="539.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="376.9" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">注释你的代码</text>
+<path d="M488.9,556.0 C516.9,556.0 516.9,502.0 544.9,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="488.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle"># 开头书写单行注释</text>
+<path d="M488.9,556.0 C516.9,556.0 516.9,538.0 544.9,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="524.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">三引号包裹多行注释</text>
+<path d="M488.9,556.0 C516.9,556.0 516.9,574.0 544.9,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="560.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">注释不影响代码执行</text>
+<path d="M488.9,556.0 C516.9,556.0 516.9,610.0 544.9,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="544.9" y="596.0" width="241.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="556.9" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">去掉注释符号即可恢复执行</text>
 </svg>

@@ -1,62 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="664" height="619" viewBox="0 0 664 619" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="664" height="619" fill="#ffffff"/>
-<rect x="24.0" y="286.5" width="199.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="309.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 50 · 制作报表</text>
-<path d="M223.8,309.5 C256.8,309.5 256.8,88.5 289.8,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="71.5" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="303.8" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导出Excel报表</text>
-<path d="M429.8,88.5 C457.8,88.5 457.8,37.5 485.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="24.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlwt</text>
-<path d="M429.8,88.5 C457.8,88.5 457.8,71.5 485.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="58.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlwings</text>
-<path d="M429.8,88.5 C457.8,88.5 457.8,105.5 485.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="92.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
-<path d="M429.8,88.5 C457.8,88.5 457.8,139.5 485.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="126.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlswriter</text>
-<path d="M223.8,309.5 C256.8,309.5 256.8,275.5 289.8,275.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="258.5" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="303.8" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导出PDF报表</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,190.5 485.8,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="177.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reportlab</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,224.5 485.8,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="211.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">export_pdf</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,258.5 485.8,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="245.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">buffer</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,292.5 485.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="279.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,326.5 485.8,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="313.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf.setFont</text>
-<path d="M429.8,275.5 C457.8,275.5 457.8,360.5 485.8,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="347.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pdf.setFillColorRGB</text>
-<path d="M223.8,309.5 C256.8,309.5 256.8,496.5 289.8,496.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="479.5" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="303.8" y="496.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">生成前端统计图表</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,411.5 485.8,411.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="398.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_teachers_data</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,445.5 485.8,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="432.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">queryset</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,479.5 485.8,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="466.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">names</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,513.5 485.8,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="500.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">good_counts</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,547.5 485.8,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="534.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bad_counts</text>
-<path d="M429.8,496.5 C457.8,496.5 457.8,581.5 485.8,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="485.8" y="568.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="497.8" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">urlpatterns</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="745" height="684" viewBox="0 0 745 684" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="745" height="684" fill="#ffffff"/>
+<rect x="24.0" y="319.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="342.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 50 · 制作报表</text>
+<path d="M223.8,342.0 C256.8,342.0 256.8,128.0 289.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="111.0" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="303.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导出Excel报表</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,38.0 485.8,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="24.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlwt.Workbook() 创建工作簿</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,74.0 485.8,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="60.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add_sheet(名称) 添加工作表</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,110.0 485.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="96.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sheet.write(行, 列, 值) 写单元格</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,146.0 485.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="132.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BytesIO 在内存中组装文件</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,182.0 485.8,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="168.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content_type 指定 MIME 类型</text>
+<path d="M429.8,128.0 C457.8,128.0 457.8,218.0 485.8,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="204.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content-disposition 触发下载</text>
+<path d="M223.8,342.0 C256.8,342.0 256.8,342.0 289.8,342.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="325.0" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="303.8" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">导出PDF报表</text>
+<path d="M429.8,342.0 C457.8,342.0 457.8,270.0 485.8,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="256.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Canvas(BytesIO) 创建画布</text>
+<path d="M429.8,342.0 C457.8,342.0 457.8,306.0 485.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="292.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setFont(字体, 字号) 设置字体</text>
+<path d="M429.8,342.0 C457.8,342.0 457.8,342.0 485.8,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="328.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">drawString(x, y, 文本) 写文字</text>
+<path d="M429.8,342.0 C457.8,342.0 457.8,378.0 485.8,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="364.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">showPage() 结束当前页</text>
+<path d="M429.8,342.0 C457.8,342.0 457.8,414.0 485.8,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="400.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content_type 指定 PDF 类型</text>
+<path d="M223.8,342.0 C256.8,342.0 256.8,556.0 289.8,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="539.0" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="303.8" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">生成前端统计图表</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,466.0 485.8,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="452.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JsonResponse 返回图表数据</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,502.0 485.8,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="488.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fetch(url) 请求数据接口</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,538.0 485.8,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="524.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resp.json() 解析响应 JSON</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,574.0 485.8,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="560.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">echarts.init 初始化图表实例</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,610.0 485.8,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="596.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setOption(配置) 渲染图表</text>
+<path d="M429.8,556.0 C457.8,556.0 457.8,646.0 485.8,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="485.8" y="632.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="497.8" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">series.type=&#x27;bar&#x27; 画柱状图</text>
 </svg>

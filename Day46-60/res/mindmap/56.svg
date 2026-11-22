@@ -1,74 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="706" height="755" viewBox="0 0 706 755" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="706" height="755" fill="#ffffff"/>
-<rect x="24.0" y="354.5" width="199.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="377.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 56 · 使用缓存</text>
-<path d="M223.8,377.5 C256.8,377.5 256.8,54.5 289.8,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="37.5" width="168.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="303.8" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django项目接入Redis</text>
-<path d="M458.5,54.5 C486.5,54.5 486.5,37.5 514.5,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="24.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">redis</text>
-<path d="M458.5,54.5 C486.5,54.5 486.5,71.5 514.5,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="58.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CACHES</text>
-<path d="M223.8,377.5 C256.8,377.5 256.8,309.5 289.8,309.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="292.5" width="168.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="303.8" y="309.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">为视图提供缓存服务</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,122.5 514.5,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="109.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">声明式缓存</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,156.5 514.5,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="143.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编程式缓存</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,190.5 514.5,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="177.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Subject.objects.all()</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,224.5 514.5,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="211.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,258.5 514.5,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="245.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,292.5 514.5,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="279.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cache</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,326.5 514.5,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="313.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">caches</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,360.5 514.5,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="347.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">timeout</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,394.5 514.5,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="381.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,428.5 514.5,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="415.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FLUSHDB</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,462.5 514.5,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="449.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SHUTDOWN</text>
-<path d="M458.5,309.5 C486.5,309.5 486.5,496.5 514.5,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="483.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cache_page</text>
-<path d="M223.8,377.5 C256.8,377.5 256.8,632.5 289.8,632.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="615.5" width="168.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="303.8" y="632.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">缓存相关问题</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,547.5 514.5,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="534.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缓存数据的更新</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,581.5 514.5,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="568.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缓存穿透</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,615.5 514.5,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="602.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缓存击穿</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,649.5 514.5,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="636.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缓存雪崩</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,683.5 514.5,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="670.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步的批量更新</text>
-<path d="M458.5,632.5 C486.5,632.5 486.5,717.5 514.5,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="514.5" y="704.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="526.5" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">强一致性</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="775" height="700" viewBox="0 0 775 700" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="775" height="700" fill="#ffffff"/>
+<rect x="24.0" y="327.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="350.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 56 · 使用缓存</text>
+<path d="M223.8,350.0 C256.8,350.0 256.8,92.0 289.8,92.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="75.0" width="168.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="303.8" y="92.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django项目接入Redis</text>
+<path d="M458.5,92.0 C486.5,92.0 486.5,38.0 514.5,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="24.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CACHES 配置缓存后端</text>
+<path d="M458.5,92.0 C486.5,92.0 486.5,74.0 514.5,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="60.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RedisCache 接入 Redis</text>
+<path d="M458.5,92.0 C486.5,92.0 486.5,110.0 514.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="96.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOCATION 指定 Redis 地址</text>
+<path d="M458.5,92.0 C486.5,92.0 486.5,146.0 514.5,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="132.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">KEY_PREFIX 避免键名冲突</text>
+<path d="M223.8,350.0 C256.8,350.0 256.8,234.0 289.8,234.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="217.0" width="168.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="303.8" y="234.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">声明式缓存</text>
+<path d="M458.5,234.0 C486.5,234.0 486.5,198.0 514.5,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="184.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cache_page(timeout) 缓存视图响应</text>
+<path d="M458.5,234.0 C486.5,234.0 486.5,234.0 514.5,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="220.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cache 参数选择缓存组</text>
+<path d="M458.5,234.0 C486.5,234.0 486.5,270.0 514.5,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="256.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">method_decorator 装饰类方法</text>
+<path d="M223.8,350.0 C256.8,350.0 256.8,394.0 289.8,394.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="377.0" width="168.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="303.8" y="394.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编程式缓存</text>
+<path d="M458.5,394.0 C486.5,394.0 486.5,322.0 514.5,322.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="308.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="322.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_redis_connection 取连接</text>
+<path d="M458.5,394.0 C486.5,394.0 486.5,358.0 514.5,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="344.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get(键) 读取缓存数据</text>
+<path d="M458.5,394.0 C486.5,394.0 486.5,394.0 514.5,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="380.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set(键, 值, ex=秒) 写入并设过期</text>
+<path d="M458.5,394.0 C486.5,394.0 486.5,430.0 514.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="416.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json.dumps/loads 序列化缓存值</text>
+<path d="M458.5,394.0 C486.5,394.0 486.5,466.0 514.5,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="452.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cache.get/set 简化读写</text>
+<path d="M223.8,350.0 C256.8,350.0 256.8,590.0 289.8,590.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="573.0" width="168.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="303.8" y="590.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">缓存相关问题</text>
+<path d="M458.5,590.0 C486.5,590.0 486.5,518.0 514.5,518.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="504.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="518.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">先更新数据库再删除缓存</text>
+<path d="M458.5,590.0 C486.5,590.0 486.5,554.0 514.5,554.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="540.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="554.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">空值设短 TTL 防缓存穿透</text>
+<path d="M458.5,590.0 C486.5,590.0 486.5,590.0 514.5,590.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="576.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setnx 互斥锁防缓存击穿</text>
+<path d="M458.5,590.0 C486.5,590.0 486.5,626.0 514.5,626.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="612.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">过期时间加随机值防雪崩</text>
+<path d="M458.5,590.0 C486.5,590.0 486.5,662.0 514.5,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="514.5" y="648.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="526.5" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多级缓存逐级兜底</text>
 </svg>

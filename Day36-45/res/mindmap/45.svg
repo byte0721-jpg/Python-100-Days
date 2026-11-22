@@ -1,257 +1,227 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1324" height="1391" viewBox="0 0 1324 1391" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1324" height="1391" fill="#ffffff"/>
-<rect x="560.8" y="672.5" width="203.2" height="46" rx="10" fill="#35495E"/>
-<text x="580.8" y="695.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 45 · Hive实战</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,41.0 830.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="24.0" width="158.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="844.0" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Hive概述</text>
-<path d="M988.9,41.0 C1016.9,41.0 1016.9,41.0 1044.9,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="27.5" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive 的主要作用包括</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,180.5 830.0,180.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="163.5" width="158.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="844.0" y="180.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">环境搭建</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,95.5 1044.9,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="82.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">准备工作</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,129.5 1044.9,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="116.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Java 环境</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,163.5 1044.9,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="150.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MySQL 环境</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,197.5 1044.9,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="184.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hadoop 配置</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,231.5 1044.9,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="218.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive 配置</text>
-<path d="M988.9,180.5 C1016.9,180.5 1016.9,265.5 1044.9,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="252.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">启动环境</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,435.5 830.0,435.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="418.5" width="158.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="844.0" y="435.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建表操作</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,316.5 1044.9,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="303.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据类型</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,350.5 1044.9,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="337.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表类型</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,384.5 1044.9,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="371.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">修饰符</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,418.5 1044.9,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="405.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ROW FORMAT</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,452.5 1044.9,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="439.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">内部表 (Managed Table)</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,486.5 1044.9,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="473.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表删除时数据也被删除</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,520.5 1044.9,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="507.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">外部表 (External Table)</text>
-<path d="M988.9,435.5 C1016.9,435.5 1016.9,554.5 1044.9,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="541.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表删除时数据保留</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,724.5 830.0,724.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="707.5" width="158.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="844.0" y="724.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">写入数据</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,605.5 1044.9,605.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="592.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="605.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSERT INTO</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,639.5 1044.9,639.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="626.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="639.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">追加数据</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,673.5 1044.9,673.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="660.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="673.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSERT OVERWRITE</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,707.5 1044.9,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="694.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOAD DATA</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,741.5 1044.9,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="728.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">移动文件</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,775.5 1044.9,775.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="762.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="775.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOAD DATA LOCAL</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,809.5 1044.9,809.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="796.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="809.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">本地文件系统</text>
-<path d="M988.9,724.5 C1016.9,724.5 1016.9,843.5 1044.9,843.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="830.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="843.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HDFS 目录</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,1013.5 830.0,1013.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="996.5" width="158.9" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="844.0" y="1013.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">常用函数</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,894.5 1044.9,894.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="881.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="894.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数学函数 (Math Functions)</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,928.5 1044.9,928.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="915.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="928.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字符串函数 (String Functions)</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,962.5 1044.9,962.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="949.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="962.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">日期时间函数 (Date &amp; Time Functio…</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,996.5 1044.9,996.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="983.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="996.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">条件函数 (Conditional Functions)</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,1030.5 1044.9,1030.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1017.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1030.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">聚合函数 (Aggregate Functions)</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,1064.5 1044.9,1064.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1051.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1064.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">类型转换函数 (Type Conversion Fun…</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,1098.5 1044.9,1098.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1085.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1098.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">复杂类型函数 (Complex Types)</text>
-<path d="M988.9,1013.5 C1016.9,1013.5 1016.9,1132.5 1044.9,1132.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1119.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1132.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">窗口函数 (Window Functions)</text>
-<path d="M764.0,695.5 C797.0,695.5 797.0,1268.5 830.0,1268.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="830.0" y="1251.5" width="158.9" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="844.0" y="1268.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">分组聚合</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1183.5 1044.9,1183.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1170.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1183.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GROUP BY</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1217.5 1044.9,1217.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1204.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1217.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">一个维度组合</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1251.5 1044.9,1251.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1238.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1251.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GROUPING SETS</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1285.5 1044.9,1285.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1272.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1285.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多个维度组合结果</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1319.5 1044.9,1319.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1306.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1319.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CUBE</text>
-<path d="M988.9,1268.5 C1016.9,1268.5 1016.9,1353.5 1044.9,1353.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1044.9" y="1340.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1056.9" y="1353.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">所有维度组合</text>
-<path d="M560.8,695.5 C527.8,695.5 527.8,185.5 494.8,185.5" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="335.9" y="168.5" width="158.9" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
-<text x="349.9" y="185.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">抽样操作</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,66.5 279.9,66.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="53.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="66.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BUCKET 抽样（物理桶）</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,100.5 279.9,100.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="87.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="100.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">第2个物理桶</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,134.5 279.9,134.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="121.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="134.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分桶表</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,168.5 279.9,168.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="155.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="168.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BUCKET 抽样（逻辑桶）</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,202.5 279.9,202.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="189.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="202.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">概率抽样（Bernoulli）</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,236.5 279.9,236.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="223.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="236.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">按组固定样本数</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,270.5 279.9,270.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="257.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="270.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">固定 N 条</text>
-<path d="M335.9,185.5 C307.9,185.5 307.9,304.5 279.9,304.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="291.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="304.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每组比例抽样</text>
-<path d="M560.8,695.5 C527.8,695.5 527.8,474.5 494.8,474.5" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="335.9" y="457.5" width="158.9" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
-<text x="349.9" y="474.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">排序操作</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,355.5 279.9,355.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="342.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="355.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORDER BY</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,389.5 279.9,389.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="376.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="389.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">全局排序</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,423.5 279.9,423.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="410.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="423.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">1 个</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,457.5 279.9,457.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="444.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="457.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORDER BY … LIMIT</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,491.5 279.9,491.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="478.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="491.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SORT BY</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,525.5 279.9,525.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="512.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="525.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每个 reducer 内部排序</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,559.5 279.9,559.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="546.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="559.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不全局有序</text>
-<path d="M335.9,474.5 C307.9,474.5 307.9,593.5 279.9,593.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="580.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="593.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DISTRIBUTE BY</text>
-<path d="M560.8,695.5 C527.8,695.5 527.8,695.5 494.8,695.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="335.9" y="678.5" width="158.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="349.9" y="695.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">横向展开</text>
-<path d="M335.9,695.5 C307.9,695.5 307.9,644.5 279.9,644.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="631.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="644.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LATERAL VIEW explode(map)</text>
-<path d="M335.9,695.5 C307.9,695.5 307.9,678.5 279.9,678.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="665.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="678.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LATERAL VIEW inline(array)</text>
-<path d="M335.9,695.5 C307.9,695.5 307.9,712.5 279.9,712.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="699.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="712.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LATERAL VIEW stack(n, …)</text>
-<path d="M335.9,695.5 C307.9,695.5 307.9,746.5 279.9,746.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="733.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="746.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">EXPLODE</text>
-<path d="M560.8,695.5 C527.8,695.5 527.8,916.5 494.8,916.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="335.9" y="899.5" width="158.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="349.9" y="916.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">HiveSQL vs. MySQL</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,797.5 279.9,797.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="784.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="797.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特性</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,831.5 279.9,831.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="818.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="831.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive SQL</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,865.5 279.9,865.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="852.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="865.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MySQL SQL</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,899.5 279.9,899.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="886.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="899.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">区别说明</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,933.5 279.9,933.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="920.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="933.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表分区</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,967.5 279.9,967.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="954.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="967.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表分桶</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,1001.5 279.9,1001.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="988.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1001.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">存储格式</text>
-<path d="M335.9,916.5 C307.9,916.5 307.9,1035.5 279.9,1035.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1022.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1035.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询引擎</text>
-<path d="M560.8,695.5 C527.8,695.5 527.8,1205.5 494.8,1205.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="335.9" y="1188.5" width="158.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="349.9" y="1205.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">性能优化</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1086.5 279.9,1086.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1073.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1086.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">优化方法</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1120.5 279.9,1120.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1107.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1120.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">描述</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1154.5 279.9,1154.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1141.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1154.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">适用场景</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1188.5 279.9,1188.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1175.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1188.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分区</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1222.5 279.9,1222.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1209.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1222.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分桶</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1256.5 279.9,1256.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1243.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1256.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列裁剪</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1290.5 279.9,1290.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1277.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1290.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分区裁剪</text>
-<path d="M335.9,1205.5 C307.9,1205.5 307.9,1324.5 279.9,1324.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="1311.0" width="255.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="1324.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">压缩存储格式</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1379" height="1432" viewBox="0 0 1379 1432" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1379" height="1432" fill="#ffffff"/>
+<rect x="588.3" y="693.0" width="203.2" height="46" rx="10" fill="#35495E"/>
+<text x="608.3" y="716.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 45 · Hive实战</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,92.0 857.5,92.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="75.0" width="158.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="871.5" y="92.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Hive概述</text>
+<path d="M1016.4,92.0 C1044.4,92.0 1044.4,38.0 1072.4,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="24.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SQL 转 MapReduce/Spark 任务</text>
+<path d="M1016.4,92.0 C1044.4,92.0 1044.4,74.0 1072.4,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="60.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">结构化文件映射为表</text>
+<path d="M1016.4,92.0 C1044.4,92.0 1044.4,110.0 1072.4,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="96.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HDFS 存储 引擎计算</text>
+<path d="M1016.4,92.0 C1044.4,92.0 1044.4,146.0 1072.4,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="132.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">适合离线分析 延迟较高</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,252.0 857.5,252.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="235.0" width="158.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="871.5" y="252.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">环境搭建</text>
+<path d="M1016.4,252.0 C1044.4,252.0 1044.4,198.0 1072.4,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="184.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tar -zxvf 解压安装包</text>
+<path d="M1016.4,252.0 C1044.4,252.0 1044.4,234.0 1072.4,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="220.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">systemctl start 启动服务</text>
+<path d="M1016.4,252.0 C1044.4,252.0 1044.4,270.0 1072.4,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="256.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">start-dfs.sh 启动 HDFS</text>
+<path d="M1016.4,252.0 C1044.4,252.0 1044.4,306.0 1072.4,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="292.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hive --service metastore 启动元数据服务</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,430.0 857.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="413.0" width="158.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="871.5" y="430.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">常用命令</text>
+<path d="M1016.4,430.0 C1044.4,430.0 1044.4,358.0 1072.4,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="344.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hadoop fs -ls 列出目录内容</text>
+<path d="M1016.4,430.0 C1044.4,430.0 1044.4,394.0 1072.4,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="380.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hadoop fs -put 上传文件</text>
+<path d="M1016.4,430.0 C1044.4,430.0 1044.4,430.0 1072.4,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="416.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hadoop fs -get 下载文件</text>
+<path d="M1016.4,430.0 C1044.4,430.0 1044.4,466.0 1072.4,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="452.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hadoop fs -rm -r 递归删除</text>
+<path d="M1016.4,430.0 C1044.4,430.0 1044.4,502.0 1072.4,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="488.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hadoop fs -cat 查看文件内容</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,644.0 857.5,644.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="627.0" width="158.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="871.5" y="644.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基本语法</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,554.0 1072.4,554.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="540.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="554.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE DATABASE 创建数据库</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,590.0 1072.4,590.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="576.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE EXTERNAL TABLE 建外部表</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,626.0 1072.4,626.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="612.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOAD DATA INPATH 加载数据</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,662.0 1072.4,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="648.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PARTITIONED BY 定义分区列</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,698.0 1072.4,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="684.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SET 开启动态分区</text>
+<path d="M1016.4,644.0 C1044.4,644.0 1044.4,734.0 1072.4,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="720.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MSCK REPAIR TABLE 修复分区</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,876.0 857.5,876.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="859.0" width="158.9" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="871.5" y="876.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建表操作</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,786.0 1072.4,786.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="772.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="786.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ARRAY&lt;类型&gt; 定义数组列</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,822.0 1072.4,822.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="808.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="822.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MAP&lt;键,值&gt; 定义映射列</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,858.0 1072.4,858.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="844.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="858.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STRUCT&lt;字段:类型&gt; 定义结构列</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,894.0 1072.4,894.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="880.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="894.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CAST(值 AS 类型) 显式转换</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,930.0 1072.4,930.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="916.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="930.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CLUSTERED BY ... BUCKETS 分桶</text>
+<path d="M1016.4,876.0 C1044.4,876.0 1044.4,966.0 1072.4,966.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="952.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="966.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STORED AS ORC 列式存储</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,1090.0 857.5,1090.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="1073.0" width="158.9" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="871.5" y="1090.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">写入数据</text>
+<path d="M1016.4,1090.0 C1044.4,1090.0 1044.4,1018.0 1072.4,1018.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1004.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1018.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSERT INTO TABLE 追加写入</text>
+<path d="M1016.4,1090.0 C1044.4,1090.0 1044.4,1054.0 1072.4,1054.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1040.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1054.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSERT OVERWRITE 覆盖写入</text>
+<path d="M1016.4,1090.0 C1044.4,1090.0 1044.4,1090.0 1072.4,1090.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1076.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1090.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOAD DATA LOCAL INPATH 本地导入</text>
+<path d="M1016.4,1090.0 C1044.4,1090.0 1044.4,1126.0 1072.4,1126.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1112.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1126.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CREATE TABLE AS SELECT 建表写入</text>
+<path d="M1016.4,1090.0 C1044.4,1090.0 1044.4,1162.0 1072.4,1162.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1148.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1162.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSERT OVERWRITE DIRECTORY 导出目录</text>
+<path d="M791.5,716.0 C824.5,716.0 824.5,1304.0 857.5,1304.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="857.5" y="1287.0" width="158.9" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="871.5" y="1304.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">常用函数</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1214.0 1072.4,1214.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1200.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1214.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FROM_UNIXTIME 时间戳转日期</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1250.0 1072.4,1250.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1236.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1250.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DATEDIFF 计算日期相差天数</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1286.0 1072.4,1286.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1272.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1286.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GET_JSON_OBJECT 提取 JSON 值</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1322.0 1072.4,1322.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1308.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1322.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">COLLECT_SET 去重收集为数组</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1358.0 1072.4,1358.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1344.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CONCAT_WS 按分隔符拼接</text>
+<path d="M1016.4,1304.0 C1044.4,1304.0 1044.4,1394.0 1072.4,1394.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1072.4" y="1380.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1084.4" y="1394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ROW_NUMBER() OVER 生成行号</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,298.0 522.3,298.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="281.0" width="158.9" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="377.4" y="298.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">分组聚合</text>
+<path d="M363.4,298.0 C335.4,298.0 335.4,244.0 307.4,244.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GROUP BY 列 分组统计</text>
+<path d="M363.4,298.0 C335.4,298.0 335.4,280.0 307.4,280.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="266.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="280.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GROUPING SETS 指定分组组合</text>
+<path d="M363.4,298.0 C335.4,298.0 335.4,316.0 307.4,316.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="302.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="316.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CUBE 生成全维度组合</text>
+<path d="M363.4,298.0 C335.4,298.0 335.4,352.0 307.4,352.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="338.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HAVING 筛选聚合结果</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,440.0 522.3,440.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="423.0" width="158.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="377.4" y="440.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">抽样操作</text>
+<path d="M363.4,440.0 C335.4,440.0 335.4,404.0 307.4,404.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TABLESAMPLE 桶抽样</text>
+<path d="M363.4,440.0 C335.4,440.0 335.4,440.0 307.4,440.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">WHERE RAND() &lt; 比例 随机抽样</text>
+<path d="M363.4,440.0 C335.4,440.0 335.4,476.0 307.4,476.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LIMIT n 截取前 n 行</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,582.0 522.3,582.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="565.0" width="158.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="377.4" y="582.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">排序操作</text>
+<path d="M363.4,582.0 C335.4,582.0 335.4,528.0 307.4,528.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="514.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="528.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORDER BY 全局排序 单 reducer</text>
+<path d="M363.4,582.0 C335.4,582.0 335.4,564.0 307.4,564.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="550.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="564.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SORT BY 各 reducer 内排序</text>
+<path d="M363.4,582.0 C335.4,582.0 335.4,600.0 307.4,600.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="586.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="600.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DISTRIBUTE BY 按列分发</text>
+<path d="M363.4,582.0 C335.4,582.0 335.4,636.0 307.4,636.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="622.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="636.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CLUSTER BY 分发并升序排序</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,760.0 522.3,760.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="743.0" width="158.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="377.4" y="760.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">横向展开</text>
+<path d="M363.4,760.0 C335.4,760.0 335.4,688.0 307.4,688.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="674.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="688.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LATERAL VIEW EXPLODE 行转列</text>
+<path d="M363.4,760.0 C335.4,760.0 335.4,724.0 307.4,724.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="710.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="724.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">POSEXPLODE 带下标展开</text>
+<path d="M363.4,760.0 C335.4,760.0 335.4,760.0 307.4,760.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="746.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="760.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">EXPLODE(map) 拆为键值对</text>
+<path d="M363.4,760.0 C335.4,760.0 335.4,796.0 307.4,796.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="782.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="796.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JSON_TUPLE 提取 JSON 字段</text>
+<path d="M363.4,760.0 C335.4,760.0 335.4,832.0 307.4,832.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="818.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="832.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STACK 多列转多行</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,938.0 522.3,938.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="921.0" width="158.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="377.4" y="938.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">HiveSQL vs. MySQL</text>
+<path d="M363.4,938.0 C335.4,938.0 335.4,884.0 307.4,884.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="870.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="884.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive 支持分区与分桶</text>
+<path d="M363.4,938.0 C335.4,938.0 335.4,920.0 307.4,920.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="906.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="920.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive 支持 ARRAY/MAP/STRUCT</text>
+<path d="M363.4,938.0 C335.4,938.0 335.4,956.0 307.4,956.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="942.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="956.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Hive 用 ORC/Parquet 列式存储</text>
+<path d="M363.4,938.0 C335.4,938.0 335.4,992.0 307.4,992.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="978.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="992.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MySQL 依赖索引优化查询</text>
+<path d="M588.3,716.0 C555.3,716.0 555.3,1116.0 522.3,1116.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="363.4" y="1099.0" width="158.9" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="377.4" y="1116.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">性能优化</text>
+<path d="M363.4,1116.0 C335.4,1116.0 335.4,1044.0 307.4,1044.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1030.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1044.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分区裁剪 只扫命中分区</text>
+<path d="M363.4,1116.0 C335.4,1116.0 335.4,1080.0 307.4,1080.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1066.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1080.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列裁剪 只读取需要的列</text>
+<path d="M363.4,1116.0 C335.4,1116.0 335.4,1116.0 307.4,1116.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1102.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1116.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MapJoin 小表载入内存</text>
+<path d="M363.4,1116.0 C335.4,1116.0 335.4,1152.0 307.4,1152.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1138.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1152.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORC/Parquet 压缩存储</text>
+<path d="M363.4,1116.0 C335.4,1116.0 335.4,1188.0 307.4,1188.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1174.0" width="283.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1188.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hive.exec.parallel 并行执行</text>
 </svg>

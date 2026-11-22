@@ -1,137 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="762" viewBox="0 0 1350 762" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1350" height="762" fill="#ffffff"/>
-<rect x="547.1" y="358.0" width="255.9" height="46" rx="10" fill="#35495E"/>
-<text x="567.1" y="381.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 32-33 · Web前端入门</text>
-<path d="M803.0,381.0 C836.0,381.0 836.0,41.0 869.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="869.0" y="24.0" width="189.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="883.0" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">HTML简史</text>
-<path d="M1058.0,41.0 C1086.0,41.0 1086.0,41.0 1114.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="27.5" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTML5新特性</text>
-<path d="M803.0,381.0 C836.0,381.0 836.0,282.5 869.0,282.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="869.0" y="265.5" width="189.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="883.0" y="282.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用标签承载内容</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,95.5 1114.0,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="82.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">结构</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,129.5 1114.0,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="116.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文本</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,163.5 1114.0,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="150.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列表（list）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,197.5 1114.0,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="184.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">链接（anchor）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,231.5 1114.0,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="218.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">图像（image）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,265.5 1114.0,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="252.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表格（table）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,299.5 1114.0,299.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="286.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="299.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表单（form）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,333.5 1114.0,333.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="320.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="333.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">音视频（audio / video）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,367.5 1114.0,367.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="354.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="367.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">窗口（frame）</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,401.5 1114.0,401.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="388.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="401.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tel</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,435.5 1114.0,435.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="422.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="435.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">url</text>
-<path d="M1058.0,282.5 C1086.0,282.5 1086.0,469.5 1114.0,469.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="456.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="469.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">text</text>
-<path d="M803.0,381.0 C836.0,381.0 836.0,622.5 869.0,622.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="869.0" y="605.5" width="189.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="883.0" y="622.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用CSS渲染页面</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,520.5 1114.0,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="507.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">简介</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,554.5 1114.0,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="541.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">颜色（color）</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,588.5 1114.0,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="575.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文本（text / font）</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,622.5 1114.0,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="609.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">盒子（box model）</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,656.5 1114.0,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="643.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列表、表格和表单</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,690.5 1114.0,690.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="677.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="690.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">图像</text>
-<path d="M1058.0,622.5 C1086.0,622.5 1086.0,724.5 1114.0,724.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1114.0" y="711.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1126.0" y="724.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">布局</text>
-<path d="M547.1,381.0 C514.1,381.0 514.1,253.5 481.1,253.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="292.1" y="236.5" width="189.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="306.1" y="253.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用JavaScript控制行为</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,66.5 236.1,66.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="53.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="66.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JavaScript基本语法</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,100.5 236.1,100.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="87.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="100.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">面向对象</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,134.5 236.1,134.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="121.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="134.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BOM</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,168.5 236.1,168.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="155.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="168.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DOM</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,202.5 236.1,202.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="189.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="202.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JavaScript API</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,236.5 236.1,236.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="223.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="236.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">go()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,270.5 236.1,270.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="257.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="270.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">back()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,304.5 236.1,304.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="291.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="304.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">forward()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,338.5 236.1,338.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="325.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="338.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">appendChild()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,372.5 236.1,372.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="359.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="372.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">removeChild()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,406.5 236.1,406.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="393.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="406.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">insertBefore()</text>
-<path d="M292.1,253.5 C264.1,253.5 264.1,440.5 236.1,440.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="427.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="440.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hasAttribute()</text>
-<path d="M547.1,381.0 C514.1,381.0 514.1,593.5 481.1,593.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="292.1" y="576.5" width="189.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="306.1" y="593.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">前端框架</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,491.5 236.1,491.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="478.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="491.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">渐进式框架 - Vue.js</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,525.5 236.1,525.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="512.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="525.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">快速上手</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,559.5 236.1,559.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="546.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="559.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用脚手架 - vue-cli</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,593.5 236.1,593.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="580.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="593.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">UI框架 - Element</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,627.5 236.1,627.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="614.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="627.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">报表框架 - ECharts</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,661.5 236.1,661.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="648.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="661.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基于弹性盒子的CSS框架 - Bulma</text>
-<path d="M292.1,593.5 C264.1,593.5 264.1,695.5 236.1,695.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="682.0" width="212.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="695.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">响应式布局框架 - Bootstrap</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1596" height="684" viewBox="0 0 1596 684" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1596" height="684" fill="#ffffff"/>
+<rect x="670.2" y="319.0" width="255.9" height="46" rx="10" fill="#35495E"/>
+<text x="690.2" y="342.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 32-33 · Web前端入门</text>
+<path d="M926.2,342.0 C959.2,342.0 959.2,110.0 992.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="992.2" y="93.0" width="189.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="1006.2" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">HTML简史</text>
+<path d="M1181.2,110.0 C1209.2,110.0 1209.2,38.0 1237.2,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="24.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">header/nav/section/footer 语义化结构标签</text>
+<path d="M1181.2,110.0 C1209.2,110.0 1209.2,74.0 1237.2,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="60.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">audio/video 原生音视频播放</text>
+<path d="M1181.2,110.0 C1209.2,110.0 1209.2,110.0 1237.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="96.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">canvas 提供可编程绘图区域</text>
+<path d="M1181.2,110.0 C1209.2,110.0 1209.2,146.0 1237.2,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="132.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">input type=date/email/range 新表单控件</text>
+<path d="M1181.2,110.0 C1209.2,110.0 1209.2,182.0 1237.2,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="168.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">localStorage/sessionStorage 本地存储</text>
+<path d="M926.2,342.0 C959.2,342.0 959.2,324.0 992.2,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="992.2" y="307.0" width="189.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="1006.2" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用标签承载内容</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,234.0 1237.2,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="220.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&lt;!doctype html&gt; + html/head/body 文档骨架</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,270.0 1237.2,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="256.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">h1~h6/p/br/hr 标题段落换行分隔</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,306.0 1237.2,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="292.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ul/ol/li 与 dl/dt/dd 三类列表</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,342.0 1237.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="328.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">a href= 链接页面与 img src= 图像</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,378.0 1237.2,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="364.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">table/tr/td/th + rowspan/colspan 表格</text>
+<path d="M1181.2,324.0 C1209.2,324.0 1209.2,414.0 1237.2,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="400.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">form action/method + input type= 表单</text>
+<path d="M926.2,342.0 C959.2,342.0 959.2,556.0 992.2,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="992.2" y="539.0" width="189.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="1006.2" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用CSS渲染页面</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,466.0 1237.2,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="452.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元素/.类/#id/后代 选择器匹配元素</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,502.0 1237.2,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="488.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">font-size/font-family/font-weight 字体设置</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,538.0 1237.2,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="524.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">line-height/letter-spacing/text-align 文本排版</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,574.0 1237.2,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="560.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">盒模型 width/height/padding/border/margin</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,610.0 1237.2,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="596.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">display/visibility 控制元素显示隐藏</text>
+<path d="M1181.2,556.0 C1209.2,556.0 1209.2,646.0 1237.2,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1237.2" y="632.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1249.2" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">position + z-index 定位与层叠</text>
+<path d="M670.2,342.0 C637.2,342.0 637.2,226.0 604.2,226.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.2" y="209.0" width="189.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="429.2" y="226.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用JavaScript控制行为</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,136.0 359.2,136.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="122.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="136.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if/else、switch/case 条件分支</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,172.0 359.2,172.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="158.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="172.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for、while、do...while 循环结构</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,208.0 359.2,208.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="208.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">function 声明函数与匿名函数立即调用</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,244.0 359.2,244.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对象字面量 {键: 值} 和 this 构造对象</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,280.0 359.2,280.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="266.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="280.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">querySelector/innerHTML/appendChild 操作DOM</text>
+<path d="M415.2,226.0 C387.2,226.0 387.2,316.0 359.2,316.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="302.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="316.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">addEventListener + preventDefault 处理事件</text>
+<path d="M670.2,342.0 C637.2,342.0 637.2,458.0 604.2,458.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.2" y="441.0" width="189.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="429.2" y="458.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">前端框架</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,368.0 359.2,368.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="354.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="368.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">new Vue({el, data, computed}) 创建实例</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,404.0 359.2,404.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{{ 表达式 }} 插值绑定数据</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,440.0 359.2,440.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">v-for 循环渲染、v-if 条件渲染</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,476.0 359.2,476.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">v-model 双向绑定表单值</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,512.0 359.2,512.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="498.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="512.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">@click 绑定事件处理函数</text>
+<path d="M415.2,458.0 C387.2,458.0 387.2,548.0 359.2,548.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="335.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="548.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">computed 定义依赖数据的计算属性</text>
 </svg>

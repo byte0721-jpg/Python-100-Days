@@ -1,17 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="660" height="140" viewBox="0 0 660 140" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
-<rect x="0" y="0" width="660" height="140" fill="#ffffff"/>
-<rect x="24.0" y="47.0" width="199.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="70.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 59 · 单元测试</text>
-<path d="M223.8,70.0 C256.8,70.0 256.8,41.0 289.8,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="24.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="303.8" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">本节说明</text>
-<path d="M373.8,41.0 C401.8,41.0 401.8,41.0 429.8,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="429.8" y="27.5" width="206.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="441.8" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">内容已安排到后续章节</text>
-<path d="M223.8,70.0 C256.8,70.0 256.8,99.0 289.8,99.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="82.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="303.8" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">延伸阅读</text>
-<path d="M373.8,99.0 C401.8,99.0 401.8,99.0 429.8,99.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="429.8" y="85.5" width="206.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="441.8" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Day95 使用Django开发商业项目</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="721" height="612" viewBox="0 0 721 612" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="721" height="612" fill="#ffffff"/>
+<rect x="24.0" y="283.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="306.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 59 · 单元测试</text>
+<path d="M223.8,306.0 C256.8,306.0 256.8,110.0 289.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="93.0" width="114.8" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="303.8" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">测试组织</text>
+<path d="M404.6,110.0 C432.6,110.0 432.6,38.0 460.6,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="24.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TestCase 作为测试类基类</text>
+<path d="M404.6,110.0 C432.6,110.0 432.6,74.0 460.6,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="60.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setUpTestData 准备共享测试数据</text>
+<path d="M404.6,110.0 C432.6,110.0 432.6,110.0 460.6,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="96.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test_ 前缀方法作为测试用例</text>
+<path d="M404.6,110.0 C432.6,110.0 432.6,146.0 460.6,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="132.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">manage.py test 运行测试</text>
+<path d="M404.6,110.0 C432.6,110.0 432.6,182.0 460.6,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="168.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试数据自动回滚不污染开发库</text>
+<path d="M223.8,306.0 C256.8,306.0 256.8,306.0 289.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="289.0" width="114.8" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="303.8" y="306.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">接口测试</text>
+<path d="M404.6,306.0 C432.6,306.0 432.6,234.0 460.6,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="220.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django.test.Client 模拟请求</text>
+<path d="M404.6,306.0 C432.6,306.0 432.6,270.0 460.6,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="256.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">断言 status_code 状态码</text>
+<path d="M404.6,306.0 C432.6,306.0 432.6,306.0 460.6,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="292.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">response.json() 断言返回数据</text>
+<path d="M404.6,306.0 C432.6,306.0 432.6,342.0 460.6,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="328.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reverse() 按路由名生成 URL</text>
+<path d="M404.6,306.0 C432.6,306.0 432.6,378.0 460.6,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="364.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">断言不存在资源返回 404</text>
+<path d="M223.8,306.0 C256.8,306.0 256.8,502.0 289.8,502.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="485.0" width="114.8" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="303.8" y="502.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Mock与覆盖率</text>
+<path d="M404.6,502.0 C432.6,502.0 432.6,430.0 460.6,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="416.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mock.patch 替换外部依赖</text>
+<path d="M404.6,502.0 C432.6,502.0 432.6,466.0 460.6,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="452.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">断言 mock 调用次数与参数</text>
+<path d="M404.6,502.0 C432.6,502.0 432.6,502.0 460.6,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="488.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">coverage run 统计代码覆盖率</text>
+<path d="M404.6,502.0 C432.6,502.0 432.6,538.0 460.6,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="524.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TransactionTestCase 支持事务测试</text>
+<path d="M404.6,502.0 C432.6,502.0 432.6,574.0 460.6,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="460.6" y="560.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="472.6" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试类隔离数据库状态</text>
 </svg>

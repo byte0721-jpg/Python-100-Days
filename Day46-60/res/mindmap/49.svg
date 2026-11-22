@@ -1,137 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1295" height="891" viewBox="0 0 1295 891" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1295" height="891" fill="#ffffff"/>
-<rect x="512.7" y="422.5" width="270.4" height="46" rx="10" fill="#35495E"/>
-<text x="532.7" y="445.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 49 · Cookie和Session</text>
-<path d="M783.1,445.5 C816.1,445.5 816.1,326.5 849.1,326.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="849.1" y="309.5" width="212.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="863.1" y="326.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用户登录的准备工作</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,207.5 1117.2,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="194.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">User</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,241.5 1117.2,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="228.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,275.5 1117.2,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="262.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">input</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,309.5 1117.2,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="296.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hidden</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,343.5 1117.2,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="330.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_user</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,377.5 1117.2,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="364.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hashlib</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,411.5 1117.2,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="398.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wangdachui</text>
-<path d="M1061.2,326.5 C1089.2,326.5 1089.2,445.5 1117.2,445.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="432.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hellokitty</text>
-<path d="M783.1,445.5 C816.1,445.5 816.1,547.5 849.1,547.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="849.1" y="530.5" width="212.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="863.1" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现用户跟踪</text>
-<path d="M1061.2,547.5 C1089.2,547.5 1089.2,496.5 1117.2,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="483.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">用户跟踪</text>
-<path d="M1061.2,547.5 C1089.2,547.5 1089.2,530.5 1117.2,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="517.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">无连接</text>
-<path d="M1061.2,547.5 C1089.2,547.5 1089.2,564.5 1117.2,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="551.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">无状态</text>
-<path d="M1061.2,547.5 C1089.2,547.5 1089.2,598.5 1117.2,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="585.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">总结一下</text>
-<path d="M783.1,445.5 C816.1,445.5 816.1,666.5 849.1,666.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="849.1" y="649.5" width="212.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="863.1" y="666.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django框架对session的支持</text>
-<path d="M1061.2,666.5 C1089.2,666.5 1089.2,649.5 1117.2,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="636.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session</text>
-<path d="M1061.2,666.5 C1089.2,666.5 1089.2,683.5 1117.2,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1117.2" y="670.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1129.2" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware</text>
-<path d="M512.7,445.5 C479.7,445.5 479.7,190.5 446.7,190.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="234.6" y="173.5" width="212.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="248.6" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现用户登录验证</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,37.5 178.6,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="24.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flush</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,71.5 178.6,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="58.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">userid</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,105.5 178.6,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="92.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Captcha</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,139.5 178.6,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="126.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">username</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,173.5 178.6,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="160.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django_session</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,207.5 178.6,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="194.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JSONSerializer</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,241.5 178.6,241.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="228.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gen_random_code</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,275.5 178.6,275.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="262.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.session</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,309.5 178.6,309.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="296.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PickleSerializer</text>
-<path d="M234.6,190.5 C206.6,190.5 206.6,343.5 178.6,343.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="330.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">praise_or_criticize</text>
-<path d="M512.7,445.5 C479.7,445.5 479.7,581.5 446.7,581.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="234.6" y="564.5" width="212.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="248.6" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">在视图函数中读写cookie</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,394.5 178.6,394.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="381.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">COOKIES</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,428.5 178.6,428.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="415.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_cookie</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,462.5 178.6,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="449.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECRET_KEY</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,496.5 178.6,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="483.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_expiry</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,530.5 178.6,530.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="517.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HttpRequest</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,564.5 178.6,564.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="551.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HttpResponse</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,598.5 178.6,598.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="585.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BadSignature</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,632.5 178.6,632.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="619.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">clear_expired</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,666.5 178.6,666.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="653.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_expire_age</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,700.5 178.6,700.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="687.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_test_cookie</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,734.5 178.6,734.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="721.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_expire_date</text>
-<path d="M234.6,581.5 C206.6,581.5 206.6,768.5 178.6,768.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="755.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_signed_cookie</text>
-<path d="M512.7,445.5 C479.7,445.5 479.7,836.5 446.7,836.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="234.6" y="819.5" width="212.1" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="248.6" y="836.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Cookie的替代品</text>
-<path d="M234.6,836.5 C206.6,836.5 206.6,819.5 178.6,819.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="806.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">localStorage</text>
-<path d="M234.6,836.5 C206.6,836.5 206.6,853.5 178.6,853.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="840.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sessionStorage</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1459" height="648" viewBox="0 0 1459 648" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1459" height="648" fill="#ffffff"/>
+<rect x="594.6" y="301.0" width="270.4" height="46" rx="10" fill="#35495E"/>
+<text x="614.6" y="324.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 49 · Cookie和Session</text>
+<path d="M865.0,324.0 C898.0,324.0 898.0,128.0 931.0,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="931.0" y="111.0" width="212.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="945.0" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">用户登录的准备工作</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,38.0 1199.1,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="24.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CharField 加 unique=True</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,74.0 1199.1,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="60.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DateTimeField 记注册时间</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,110.0 1199.1,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="96.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">makemigrations 生成迁移</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,146.0 1199.1,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="132.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hashlib.md5() 生成摘要</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,182.0 1199.1,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="168.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{% csrf_token %} 生成防伪造令牌</text>
+<path d="M1143.1,128.0 C1171.1,128.0 1171.1,218.0 1199.1,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="204.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render 渲染登录模板页</text>
+<path d="M865.0,324.0 C898.0,324.0 898.0,342.0 931.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="931.0" y="325.0" width="212.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="945.0" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现用户跟踪</text>
+<path d="M1143.1,342.0 C1171.1,342.0 1171.1,270.0 1199.1,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="256.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session 对象保存用户会话数据</text>
+<path d="M1143.1,342.0 C1171.1,342.0 1171.1,306.0 1199.1,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="292.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sessionid 写入浏览器 cookie</text>
+<path d="M1143.1,342.0 C1171.1,342.0 1171.1,342.0 1199.1,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="328.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">URL 重写携带 sessionid</text>
+<path d="M1143.1,342.0 C1171.1,342.0 1171.1,378.0 1199.1,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="364.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">隐藏域随表单提交 sessionid</text>
+<path d="M1143.1,342.0 C1171.1,342.0 1171.1,414.0 1199.1,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="400.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cookie 键值对随请求自动发送</text>
+<path d="M865.0,324.0 C898.0,324.0 898.0,538.0 931.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="931.0" y="521.0" width="212.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="945.0" y="538.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django框架对session的支持</text>
+<path d="M1143.1,538.0 C1171.1,538.0 1171.1,466.0 1199.1,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="452.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware 启用会话功能</text>
+<path d="M1143.1,538.0 C1171.1,538.0 1171.1,502.0 1199.1,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="488.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.session 像字典一样读写</text>
+<path d="M1143.1,538.0 C1171.1,538.0 1171.1,538.0 1199.1,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="524.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">默认把 session 序列化存数据库</text>
+<path d="M1143.1,538.0 C1171.1,538.0 1171.1,574.0 1199.1,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="560.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session 数据须可 JSON 序列化</text>
+<path d="M1143.1,538.0 C1171.1,538.0 1171.1,610.0 1199.1,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1199.1" y="596.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1211.1" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SESSION_ENGINE 切换存储后端</text>
+<path d="M594.6,324.0 C561.6,324.0 561.6,146.0 528.6,146.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="316.5" y="129.0" width="212.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="330.5" y="146.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">实现用户登录验证</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,56.0 260.5,56.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="42.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="56.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.POST.get 读取表单字段</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,92.0 260.5,92.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="78.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="92.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filter(...).first() 查询匹配用户</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,128.0 260.5,128.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="114.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="128.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session[&#x27;键&#x27;]=值 存登录态</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,164.0 260.5,164.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="150.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="164.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">redirect 登录成功后跳转</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,200.0 260.5,200.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="186.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="200.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session.flush() 注销并清空会话</text>
+<path d="M316.5,146.0 C288.5,146.0 288.5,236.0 260.5,236.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="222.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="236.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SESSION_COOKIE_AGE 设过期秒数</text>
+<path d="M594.6,324.0 C561.6,324.0 561.6,378.0 528.6,378.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="316.5" y="361.0" width="212.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="330.5" y="378.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">在视图函数中读写cookie</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,288.0 260.5,288.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="274.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="288.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">COOKIES 读取全部 cookie</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,324.0 260.5,324.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="310.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="324.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_cookie(键, 值) 写入 cookie</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,360.0 260.5,360.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="346.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_signed_cookie 签名防篡改</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,396.0 260.5,396.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="382.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="396.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_signed_cookie 验签后读取</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,432.0 260.5,432.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="418.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="432.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set_expiry 设置会话过期时间</text>
+<path d="M316.5,378.0 C288.5,378.0 288.5,468.0 260.5,468.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="454.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="468.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test_cookie_worked 检测支持</text>
+<path d="M594.6,324.0 C561.6,324.0 561.6,556.0 528.6,556.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="316.5" y="539.0" width="212.1" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="330.5" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Cookie的替代品</text>
+<path d="M316.5,556.0 C288.5,556.0 288.5,520.0 260.5,520.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="506.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="520.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">localStorage 长期保存本地数据</text>
+<path d="M316.5,556.0 C288.5,556.0 288.5,556.0 260.5,556.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="542.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="556.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sessionStorage 关闭浏览器即清除</text>
+<path d="M316.5,556.0 C288.5,556.0 288.5,592.0 260.5,592.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="578.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="592.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">敏感信息不写入 cookie</text>
 </svg>

@@ -1,89 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="732" height="925" viewBox="0 0 732 925" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="732" height="925" fill="#ffffff"/>
-<rect x="24.0" y="439.5" width="310.3" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="462.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 55 · RESTful架构和DRF进阶</text>
-<path d="M334.3,462.5 C367.3,462.5 367.3,224.5 400.3,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="414.3" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用CBV</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,37.5 540.3,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="24.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承APIView的子类</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,71.5 540.3,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="58.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承ModelViewSet</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,105.5 540.3,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="92.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,139.5 540.3,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="126.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,173.5 540.3,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="160.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">create</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,207.5 540.3,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="194.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,241.5 540.3,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="228.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">APIView</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,275.5 540.3,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="262.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">destroy</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,309.5 540.3,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="296.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">queryset</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,343.5 540.3,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="330.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">retrieve</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,377.5 540.3,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="364.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SubjectView</text>
-<path d="M484.3,224.5 C512.3,224.5 512.3,411.5 540.3,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="398.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ListAPIView</text>
-<path d="M334.3,462.5 C367.3,462.5 367.3,581.5 400.3,581.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="564.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="414.3" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分页</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,462.5 540.3,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="449.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Page</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,496.5 540.3,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="483.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">QuerySet</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,530.5 540.3,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="517.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Paginator</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,564.5 540.3,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="551.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">REST_FRAMEWORK</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,598.5 540.3,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="585.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CursorPagination</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,632.5 540.3,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="619.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pagination_class</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,666.5 540.3,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="653.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PageNumberPagination</text>
-<path d="M484.3,581.5 C512.3,581.5 512.3,700.5 540.3,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="687.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LimitOffsetPagination</text>
-<path d="M334.3,462.5 C367.3,462.5 367.3,819.5 400.3,819.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="802.5" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="414.3" y="819.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据筛选</text>
-<path d="M484.3,819.5 C512.3,819.5 512.3,751.5 540.3,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="738.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ListAPIView</text>
-<path d="M484.3,819.5 C512.3,819.5 512.3,785.5 540.3,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="772.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_queryset</text>
-<path d="M484.3,819.5 C512.3,819.5 512.3,819.5 540.3,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="806.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filter_fields</text>
-<path d="M484.3,819.5 C512.3,819.5 512.3,853.5 540.3,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="840.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filterset_class</text>
-<path d="M484.3,819.5 C512.3,819.5 512.3,887.5 540.3,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="540.3" y="874.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="552.3" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DjangoFilterBackend</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="865" height="880" viewBox="0 0 865 880" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="865" height="880" fill="#ffffff"/>
+<rect x="24.0" y="417.0" width="310.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="440.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 55 · RESTful架构和DRF进阶</text>
+<path d="M334.3,440.0 C367.3,440.0 367.3,128.0 400.3,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="111.0" width="148.4" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="414.3" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用CBV</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,38.0 604.7,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="24.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ListAPIView 处理 GET 列表请求</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,74.0 604.7,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="60.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">queryset 指定数据来源</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,110.0 604.7,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="96.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">serializer_class 指定序列化器</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,146.0 604.7,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="132.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">as_view() 把类视图映射为 URL</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,182.0 604.7,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="168.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CreateAPIView 支持 POST 新增</text>
+<path d="M548.7,128.0 C576.7,128.0 576.7,218.0 604.7,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="204.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">UpdateAPIView 支持 PUT</text>
+<path d="M334.3,440.0 C367.3,440.0 367.3,342.0 400.3,342.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="325.0" width="148.4" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="414.3" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">继承ModelViewSet</text>
+<path d="M548.7,342.0 C576.7,342.0 576.7,270.0 604.7,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="256.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ModelViewSet 提供完整增删改查</text>
+<path d="M548.7,342.0 C576.7,342.0 576.7,306.0 604.7,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="292.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DefaultRouter 创建路由器</text>
+<path d="M548.7,342.0 C576.7,342.0 576.7,342.0 604.7,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="328.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">router.register 注册视图集</text>
+<path d="M548.7,342.0 C576.7,342.0 576.7,378.0 604.7,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="364.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">router.urls 并入 urlpatterns</text>
+<path d="M548.7,342.0 C576.7,342.0 576.7,414.0 604.7,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="400.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ReadOnlyModelViewSet 只读</text>
+<path d="M334.3,440.0 C367.3,440.0 367.3,556.0 400.3,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="539.0" width="148.4" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="414.3" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分页</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,466.0 604.7,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="452.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PAGE_SIZE 设默认每页条数</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,502.0 604.7,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="488.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">配置默认分页类</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,538.0 604.7,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="524.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PageNumberPagination 按页码分页</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,574.0 604.7,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="560.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">page_size_query_param 页大小</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,610.0 604.7,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="596.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_page_size 限制每页上限</text>
+<path d="M548.7,556.0 C576.7,556.0 576.7,646.0 604.7,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="632.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pagination_class=None 关闭分页</text>
+<path d="M334.3,440.0 C367.3,440.0 367.3,770.0 400.3,770.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="753.0" width="148.4" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="414.3" y="770.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据筛选</text>
+<path d="M548.7,770.0 C576.7,770.0 576.7,698.0 604.7,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="684.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">重写 get_queryset 过滤查询集</text>
+<path d="M548.7,770.0 C576.7,770.0 576.7,734.0 604.7,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="720.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.GET.get 读取筛选参数</text>
+<path d="M548.7,770.0 C576.7,770.0 576.7,770.0 604.7,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="756.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filter(subject__no=值) 关联过滤</text>
+<path d="M548.7,770.0 C576.7,770.0 576.7,806.0 604.7,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="792.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DjangoFilterBackend 启用筛选后端</text>
+<path d="M548.7,770.0 C576.7,770.0 576.7,842.0 604.7,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="604.7" y="828.0" width="236.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="616.7" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filter_fields 指定可筛选字段</text>
 </svg>

@@ -1,77 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="813" viewBox="0 0 780 813" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="780" height="813" fill="#ffffff"/>
-<rect x="24.0" y="383.5" width="250.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="406.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 84 · 朴素贝叶斯算法</text>
-<path d="M274.8,406.5 C307.8,406.5 307.8,105.5 340.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="340.8" y="88.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="354.8" y="105.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">贝叶斯定理</text>
-<path d="M438.8,105.5 C466.8,105.5 466.8,37.5 494.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">先验概率</text>
-<path d="M438.8,105.5 C466.8,105.5 466.8,71.5 494.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">主观概率</text>
-<path d="M438.8,105.5 C466.8,105.5 466.8,105.5 494.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">似然性</text>
-<path d="M438.8,105.5 C466.8,105.5 466.8,139.5 494.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">后验概率</text>
-<path d="M438.8,105.5 C466.8,105.5 466.8,173.5 494.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">可以通过已知的事实和收集的证据来推断…</text>
-<path d="M274.8,406.5 C307.8,406.5 307.8,228.0 340.8,228.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="340.8" y="211.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="354.8" y="228.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">朴素贝叶斯</text>
-<path d="M274.8,406.5 C307.8,406.5 307.8,469.5 340.8,469.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="340.8" y="452.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="354.8" y="469.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法原理</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,282.5 494.8,282.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="269.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="282.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">训练阶段</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,316.5 494.8,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="303.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预测阶段</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,350.5 494.8,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="337.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">代码实现</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,384.5 494.8,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="371.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">计算先验概率</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,418.5 494.8,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="405.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">计算条件概率</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,452.5 494.8,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="439.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cut</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,486.5 494.8,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="473.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dict</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,520.5 494.8,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="507.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,554.5 494.8,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="541.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,588.5 494.8,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="575.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GaussianNB</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,622.5 494.8,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="609.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">navie_bayes</text>
-<path d="M438.8,469.5 C466.8,469.5 466.8,656.5 494.8,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="643.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BernoulliNB</text>
-<path d="M274.8,406.5 C307.8,406.5 307.8,741.5 340.8,741.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="340.8" y="724.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="354.8" y="741.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法优缺点</text>
-<path d="M438.8,741.5 C466.8,741.5 466.8,707.5 494.8,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="694.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">逻辑简单容易实现，适合大规模数据集</text>
-<path d="M438.8,741.5 C466.8,741.5 466.8,741.5 494.8,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="728.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运算开销较小</text>
-<path d="M438.8,741.5 C466.8,741.5 466.8,775.5 494.8,775.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="494.8" y="762.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="506.8" y="775.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">受噪声和无关属性影响小</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="714" height="772" viewBox="0 0 714 772" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="714" height="772" fill="#ffffff"/>
+<rect x="24.0" y="363.0" width="250.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="386.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 84 · 朴素贝叶斯算法</text>
+<path d="M274.8,386.0 C307.8,386.0 307.8,92.0 340.8,92.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="340.8" y="75.0" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="354.8" y="92.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">贝叶斯定理</text>
+<path d="M438.8,92.0 C466.8,92.0 466.8,38.0 494.8,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="24.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">P(A|B) 由先验与似然更新</text>
+<path d="M438.8,92.0 C466.8,92.0 466.8,74.0 494.8,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="60.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">先验概率来自经验或统计</text>
+<path d="M438.8,92.0 C466.8,92.0 466.8,110.0 494.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="96.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">似然性为类条件下特征概率</text>
+<path d="M438.8,92.0 C466.8,92.0 466.8,146.0 494.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="132.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">后验概率是更新后的信念</text>
+<path d="M274.8,386.0 C307.8,386.0 307.8,252.0 340.8,252.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="340.8" y="235.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="354.8" y="252.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">朴素贝叶斯</text>
+<path d="M438.8,252.0 C466.8,252.0 466.8,198.0 494.8,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="184.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征条件独立性假设</text>
+<path d="M438.8,252.0 C466.8,252.0 466.8,234.0 494.8,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="220.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">类条件概率连乘求似然</text>
+<path d="M438.8,252.0 C466.8,252.0 466.8,270.0 494.8,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="256.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">避免估计特征联合分布</text>
+<path d="M438.8,252.0 C466.8,252.0 466.8,306.0 494.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="292.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">适合高维文本分类</text>
+<path d="M274.8,386.0 C307.8,386.0 307.8,448.0 340.8,448.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="340.8" y="431.0" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="354.8" y="448.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法原理</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,358.0 494.8,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="344.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">先验概率按类别占比估计</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,394.0 494.8,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="380.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">条件概率按类内频次估计</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,430.0 494.8,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="416.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">后验正比于先验乘似然</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,466.0 494.8,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="452.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">argmax 选择最高后验类别</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,502.0 494.8,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="488.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GaussianNB 处理连续特征</text>
+<path d="M438.8,448.0 C466.8,448.0 466.8,538.0 494.8,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="524.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">predict_proba 输出类别概率</text>
+<path d="M274.8,386.0 C307.8,386.0 307.8,662.0 340.8,662.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="340.8" y="645.0" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="354.8" y="662.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法优缺点</text>
+<path d="M438.8,662.0 C466.8,662.0 466.8,590.0 494.8,590.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="576.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">逻辑简单适合大规模数据</text>
+<path d="M438.8,662.0 C466.8,662.0 466.8,626.0 494.8,626.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="612.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">训练与预测运算开销小</text>
+<path d="M438.8,662.0 C466.8,662.0 466.8,662.0 494.8,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="648.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对噪声和无关特征不敏感</text>
+<path d="M438.8,662.0 C466.8,662.0 466.8,698.0 494.8,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="684.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征强相关时分类效果下降</text>
+<path d="M438.8,662.0 C466.8,662.0 466.8,734.0 494.8,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="720.0" width="195.2" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">独立性假设限制模型精度</text>
 </svg>

@@ -1,110 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="732" height="1146" viewBox="0 0 732 1146" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="732" height="1146" fill="#ffffff"/>
-<rect x="24.0" y="550.0" width="248.3" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="573.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 68 · NumPy的应用-1</text>
-<path d="M272.2,573.0 C305.2,573.0 305.2,224.5 338.2,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="207.5" width="210.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="352.2" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建数组对象</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,37.5 604.2,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eye</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,71.5 604.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,105.5 604.2,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ones</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,139.5 604.2,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">full</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,173.5 604.2,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="160.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">array</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,207.5 604.2,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">zeros</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,241.5 604.2,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">arange</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,275.5 604.2,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="262.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">imread</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,309.5 604.2,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="296.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndarray</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,343.5 604.2,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="330.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linspace</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,377.5 604.2,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="364.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">logspace</text>
-<path d="M548.2,224.5 C576.2,224.5 576.2,411.5 604.2,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="398.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fromiter</text>
-<path d="M272.2,573.0 C305.2,573.0 305.2,564.5 338.2,564.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="547.5" width="210.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="352.2" y="564.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组对象的属性</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,462.5 604.2,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="449.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">size</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,496.5 604.2,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="483.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndim</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,530.5 604.2,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="517.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">shape</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,564.5 604.2,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="551.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dtype</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,598.5 604.2,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="585.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nbytes</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,632.5 604.2,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="619.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndarray</text>
-<path d="M548.2,564.5 C576.2,564.5 576.2,666.5 604.2,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="653.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">itemsize</text>
-<path d="M272.2,573.0 C305.2,573.0 305.2,870.5 338.2,870.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="853.5" width="210.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="352.2" y="870.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组的索引运算</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,717.5 604.2,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="704.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">普通索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,751.5 604.2,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="738.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">切片索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,785.5 604.2,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="772.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">花式索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,819.5 604.2,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="806.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">布尔索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,853.5 604.2,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="840.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">开始索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,887.5 604.2,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="874.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">结束索引</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,921.5 604.2,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="908.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">跨度</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,955.5 604.2,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="942.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,989.5 604.2,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="976.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tuple</text>
-<path d="M548.2,870.5 C576.2,870.5 576.2,1023.5 604.2,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="1010.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndarray</text>
-<path d="M272.2,573.0 C305.2,573.0 305.2,1091.5 338.2,1091.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="1074.5" width="210.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="352.2" y="1091.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">案例：通过数组切片处理图像</text>
-<path d="M548.2,1091.5 C576.2,1091.5 576.2,1074.5 604.2,1074.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="1061.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="1074.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">guido_image</text>
-<path d="M548.2,1091.5 C576.2,1091.5 576.2,1108.5 604.2,1108.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="604.2" y="1095.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="616.2" y="1108.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.imshow</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="755" height="844" viewBox="0 0 755 844" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="755" height="844" fill="#ffffff"/>
+<rect x="24.0" y="399.0" width="248.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="422.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 68 · NumPy的应用-1</text>
+<path d="M272.2,422.0 C305.2,422.0 305.2,128.0 338.2,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="111.0" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="352.2" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建数组对象</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,38.0 520.2,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="24.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">array 函数由列表建数组</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,74.0 520.2,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="60.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">arange(起,止,步长) 等差数列</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,110.0 520.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="96.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">linspace(起,止,num) 等分</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,146.0 520.2,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="132.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">zeros/ones/full 填充数组</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,182.0 520.2,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="168.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eye(n) 创建单位矩阵</text>
+<path d="M464.2,128.0 C492.2,128.0 492.2,218.0 520.2,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="204.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random.rand/randint 随机数组</text>
+<path d="M272.2,422.0 C305.2,422.0 305.2,342.0 338.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="325.0" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="352.2" y="342.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组对象的属性</text>
+<path d="M464.2,342.0 C492.2,342.0 492.2,270.0 520.2,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="256.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">shape 获取行列形状</text>
+<path d="M464.2,342.0 C492.2,342.0 492.2,306.0 520.2,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="292.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndim 获取维度数</text>
+<path d="M464.2,342.0 C492.2,342.0 492.2,342.0 520.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="328.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dtype 获取元素类型</text>
+<path d="M464.2,342.0 C492.2,342.0 492.2,378.0 520.2,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="364.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">size 获取元素个数</text>
+<path d="M464.2,342.0 C492.2,342.0 492.2,414.0 520.2,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="400.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">itemsize/nbytes 内存字节数</text>
+<path d="M272.2,422.0 C305.2,422.0 305.2,538.0 338.2,538.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="521.0" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="352.2" y="538.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组的索引运算</text>
+<path d="M464.2,538.0 C492.2,538.0 492.2,466.0 520.2,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="452.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[i] 正向或负向索引</text>
+<path d="M464.2,538.0 C492.2,538.0 492.2,502.0 520.2,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="488.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[起:止:步长] 切片</text>
+<path d="M464.2,538.0 C492.2,538.0 492.2,538.0 520.2,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="524.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[[i,j]] 花式索引</text>
+<path d="M464.2,538.0 C492.2,538.0 492.2,574.0 520.2,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="560.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[布尔数组] 布尔筛选</text>
+<path d="M464.2,538.0 C492.2,538.0 492.2,610.0 520.2,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="596.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&amp; | ~ 组合布尔条件</text>
+<path d="M272.2,422.0 C305.2,422.0 305.2,734.0 338.2,734.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="717.0" width="126.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="352.2" y="734.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">案例：图像切片</text>
+<path d="M464.2,734.0 C492.2,734.0 492.2,662.0 520.2,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="648.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">imread 读图为三维数组</text>
+<path d="M464.2,734.0 C492.2,734.0 492.2,698.0 520.2,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="684.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[::-1] 上下翻转图像</text>
+<path d="M464.2,734.0 C492.2,734.0 492.2,734.0 520.2,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="720.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[:, ::-1] 左右翻转</text>
+<path d="M464.2,734.0 C492.2,734.0 492.2,770.0 520.2,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="756.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[::4, ::4] 隔点降采样</text>
+<path d="M464.2,734.0 C492.2,734.0 492.2,806.0 520.2,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="520.2" y="792.0" width="211.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="532.2" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[r1:r2, c1:c2] 裁剪区域</text>
 </svg>

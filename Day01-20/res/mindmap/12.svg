@@ -1,98 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1082" height="660" viewBox="0 0 1082 660" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1082" height="660" fill="#ffffff"/>
-<rect x="398.6" y="307.0" width="284.8" height="46" rx="10" fill="#35495E"/>
-<text x="418.6" y="330.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 12 · 常用数据结构之集合</text>
-<path d="M683.4,330.0 C716.4,330.0 716.4,156.5 749.4,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="749.4" y="139.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="763.4" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建集合</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,37.5 903.4,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="24.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">温馨提示</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,71.5 903.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="58.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,105.5 903.4,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="92.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,139.5 903.4,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="126.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,173.5 903.4,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="160.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bool</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,207.5 903.4,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="194.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">float</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,241.5 903.4,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="228.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tuple</text>
-<path d="M847.4,156.5 C875.4,156.5 875.4,275.5 903.4,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="262.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hashable</text>
-<path d="M683.4,330.0 C716.4,330.0 716.4,330.0 749.4,330.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="749.4" y="313.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="763.4" y="330.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元素的遍历</text>
-<path d="M847.4,330.0 C875.4,330.0 875.4,330.0 903.4,330.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="316.5" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="330.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">len</text>
-<path d="M683.4,330.0 C716.4,330.0 716.4,503.5 749.4,503.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="749.4" y="486.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="763.4" y="503.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">集合的运算</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,384.5 903.4,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="371.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">成员运算</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,418.5 903.4,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="405.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">二元运算</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,452.5 903.4,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="439.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">比较运算</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,486.5 903.4,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="473.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,520.5 903.4,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="507.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">issubset</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,554.5 903.4,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="541.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">issuperset</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,588.5 903.4,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="575.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">intersection</text>
-<path d="M847.4,503.5 C875.4,503.5 875.4,622.5 903.4,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="903.4" y="609.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="915.4" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">intersection_update</text>
-<path d="M398.6,330.0 C365.6,330.0 365.6,253.5 332.6,253.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="234.6" y="236.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="248.6" y="253.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">集合的方法</text>
-<path d="M234.6,253.5 C206.6,253.5 206.6,185.5 178.6,185.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="172.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="185.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pop</text>
-<path d="M234.6,253.5 C206.6,253.5 206.6,219.5 178.6,219.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="206.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="219.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">remove</text>
-<path d="M234.6,253.5 C206.6,253.5 206.6,253.5 178.6,253.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="240.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="253.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">discard</text>
-<path d="M234.6,253.5 C206.6,253.5 206.6,287.5 178.6,287.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="274.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="287.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">KeyError</text>
-<path d="M234.6,253.5 C206.6,253.5 206.6,321.5 178.6,321.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="308.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="321.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isdisjoint</text>
-<path d="M398.6,330.0 C365.6,330.0 365.6,423.5 332.6,423.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="234.6" y="406.5" width="98.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="248.6" y="423.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">不可变集合</text>
-<path d="M234.6,423.5 C206.6,423.5 206.6,372.5 178.6,372.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="359.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="372.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
-<path d="M234.6,423.5 C206.6,423.5 206.6,406.5 178.6,406.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="393.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="406.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
-<path d="M234.6,423.5 C206.6,423.5 206.6,440.5 178.6,440.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="427.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="440.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tuple</text>
-<path d="M234.6,423.5 C206.6,423.5 206.6,474.5 178.6,474.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="461.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="474.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">frozenset</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1278" height="576" viewBox="0 0 1278 576" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1278" height="576" fill="#ffffff"/>
+<rect x="496.8" y="265.0" width="284.8" height="46" rx="10" fill="#35495E"/>
+<text x="516.8" y="288.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 12 · 常用数据结构之集合</text>
+<path d="M781.5,288.0 C814.5,288.0 814.5,110.0 847.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="847.5" y="93.0" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="861.5" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建集合</text>
+<path d="M945.5,110.0 C973.5,110.0 973.5,38.0 1001.5,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="24.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{元素, ...} 字面量创建集合</text>
+<path d="M945.5,110.0 C973.5,110.0 973.5,74.0 1001.5,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="60.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set(可迭代对象) 转换为集合</text>
+<path d="M945.5,110.0 C973.5,110.0 973.5,110.0 1001.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="96.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set() 创建空集合</text>
+<path d="M945.5,110.0 C973.5,110.0 973.5,146.0 1001.5,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="132.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">生成式 {x for x in 序列}</text>
+<path d="M945.5,110.0 C973.5,110.0 973.5,182.0 1001.5,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="168.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元素必须是 hashable 类型</text>
+<path d="M781.5,288.0 C814.5,288.0 814.5,270.0 847.5,270.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="847.5" y="253.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="861.5" y="270.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元素的遍历</text>
+<path d="M945.5,270.0 C973.5,270.0 973.5,234.0 1001.5,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="220.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">for 元素 in 集合 遍历元素</text>
+<path d="M945.5,270.0 C973.5,270.0 973.5,270.0 1001.5,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="256.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">len(集合) 获取元素个数</text>
+<path d="M945.5,270.0 C973.5,270.0 973.5,306.0 1001.5,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="292.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">集合无序，不支持索引</text>
+<path d="M781.5,288.0 C814.5,288.0 814.5,448.0 847.5,448.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="847.5" y="431.0" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="861.5" y="448.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">集合的运算</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,358.0 1001.5,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="344.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">in / not in 判断成员</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,394.0 1001.5,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="380.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&amp; 或 intersection() 求交集</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,430.0 1001.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="416.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">| 或 union() 求并集</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,466.0 1001.5,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="452.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">- 或 difference() 求差集</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,502.0 1001.5,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="488.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">^ 或 symmetric_difference() 对称差</text>
+<path d="M945.5,448.0 C973.5,448.0 973.5,538.0 1001.5,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.5" y="524.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.5" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&lt;= / &gt;= 或 issubset() 判断子集超集</text>
+<path d="M496.8,288.0 C463.8,288.0 463.8,208.0 430.8,208.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="191.0" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="346.8" y="208.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">集合的方法</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,118.0 276.8,118.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="104.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="118.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">add(元素) 添加元素</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,154.0 276.8,154.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="140.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="154.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">remove(元素) 删除，缺失报错</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,190.0 276.8,190.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="176.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">discard(元素) 删除，缺失不报错</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,226.0 276.8,226.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="212.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="226.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pop() 随机删除并返回元素</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,262.0 276.8,262.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="248.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="262.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">clear() 清空集合</text>
+<path d="M332.8,208.0 C304.8,208.0 304.8,298.0 276.8,298.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="284.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="298.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isdisjoint() 判断有无交集</text>
+<path d="M496.8,288.0 C463.8,288.0 463.8,404.0 430.8,404.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="387.0" width="98.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="346.8" y="404.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">不可变集合</text>
+<path d="M332.8,404.0 C304.8,404.0 304.8,350.0 276.8,350.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="336.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="350.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">frozenset(可迭代对象) 创建</text>
+<path d="M332.8,404.0 C304.8,404.0 304.8,386.0 276.8,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不可变，可计算哈希</text>
+<path d="M332.8,404.0 C304.8,404.0 304.8,422.0 276.8,422.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="408.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="422.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">可作为集合元素或字典键</text>
+<path d="M332.8,404.0 C304.8,404.0 304.8,458.0 276.8,458.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="444.0" width="252.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="458.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">支持交集并集等运算</text>
 </svg>

@@ -1,119 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="830" viewBox="0 0 1448 830" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1448" height="830" fill="#ffffff"/>
-<rect x="564.9" y="392.0" width="318.8" height="46" rx="10" fill="#35495E"/>
-<text x="584.9" y="415.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 98 · 项目部署上线和性能调优</text>
-<path d="M883.7,415.0 C916.7,415.0 916.7,122.5 949.7,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="949.7" y="105.5" width="209.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="963.7" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">准备上线</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,37.5 1215.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="24.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DEBUG</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,71.5 1215.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="58.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALLOWED_HOSTS</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,105.5 1215.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="92.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECURE_HSTS_SECONDS</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,139.5 1215.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="126.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECURE_HSTS_PRELOAD</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,173.5 1215.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="160.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECURE_SSL_REDIRECT</text>
-<path d="M1159.0,122.5 C1187.0,122.5 1187.0,207.5 1215.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="194.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECURE_CONTENT_TYPE_NOSNIFF</text>
-<path d="M883.7,415.0 C916.7,415.0 916.7,262.0 949.7,262.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="949.7" y="245.0" width="209.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="963.7" y="262.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">更新服务器Python环境到3.x</text>
-<path d="M1159.0,262.0 C1187.0,262.0 1187.0,262.0 1215.0,262.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="248.5" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="262.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">安装底层依赖库</text>
-<path d="M883.7,415.0 C916.7,415.0 916.7,418.5 949.7,418.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="949.7" y="401.5" width="209.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="963.7" y="418.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">项目目录结构</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,316.5 1215.0,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="303.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">code</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,350.5 1215.0,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="337.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">conf</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,384.5 1215.0,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="371.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">logs</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,418.5 1215.0,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="405.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">stat</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,452.5 1215.0,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="439.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">venv</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,486.5 1215.0,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="473.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cert</text>
-<path d="M1159.0,418.5 C1187.0,418.5 1187.0,520.5 1215.0,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="507.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">project</text>
-<path d="M883.7,415.0 C916.7,415.0 916.7,639.5 949.7,639.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="949.7" y="622.5" width="209.3" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="963.7" y="639.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">uWSGI的配置</text>
-<path d="M1159.0,639.5 C1187.0,639.5 1187.0,571.5 1215.0,571.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="558.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="571.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">uwsgi</text>
-<path d="M1159.0,639.5 C1187.0,639.5 1187.0,605.5 1215.0,605.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="592.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="605.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">name</text>
-<path d="M1159.0,639.5 C1187.0,639.5 1187.0,639.5 1215.0,639.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="626.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="639.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">master</text>
-<path d="M1159.0,639.5 C1187.0,639.5 1187.0,673.5 1215.0,673.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="660.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="673.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">processes</text>
-<path d="M1159.0,639.5 C1187.0,639.5 1187.0,707.5 1215.0,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="694.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pythonhome</text>
-<path d="M883.7,415.0 C916.7,415.0 916.7,775.5 949.7,775.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="949.7" y="758.5" width="209.3" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="963.7" y="775.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Nginx的配置</text>
-<path d="M1159.0,775.5 C1187.0,775.5 1187.0,758.5 1215.0,758.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="745.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="758.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">负载均衡配置</text>
-<path d="M1159.0,775.5 C1187.0,775.5 1187.0,792.5 1215.0,792.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1215.0" y="779.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1227.0" y="792.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">STATIC_ROOT</text>
-<path d="M564.9,415.0 C531.9,415.0 531.9,255.0 498.9,255.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.6" y="238.0" width="209.3" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="303.6" y="255.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Keepalived</text>
-<path d="M564.9,415.0 C531.9,415.0 531.9,343.5 498.9,343.5" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.6" y="326.5" width="209.3" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
-<text x="303.6" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">MySQL主从复制</text>
-<path d="M289.6,343.5 C261.6,343.5 261.6,309.5 233.6,309.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="296.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mysqld</text>
-<path d="M289.6,343.5 C261.6,343.5 261.6,343.5 233.6,343.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="330.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">socket</text>
-<path d="M289.6,343.5 C261.6,343.5 261.6,377.5 233.6,377.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="364.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">datadir</text>
-<path d="M564.9,415.0 C531.9,415.0 531.9,432.0 498.9,432.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.6" y="415.0" width="209.3" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
-<text x="303.6" y="432.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Docker</text>
-<path d="M289.6,432.0 C261.6,432.0 261.6,432.0 233.6,432.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="418.5" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="432.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">创建镜像文件</text>
-<path d="M564.9,415.0 C531.9,415.0 531.9,503.5 498.9,503.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.6" y="486.5" width="209.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="303.6" y="503.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Supervisor</text>
-<path d="M289.6,503.5 C261.6,503.5 261.6,486.5 233.6,486.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="473.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ini</text>
-<path d="M289.6,503.5 C261.6,503.5 261.6,520.5 233.6,520.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="507.0" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fangtx.ini</text>
-<path d="M564.9,415.0 C531.9,415.0 531.9,575.0 498.9,575.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.6" y="558.0" width="209.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="303.6" y="575.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他服务</text>
-<path d="M289.6,575.0 C261.6,575.0 261.6,575.0 233.6,575.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="561.5" width="209.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="575.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">常用开源软件</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1518" height="1112" viewBox="0 0 1518 1112" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1518" height="1112" fill="#ffffff"/>
+<rect x="599.9" y="533.0" width="318.8" height="46" rx="10" fill="#35495E"/>
+<text x="619.9" y="556.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 98 · 项目部署上线和性能调优</text>
+<path d="M918.7,556.0 C951.7,556.0 951.7,110.0 984.7,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="984.7" y="93.0" width="209.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="998.7" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">准备上线</text>
+<path d="M1194.0,110.0 C1222.0,110.0 1222.0,38.0 1250.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="24.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">manage.py check --deploy 检查</text>
+<path d="M1194.0,110.0 C1222.0,110.0 1222.0,74.0 1250.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="60.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DEBUG=False 关闭调试</text>
+<path d="M1194.0,110.0 C1222.0,110.0 1222.0,110.0 1250.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="96.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALLOWED_HOSTS 配置允许域名</text>
+<path d="M1194.0,110.0 C1222.0,110.0 1222.0,146.0 1250.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="132.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SECURE_SSL_REDIRECT 强制 HTTPS</text>
+<path d="M1194.0,110.0 C1222.0,110.0 1222.0,182.0 1250.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="168.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">敏感配置放环境变量</text>
+<path d="M918.7,556.0 C951.7,556.0 951.7,324.0 984.7,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="984.7" y="307.0" width="209.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="998.7" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">更新服务器Python环境到3.x</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,234.0 1250.0,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="220.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yum install 安装编译依赖</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,270.0 1250.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="256.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wget 下载源码并校验</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,306.0 1250.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="292.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">configure --prefix 指定安装路径</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,342.0 1250.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="328.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">make &amp;&amp; make install 编译安装</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,378.0 1250.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="364.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">export PATH 配置环境变量</text>
+<path d="M1194.0,324.0 C1222.0,324.0 1222.0,414.0 1250.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="400.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ln -s 注册 python3 软链接</text>
+<path d="M918.7,556.0 C951.7,556.0 951.7,538.0 984.7,538.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="984.7" y="521.0" width="209.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="998.7" y="538.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">项目目录结构</text>
+<path d="M1194.0,538.0 C1222.0,538.0 1222.0,466.0 1250.0,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="452.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">code 存放项目代码</text>
+<path d="M1194.0,538.0 C1222.0,538.0 1222.0,502.0 1250.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="488.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">conf 存放 Nginx 与 uWSGI 配置</text>
+<path d="M1194.0,538.0 C1222.0,538.0 1222.0,538.0 1250.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="524.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">logs 存放访问与错误日志</text>
+<path d="M1194.0,538.0 C1222.0,538.0 1222.0,574.0 1250.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="560.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">stat 存放静态资源</text>
+<path d="M1194.0,538.0 C1222.0,538.0 1222.0,610.0 1250.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="596.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">venv 存放虚拟环境</text>
+<path d="M918.7,556.0 C951.7,556.0 951.7,752.0 984.7,752.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="984.7" y="735.0" width="209.3" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="998.7" y="752.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">uWSGI的配置</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,662.0 1250.0,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="648.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip install uwsgi 安装</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,698.0 1250.0,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="684.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">uwsgi 段配置主进程</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,734.0 1250.0,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="720.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">master 与 processes 设进程数</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,770.0 1250.0,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="756.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chdir 与 module 指定项目</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,806.0 1250.0,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="792.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">socket 指定通信地址端口</text>
+<path d="M1194.0,752.0 C1222.0,752.0 1222.0,842.0 1250.0,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="828.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nohup uwsgi --ini 后台启动</text>
+<path d="M918.7,556.0 C951.7,556.0 951.7,984.0 984.7,984.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="984.7" y="967.0" width="209.3" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="998.7" y="984.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Nginx的配置</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,894.0 1250.0,894.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="880.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="894.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">worker_processes auto 匹配 CPU</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,930.0 1250.0,930.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="916.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="930.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">upstream 与 weight 负载均衡</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,966.0 1250.0,966.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="952.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="966.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">server listen 监听端口</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,1002.0 1250.0,1002.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="988.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="1002.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">location / 用 uwsgi_pass 转发</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,1038.0 1250.0,1038.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="1024.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="1038.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">location /static/ 用 alias 托管</text>
+<path d="M1194.0,984.0 C1222.0,984.0 1222.0,1074.0 1250.0,1074.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1250.0" y="1060.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1262.0" y="1074.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nginx -s reload 重载配置</text>
+<path d="M599.9,556.0 C566.9,556.0 566.9,262.0 533.9,262.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="324.6" y="245.0" width="209.3" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="338.6" y="262.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">MySQL主从复制</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,172.0 268.6,172.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="158.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="172.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">server-id 区分主从节点</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,208.0 268.6,208.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="208.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">log-bin 开启二进制日志</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,244.0 268.6,244.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">grant replication slave 授权</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,280.0 268.6,280.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="266.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="280.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show master status 看日志位点</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,316.0 268.6,316.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="302.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="316.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">change master to 配置主库</text>
+<path d="M324.6,262.0 C296.6,262.0 296.6,352.0 268.6,352.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="338.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">start slave 启动复制</text>
+<path d="M599.9,556.0 C566.9,556.0 566.9,476.0 533.9,476.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="324.6" y="459.0" width="209.3" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="338.6" y="476.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Docker</text>
+<path d="M324.6,476.0 C296.6,476.0 296.6,404.0 268.6,404.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">docker commit 保存容器为镜像</text>
+<path d="M324.6,476.0 C296.6,476.0 296.6,440.0 268.6,440.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">docker build -t 构建镜像</text>
+<path d="M324.6,476.0 C296.6,476.0 296.6,476.0 268.6,476.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">docker save 与 load 导入导出</text>
+<path d="M324.6,476.0 C296.6,476.0 296.6,512.0 268.6,512.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="498.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="512.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">docker tag 与 push 推送仓库</text>
+<path d="M324.6,476.0 C296.6,476.0 296.6,548.0 268.6,548.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="548.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">--link 建立容器通信</text>
+<path d="M599.9,556.0 C566.9,556.0 566.9,672.0 533.9,672.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="324.6" y="655.0" width="209.3" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="338.6" y="672.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Supervisor</text>
+<path d="M324.6,672.0 C296.6,672.0 296.6,600.0 268.6,600.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="586.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="600.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip install supervisor 安装</text>
+<path d="M324.6,672.0 C296.6,672.0 296.6,636.0 268.6,636.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="622.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="636.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">program 段定义被管进程</text>
+<path d="M324.6,672.0 C296.6,672.0 296.6,672.0 268.6,672.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="658.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="672.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">command 指定启动命令</text>
+<path d="M324.6,672.0 C296.6,672.0 296.6,708.0 268.6,708.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="694.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="708.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">autostart 与 autorestart 自动拉起</text>
+<path d="M324.6,672.0 C296.6,672.0 296.6,744.0 268.6,744.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="730.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="744.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">supervisorctl 管理进程</text>
+<path d="M599.9,556.0 C566.9,556.0 566.9,868.0 533.9,868.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="324.6" y="851.0" width="209.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="338.6" y="868.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他服务</text>
+<path d="M324.6,868.0 C296.6,868.0 296.6,796.0 268.6,796.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="782.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="796.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Nginx 与 HAProxy 做负载均衡</text>
+<path d="M324.6,868.0 C296.6,868.0 296.6,832.0 268.6,832.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="818.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="832.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Redis 做缓存与消息队列</text>
+<path d="M324.6,868.0 C296.6,868.0 296.6,868.0 268.6,868.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="854.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="868.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RabbitMQ 与 Kafka 做消息队列</text>
+<path d="M324.6,868.0 C296.6,868.0 296.6,904.0 268.6,904.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="890.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="904.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ElasticSearch 做全文检索</text>
+<path d="M324.6,868.0 C296.6,868.0 296.6,940.0 268.6,940.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="926.0" width="244.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="940.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Zabbix 与 Nagios 做监控告警</text>
 </svg>

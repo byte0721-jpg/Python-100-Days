@@ -1,38 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="737" height="364" viewBox="0 0 737 364" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="737" height="364" fill="#ffffff"/>
-<rect x="24.0" y="159.0" width="233.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="182.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 52 · 中间件的应用</text>
-<path d="M257.8,182.0 C290.8,182.0 290.8,122.5 323.8,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="323.8" y="105.5" width="144.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="337.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django中间件概述</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,37.5 524.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="24.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CommonMiddleware</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,71.5 524.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="58.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,105.5 524.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="92.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SecurityMiddleware</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,139.5 524.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="126.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CsrfViewMiddleware</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,173.5 524.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="160.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">XFrameOptionsMiddleware</text>
-<path d="M468.0,122.5 C496.0,122.5 496.0,207.5 524.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="194.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AuthenticationMiddleware</text>
-<path d="M257.8,182.0 C290.8,182.0 290.8,292.5 323.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="323.8" y="275.5" width="144.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="337.8" y="292.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">自定义中间件</text>
-<path d="M468.0,292.5 C496.0,292.5 496.0,258.5 524.0,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="245.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session</text>
-<path d="M468.0,292.5 C496.0,292.5 496.0,292.5 524.0,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="279.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__call__</text>
-<path d="M468.0,292.5 C496.0,292.5 496.0,326.5 524.0,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="524.0" y="313.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="536.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="783" height="720" viewBox="0 0 783 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="783" height="720" fill="#ffffff"/>
+<rect x="24.0" y="337.0" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 52 · 中间件的应用</text>
+<path d="M257.8,360.0 C290.8,360.0 290.8,128.0 323.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="111.0" width="144.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="337.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django中间件概述</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,38.0 524.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="24.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MIDDLEWARE 列表注册中间件</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,74.0 524.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="60.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">请求阶段按列表从上到下执行</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,110.0 524.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="96.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">响应阶段按列表从下到上执行</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,146.0 524.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="132.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware 提供 session</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,182.0 524.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="168.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CsrfViewMiddleware 防跨站伪造</text>
+<path d="M468.0,128.0 C496.0,128.0 496.0,218.0 524.0,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="204.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CommonMiddleware 处理斜杠</text>
+<path d="M257.8,360.0 C290.8,360.0 290.8,360.0 323.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="343.0" width="144.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="337.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">自定义函数中间件</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,270.0 524.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="256.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">中间件函数接收 get_response</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,306.0 524.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="292.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.path 判断访问路径</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,342.0 524.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="328.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.session 判断登录状态</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,378.0 524.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="364.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_ajax() 区分 Ajax 请求</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,414.0 524.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="400.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JsonResponse 返回未登录提示</text>
+<path d="M468.0,360.0 C496.0,360.0 496.0,450.0 524.0,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="436.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">redirect 携带 backurl 跳登录页</text>
+<path d="M257.8,360.0 C290.8,360.0 290.8,592.0 323.8,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="575.0" width="144.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="337.8" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">类中间件的钩子</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,502.0 524.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="488.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">process_request 请求到达时调用</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,538.0 524.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="524.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">process_view 执行视图前调用</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,574.0 524.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="560.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">process_response 返回响应时调用</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,610.0 524.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="596.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模板响应钩子渲染后调用</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,646.0 524.0,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="632.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">process_exception 视图异常时调用</text>
+<path d="M468.0,592.0 C496.0,592.0 496.0,682.0 524.0,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="668.0" width="235.3" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MiddlewareMixin 提供钩子基类</text>
 </svg>

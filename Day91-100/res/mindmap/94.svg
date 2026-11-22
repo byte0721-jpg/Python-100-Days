@@ -1,32 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="777" height="296" viewBox="0 0 777 296" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="777" height="296" fill="#ffffff"/>
-<rect x="24.0" y="125.0" width="261.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="148.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 94 · 网络API接口设计</text>
-<path d="M285.9,148.0 C318.9,148.0 318.9,105.5 351.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="351.9" y="88.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="365.9" y="105.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">设计原则</text>
-<path d="M435.9,105.5 C463.9,105.5 463.9,37.5 491.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">关键问题</text>
-<path d="M435.9,105.5 C463.9,105.5 463.9,71.5 491.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">根据业务实体而不是用户界面或操作来设…</text>
-<path d="M435.9,105.5 C463.9,105.5 463.9,105.5 491.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">上面的API接口并不是REST风格的</text>
-<path d="M435.9,105.5 C463.9,105.5 463.9,139.5 491.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JSON</text>
-<path d="M435.9,105.5 C463.9,105.5 463.9,173.5 491.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">XML</text>
-<path d="M285.9,148.0 C318.9,148.0 318.9,241.5 351.9,241.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="351.9" y="224.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="365.9" y="241.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">文档撰写</text>
-<path d="M435.9,241.5 C463.9,241.5 463.9,224.5 491.9,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="211.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GET</text>
-<path d="M435.9,241.5 C463.9,241.5 463.9,258.5 491.9,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="491.9" y="245.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="503.9" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">POST</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="722" height="488" viewBox="0 0 722 488" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="722" height="488" fill="#ffffff"/>
+<rect x="24.0" y="221.0" width="261.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="244.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 94 · 网络API接口设计</text>
+<path d="M285.9,244.0 C318.9,244.0 318.9,128.0 351.9,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="351.9" y="111.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="365.9" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">设计原则</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,38.0 491.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="24.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">按业务实体设计 URL</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,74.0 491.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="60.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">URL 见名知意定位资源</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,110.0 491.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="96.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTTP 方法表达资源操作</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,146.0 491.9,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="132.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">响应统一用 JSON 格式</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,182.0 491.9,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="168.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">避免返回 null 值</text>
+<path d="M435.9,128.0 C463.9,128.0 463.9,218.0 491.9,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="204.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">门面模式组合多个接口</text>
+<path d="M285.9,244.0 C318.9,244.0 318.9,360.0 351.9,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="351.9" y="343.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="365.9" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">文档撰写</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,270.0 491.9,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="256.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GET /资源/{id}/子资源 取列表</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,306.0 491.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="292.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">POST /资源 创建资源</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,342.0 491.9,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="328.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">全局返回码表定义状态</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,378.0 491.9,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="364.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">请求参数表注明位置和必填</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,414.0 491.9,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="400.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">响应体含 code/message/数据</text>
+<path d="M435.9,360.0 C463.9,360.0 463.9,450.0 491.9,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="491.9" y="436.0" width="206.5" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="503.9" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">YAPI 或 RAP2 管理接口文档</text>
 </svg>

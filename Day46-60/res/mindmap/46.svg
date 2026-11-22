@@ -1,77 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="835" height="796" viewBox="0 0 835 796" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="835" height="796" fill="#ffffff"/>
-<rect x="24.0" y="375.0" width="255.9" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="398.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 46 · Django快速上手</text>
-<path d="M279.9,398.0 C312.9,398.0 312.9,173.5 345.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="345.9" y="156.5" width="149.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="359.9" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Web应用机制和术语</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,37.5 551.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="24.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTTP协议</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,71.5 551.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="58.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">URL/URI</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,105.5 551.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="92.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">域名</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,139.5 551.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="126.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DNS</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,173.5 551.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="160.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">IP地址</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,207.5 551.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="194.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTTP</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,241.5 551.0,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="228.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">反向代理</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,275.5 551.0,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="262.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Web服务器</text>
-<path d="M495.0,173.5 C523.0,173.5 523.0,309.5 551.0,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="296.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Nginx</text>
-<path d="M279.9,398.0 C312.9,398.0 312.9,364.0 345.9,364.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="345.9" y="347.0" width="149.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="359.9" y="364.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django概述</text>
-<path d="M495.0,364.0 C523.0,364.0 523.0,364.0 551.0,364.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="350.5" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="364.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python的Web框架有上百个，比它的关键…</text>
-<path d="M279.9,398.0 C312.9,398.0 312.9,588.5 345.9,588.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="345.9" y="571.5" width="149.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="359.9" y="588.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">快速上手</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,418.5 551.0,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="405.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">第一个Django项目</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,452.5 551.0,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="439.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">创建自己的应用</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,486.5 551.0,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="473.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用模板</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,520.5 551.0,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="507.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,554.5 551.0,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="541.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DIRS</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,588.5 551.0,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="575.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">first</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,622.5 551.0,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="609.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">python</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,656.5 551.0,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="643.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,690.5 551.0,690.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="677.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="690.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TEMPLATES</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,724.5 551.0,724.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="711.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="724.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">migrations</text>
-<path d="M495.0,588.5 C523.0,588.5 523.0,758.5 551.0,758.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="551.0" y="745.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="563.0" y="758.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hellodjango</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="779" height="880" viewBox="0 0 779 880" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="779" height="880" fill="#ffffff"/>
+<rect x="24.0" y="417.0" width="255.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="440.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 46 · Django快速上手</text>
+<path d="M279.9,440.0 C312.9,440.0 312.9,110.0 345.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="345.9" y="93.0" width="149.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="359.9" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Web应用机制和术语</text>
+<path d="M495.0,110.0 C523.0,110.0 523.0,38.0 551.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="24.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">URL/URI 唯一标识网络资源</text>
+<path d="M495.0,110.0 C523.0,110.0 523.0,74.0 551.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="60.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DNS 把域名解析成 IP 地址</text>
+<path d="M495.0,110.0 C523.0,110.0 523.0,110.0 551.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="96.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTTP 在 TCP 上传输请求响应</text>
+<path d="M495.0,110.0 C523.0,110.0 523.0,146.0 551.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="132.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">反向代理 转发并返回资源</text>
+<path d="M495.0,110.0 C523.0,110.0 523.0,182.0 551.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="168.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Nginx 作 Web 服务器与缓存</text>
+<path d="M279.9,440.0 C312.9,440.0 312.9,306.0 345.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="345.9" y="289.0" width="149.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="359.9" y="306.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django概述</text>
+<path d="M495.0,306.0 C523.0,306.0 523.0,234.0 551.0,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="220.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MTV 分为模型、模板、视图</text>
+<path d="M495.0,306.0 C523.0,306.0 523.0,270.0 551.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="256.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模型 M 负责数据与持久化</text>
+<path d="M495.0,306.0 C523.0,306.0 523.0,306.0 551.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="292.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">模板 T 负责页面显示</text>
+<path d="M495.0,306.0 C523.0,306.0 523.0,342.0 551.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="328.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">视图 V 接收请求返回响应</text>
+<path d="M495.0,306.0 C523.0,306.0 523.0,378.0 551.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="364.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">控制器职责由框架与视图承担</text>
+<path d="M279.9,440.0 C312.9,440.0 312.9,520.0 345.9,520.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="345.9" y="503.0" width="149.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="359.9" y="520.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">快速上手</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,430.0 551.0,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="416.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">startproject 创建项目</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,466.0 551.0,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="452.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">manage.py startapp 创建应用</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,502.0 551.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="488.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">settings.py 配语言与时区</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,538.0 551.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="524.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">path(路径, 视图) 映射 URL</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,574.0 551.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="560.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HttpResponse 返回响应内容</text>
+<path d="M495.0,520.0 C523.0,520.0 523.0,610.0 551.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="596.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">runserver 启动开发服务器</text>
+<path d="M279.9,440.0 C312.9,440.0 312.9,752.0 345.9,752.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="345.9" y="735.0" width="149.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="359.9" y="752.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用模板</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,662.0 551.0,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="648.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">templates 目录存放模板页</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,698.0 551.0,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="684.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{{ 变量 }} 输出上下文数据</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,734.0 551.0,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="720.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{% for %} 循环渲染列表</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,770.0 551.0,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="756.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">{% if %} 按条件渲染</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,806.0 551.0,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="792.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render 渲染模板并传上下文</text>
+<path d="M495.0,752.0 C523.0,752.0 523.0,842.0 551.0,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="551.0" y="828.0" width="204.6" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="563.0" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TEMPLATES.DIRS 配置模板路径</text>
 </svg>

@@ -1,83 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="742" height="857" viewBox="0 0 742 857" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="742" height="857" fill="#ffffff"/>
-<rect x="24.0" y="405.5" width="274.6" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="428.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 72 · 深入浅出pandas-1</text>
-<path d="M298.6,428.5 C331.6,428.5 331.6,71.5 364.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="364.6" y="54.5" width="186.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="378.6" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建Series对象</text>
-<path d="M550.8,71.5 C578.8,71.5 578.8,37.5 606.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="24.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
-<path d="M550.8,71.5 C578.8,71.5 578.8,71.5 606.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="58.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index</text>
-<path d="M550.8,71.5 C578.8,71.5 578.8,105.5 606.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="92.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
-<path d="M298.6,428.5 C331.6,428.5 331.6,275.5 364.6,275.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="364.6" y="258.5" width="186.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="378.6" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Series对象的运算</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,156.5 606.8,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="143.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">标量运算</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,190.5 606.8,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="177.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矢量运算</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,224.5 606.8,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="211.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引运算</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,258.5 606.8,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="245.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">普通索引</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,292.5 606.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="279.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">切片索引</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,326.5 606.8,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="313.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">花式索引</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,360.5 606.8,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="347.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">布尔索引</text>
-<path d="M550.8,275.5 C578.8,275.5 578.8,394.5 606.8,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="381.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
-<path d="M298.6,428.5 C331.6,428.5 331.6,632.5 364.6,632.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="364.6" y="615.5" width="186.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="378.6" y="632.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Series对象的属性和方法</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,445.5 606.8,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="432.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">统计相关</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,479.5 606.8,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="466.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">处理数据</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,513.5 606.8,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="500.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">取头部值和排序</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,547.5 606.8,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="534.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">绘制图表</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,581.5 606.8,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="568.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,615.5 606.8,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="602.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mode()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,649.5 606.8,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="636.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isna()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,683.5 606.8,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="670.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mask()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,717.5 606.8,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="704.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">notna()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,751.5 606.8,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="738.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,785.5 606.8,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="772.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">apply()</text>
-<path d="M550.8,632.5 C578.8,632.5 578.8,819.5 606.8,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="606.8" y="806.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="618.8" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">unique()</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1334" height="628" viewBox="0 0 1334 628" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1334" height="628" fill="#ffffff"/>
+<rect x="530.0" y="291.0" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="550.0" y="314.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 72 · 深入浅出pandas-1</text>
+<path d="M804.6,314.0 C837.6,314.0 837.6,74.0 870.6,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="870.6" y="57.0" width="151.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="884.6" y="74.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建 Series 对象</text>
+<path d="M1022.5,74.0 C1050.5,74.0 1050.5,38.0 1078.5,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="24.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series(data=列表) 建序列</text>
+<path d="M1022.5,74.0 C1050.5,74.0 1050.5,74.0 1078.5,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="60.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index= 指定标签索引</text>
+<path d="M1022.5,74.0 C1050.5,74.0 1050.5,110.0 1078.5,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="96.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字典键值创建 Series</text>
+<path d="M804.6,314.0 C837.6,314.0 837.6,198.0 870.6,198.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="870.6" y="181.0" width="151.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="884.6" y="198.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Series 对象的运算</text>
+<path d="M1022.5,198.0 C1050.5,198.0 1050.5,162.0 1078.5,162.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="148.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="162.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">序列 + 标量逐元素运算</text>
+<path d="M1022.5,198.0 C1050.5,198.0 1050.5,198.0 1078.5,198.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="184.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="198.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">序列间按索引对齐相加</text>
+<path d="M1022.5,198.0 C1050.5,198.0 1050.5,234.0 1078.5,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="220.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">比较运算生成布尔序列</text>
+<path d="M804.6,314.0 C837.6,314.0 837.6,358.0 870.6,358.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="870.6" y="341.0" width="151.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="884.6" y="358.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">索引运算</text>
+<path d="M1022.5,358.0 C1050.5,358.0 1050.5,286.0 1078.5,286.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="272.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="286.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[i] 整数或标签取值</text>
+<path d="M1022.5,358.0 C1050.5,358.0 1050.5,322.0 1078.5,322.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="308.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="322.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[起:止] 标签切片含末端</text>
+<path d="M1022.5,358.0 C1050.5,358.0 1050.5,358.0 1078.5,358.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="344.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="358.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[[标签1,标签2]] 花式取值</text>
+<path d="M1022.5,358.0 C1050.5,358.0 1050.5,394.0 1078.5,394.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="380.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="394.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">[布尔条件] 筛选元素</text>
+<path d="M1022.5,358.0 C1050.5,358.0 1050.5,430.0 1078.5,430.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="416.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">loc/iloc 按标签或位置</text>
+<path d="M804.6,314.0 C837.6,314.0 837.6,536.0 870.6,536.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="870.6" y="519.0" width="151.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="884.6" y="536.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">属性和方法</text>
+<path d="M1022.5,536.0 C1050.5,536.0 1050.5,482.0 1078.5,482.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="468.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="482.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index/values 索引与值</text>
+<path d="M1022.5,536.0 C1050.5,536.0 1050.5,518.0 1078.5,518.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="504.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="518.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dtype/hasnans 类型与空值</text>
+<path d="M1022.5,536.0 C1050.5,536.0 1050.5,554.0 1078.5,554.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="540.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="554.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_unique 判断值唯一</text>
+<path d="M1022.5,536.0 C1050.5,536.0 1050.5,590.0 1078.5,590.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1078.5" y="576.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1090.5" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">at/iat 取单个值</text>
+<path d="M530.0,314.0 C497.0,314.0 497.0,118.0 464.0,118.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="312.1" y="101.0" width="151.9" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="326.1" y="118.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">统计相关</text>
+<path d="M312.1,118.0 C284.1,118.0 284.1,46.0 256.1,46.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="32.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="46.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">count/mean/median 统计量</text>
+<path d="M312.1,118.0 C284.1,118.0 284.1,82.0 256.1,82.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="68.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="82.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max/min/std/var 极值离散</text>
+<path d="M312.1,118.0 C284.1,118.0 284.1,118.0 256.1,118.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="104.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="118.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">describe 描述性统计</text>
+<path d="M312.1,118.0 C284.1,118.0 284.1,154.0 256.1,154.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="140.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="154.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value_counts 频数统计</text>
+<path d="M312.1,118.0 C284.1,118.0 284.1,190.0 256.1,190.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="176.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nunique/mode 唯一值与众数</text>
+<path d="M530.0,314.0 C497.0,314.0 497.0,332.0 464.0,332.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="312.1" y="315.0" width="151.9" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="326.1" y="332.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">处理数据</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,242.0 256.1,242.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="228.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="242.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isna/notna 判断空值</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,278.0 256.1,278.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="264.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="278.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dropna 删除空值</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,314.0 256.1,314.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="300.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="314.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fillna(value=) 填充空值</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,350.0 256.1,350.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="336.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="350.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fillna(method=&#x27;ffill&#x27;) 前向填充</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,386.0 256.1,386.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where/mask 条件替换</text>
+<path d="M312.1,332.0 C284.1,332.0 284.1,422.0 256.1,422.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="408.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="422.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map/apply 元素映射</text>
+<path d="M530.0,314.0 C497.0,314.0 497.0,528.0 464.0,528.0" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="312.1" y="511.0" width="151.9" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="326.1" y="528.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">取头部值和排序</text>
+<path d="M312.1,528.0 C284.1,528.0 284.1,474.0 256.1,474.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="460.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="474.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort_values 按值排序</text>
+<path d="M312.1,528.0 C284.1,528.0 284.1,510.0 256.1,510.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="496.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="510.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort_index 按索引排序</text>
+<path d="M312.1,528.0 C284.1,528.0 284.1,546.0 256.1,546.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="532.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="546.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nlargest/nsmallest 取极值</text>
+<path d="M312.1,528.0 C284.1,528.0 284.1,582.0 256.1,582.0" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="568.0" width="232.1" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="582.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot(kind=) 绘制图表</text>
 </svg>

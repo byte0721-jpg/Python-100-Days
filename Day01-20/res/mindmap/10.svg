@@ -1,47 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="856" height="432" viewBox="0 0 856 432" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="856" height="432" fill="#ffffff"/>
-<rect x="24.0" y="193.0" width="284.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="216.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 10 · 常用数据结构之元组</text>
-<path d="M308.8,216.0 C341.8,216.0 341.8,54.5 374.8,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.8" y="37.5" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="388.8" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元组的定义和运算</text>
-<path d="M514.8,54.5 C542.8,54.5 542.8,37.5 570.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元组是不可变类型</text>
-<path d="M514.8,54.5 C542.8,54.5 542.8,71.5 570.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TypeError</text>
-<path d="M308.8,216.0 C341.8,216.0 341.8,139.5 374.8,139.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.8" y="122.5" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="388.8" y="139.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">打包和解包操作</text>
-<path d="M514.8,139.5 C542.8,139.5 542.8,122.5 570.8,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="109.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">range</text>
-<path d="M514.8,139.5 C542.8,139.5 542.8,156.5 570.8,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="143.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ValueError</text>
-<path d="M308.8,216.0 C341.8,216.0 341.8,224.5 374.8,224.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.8" y="207.5" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="388.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">交换变量的值</text>
-<path d="M514.8,224.5 C542.8,224.5 542.8,207.5 570.8,207.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ROT_TWO</text>
-<path d="M514.8,224.5 C542.8,224.5 542.8,241.5 570.8,241.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ROT_THREE</text>
-<path d="M308.8,216.0 C341.8,216.0 341.8,343.5 374.8,343.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="374.8" y="326.5" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="388.8" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元组和列表的比较</text>
-<path d="M514.8,343.5 C542.8,343.5 542.8,292.5 570.8,292.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="279.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不可变类型更适合多线程环境</text>
-<path d="M514.8,343.5 C542.8,343.5 542.8,326.5 570.8,326.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="313.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不可变类型在创建时间上优于对应的可变…</text>
-<path d="M514.8,343.5 C542.8,343.5 542.8,360.5 570.8,360.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="347.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">timeit</text>
-<path d="M514.8,343.5 C542.8,343.5 542.8,394.5 570.8,394.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="570.8" y="381.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="582.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">number</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="817" height="808" viewBox="0 0 817 808" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="817" height="808" fill="#ffffff"/>
+<rect x="24.0" y="381.0" width="284.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="404.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 10 · 常用数据结构之元组</text>
+<path d="M308.8,404.0 C341.8,404.0 341.8,128.0 374.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="111.0" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="388.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元组的定义和运算</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,38.0 570.8,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="24.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">(x, y, z) 字面量定义元组</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,74.0 570.8,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="60.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">单元素元组必须带逗号</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,110.0 570.8,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="96.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">() 表示空元组</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,146.0 570.8,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="132.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引与切片访问元素</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,182.0 570.8,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="168.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">+ 拼接、* 重复元组</text>
+<path d="M514.8,128.0 C542.8,128.0 542.8,218.0 570.8,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="204.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不可变，修改引发 TypeError</text>
+<path d="M308.8,404.0 C341.8,404.0 341.8,360.0 374.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="343.0" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="388.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">打包和解包操作</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,270.0 570.8,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="256.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">逗号分隔值自动打包为元组</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,306.0 570.8,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="292.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多个变量解包元组</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,342.0 570.8,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="328.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数量不匹配引发 ValueError</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,378.0 570.8,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="364.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">*变量 接收剩余元素为列表</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,414.0 570.8,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="400.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">星号表达式只能出现一次</text>
+<path d="M514.8,360.0 C542.8,360.0 542.8,450.0 570.8,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="436.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">解包适用于列表、range、字符串</text>
+<path d="M308.8,404.0 C341.8,404.0 341.8,538.0 374.8,538.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="521.0" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="388.8" y="538.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">交换变量的值</text>
+<path d="M514.8,538.0 C542.8,538.0 542.8,502.0 570.8,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="488.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">a, b = b, a 交换两个变量</text>
+<path d="M514.8,538.0 C542.8,538.0 542.8,538.0 570.8,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="524.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">a, b, c = b, c, a 轮换三个变量</text>
+<path d="M514.8,538.0 C542.8,538.0 542.8,574.0 570.8,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="560.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">无需借助中间变量</text>
+<path d="M308.8,404.0 C341.8,404.0 341.8,698.0 374.8,698.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="681.0" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="388.8" y="698.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元组和列表的比较</text>
+<path d="M514.8,698.0 C542.8,698.0 542.8,626.0 570.8,626.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="612.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="626.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元组不可变，列表可变</text>
+<path d="M514.8,698.0 C542.8,698.0 542.8,662.0 570.8,662.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="648.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="662.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tuple(列表) 转为元组</text>
+<path d="M514.8,698.0 C542.8,698.0 542.8,698.0 570.8,698.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="684.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="698.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list(元组) 转为列表</text>
+<path d="M514.8,698.0 C542.8,698.0 542.8,734.0 570.8,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="720.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元组创建速度优于列表</text>
+<path d="M514.8,698.0 C542.8,698.0 542.8,770.0 570.8,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="570.8" y="756.0" width="222.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="582.8" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不可变类型更适合多线程</text>
 </svg>

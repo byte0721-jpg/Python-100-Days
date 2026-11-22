@@ -1,110 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1039" height="823" viewBox="0 0 1039 823" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1039" height="823" fill="#ffffff"/>
-<rect x="385.8" y="388.5" width="267.8" height="46" rx="10" fill="#35495E"/>
-<text x="405.8" y="411.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 89 · 自然语言处理入门</text>
-<path d="M653.6,411.5 C686.6,411.5 686.6,122.5 719.6,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="719.6" y="105.5" width="112.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="733.6" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">词袋模型</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,37.5 888.3,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="24.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">构建词汇表</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,71.5 888.3,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="58.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">文本向量化</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,105.5 888.3,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="92.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">jieba</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,139.5 888.3,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="126.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">stop_words</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,173.5 888.3,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="160.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CountVectorizer</text>
-<path d="M832.3,122.5 C860.3,122.5 860.3,207.5 888.3,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="194.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;I&#x27;</text>
-<path d="M653.6,411.5 C686.6,411.5 686.6,445.5 719.6,445.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="719.6" y="428.5" width="112.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="733.6" y="445.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">词向量</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,258.5 888.3,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="245.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Word2Vec</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,292.5 888.3,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="279.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GloVe</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,326.5 888.3,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="313.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">输入和目标</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,360.5 888.3,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="347.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">神经网络模型</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,394.5 888.3,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="381.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">训练过程</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,428.5 888.3,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="415.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nltk</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,462.5 888.3,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="449.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gensim</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,496.5 888.3,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="483.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">datasets</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,530.5 888.3,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="517.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;cat&#x27;</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,564.5 888.3,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="551.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;dog&#x27;</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,598.5 888.3,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="585.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;man&#x27;</text>
-<path d="M832.3,445.5 C860.3,445.5 860.3,632.5 888.3,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="619.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;pet&#x27;</text>
-<path d="M653.6,411.5 C686.6,411.5 686.6,734.5 719.6,734.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="719.6" y="717.5" width="112.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="733.6" y="734.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">NPLM和RNN</text>
-<path d="M832.3,734.5 C860.3,734.5 860.3,683.5 888.3,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="670.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">NPLM</text>
-<path d="M832.3,734.5 C860.3,734.5 860.3,717.5 888.3,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="704.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RNN</text>
-<path d="M832.3,734.5 C860.3,734.5 860.3,751.5 888.3,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="738.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">长短期记忆</text>
-<path d="M832.3,734.5 C860.3,734.5 860.3,785.5 888.3,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="888.3" y="772.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="900.3" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">门控循环单元</text>
-<path d="M385.8,411.5 C352.8,411.5 352.8,318.0 319.8,318.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="207.1" y="301.0" width="112.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="221.1" y="318.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Seq2Seq</text>
-<path d="M207.1,318.0 C179.1,318.0 179.1,284.0 151.1,284.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="270.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="284.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编码器</text>
-<path d="M207.1,318.0 C179.1,318.0 179.1,318.0 151.1,318.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="304.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="318.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">解码器</text>
-<path d="M207.1,318.0 C179.1,318.0 179.1,352.0 151.1,352.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="338.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">注意力机制</text>
-<path d="M385.8,411.5 C352.8,411.5 352.8,471.0 319.8,471.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="207.1" y="454.0" width="112.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="221.1" y="471.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Transformer</text>
-<path d="M207.1,471.0 C179.1,471.0 179.1,403.0 151.1,403.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="389.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="403.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Transformer</text>
-<path d="M207.1,471.0 C179.1,471.0 179.1,437.0 151.1,437.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="423.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="437.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">自注意力机制</text>
-<path d="M207.1,471.0 C179.1,471.0 179.1,471.0 151.1,471.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="457.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="471.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询向量</text>
-<path d="M207.1,471.0 C179.1,471.0 179.1,505.0 151.1,505.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="491.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="505.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">键向量</text>
-<path d="M207.1,471.0 C179.1,471.0 179.1,539.0 151.1,539.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="525.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="539.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">值向量</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="648" viewBox="0 0 1260 648" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1260" height="648" fill="#ffffff"/>
+<rect x="496.5" y="301.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="516.5" y="324.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 89 · 自然语言处理入门</text>
+<path d="M764.2,324.0 C797.2,324.0 797.2,128.0 830.2,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="830.2" y="111.0" width="112.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="844.2" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">词袋模型</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,38.0 999.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="24.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CountVectorizer 构建词频向量</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,74.0 999.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="60.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fit_transform 学词汇表并向量化</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,110.0 999.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="96.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_feature_names_out 查看词汇表</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,146.0 999.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="132.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">toarray 转稠密词频矩阵</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,182.0 999.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="168.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tokenizer 指定jieba中文分词</text>
+<path d="M943.0,128.0 C971.0,128.0 971.0,218.0 999.0,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="204.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">stop_words 过滤停用词</text>
+<path d="M764.2,324.0 C797.2,324.0 797.2,360.0 830.2,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="830.2" y="343.0" width="112.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="844.2" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">词向量</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,270.0 999.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="256.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Word2Vec 训练稠密词向量</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,306.0 999.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="292.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">vector_size 设置向量维度</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,342.0 999.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="328.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">window 设置上下文窗口</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,378.0 999.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="364.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_count 过滤低频词</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,414.0 999.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="400.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cosine_similarity 算余弦相似度</text>
+<path d="M943.0,360.0 C971.0,360.0 971.0,450.0 999.0,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="436.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">词向量加减做语义推理</text>
+<path d="M764.2,324.0 C797.2,324.0 797.2,556.0 830.2,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="830.2" y="539.0" width="112.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="844.2" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">NPLM和RNN</text>
+<path d="M943.0,556.0 C971.0,556.0 971.0,502.0 999.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="488.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">NPLM 用神经网络预测下一个词</text>
+<path d="M943.0,556.0 C971.0,556.0 971.0,538.0 999.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="524.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RNN 传递隐藏状态建模序列</text>
+<path d="M943.0,556.0 C971.0,556.0 971.0,574.0 999.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="560.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LSTM/GRU 门控缓解梯度消失</text>
+<path d="M943.0,556.0 C971.0,556.0 971.0,610.0 999.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="999.0" y="596.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1011.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">循环结构难以并行训练</text>
+<path d="M496.5,324.0 C463.5,324.0 463.5,208.0 430.5,208.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.8" y="191.0" width="112.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="331.8" y="208.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Seq2Seq</text>
+<path d="M317.8,208.0 C289.8,208.0 289.8,154.0 261.8,154.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="140.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="154.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编码器把输入压成上下文向量</text>
+<path d="M317.8,208.0 C289.8,208.0 289.8,190.0 261.8,190.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="176.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">解码器由上下文生成目标序列</text>
+<path d="M317.8,208.0 C289.8,208.0 289.8,226.0 261.8,226.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="212.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="226.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编码解码常用RNN/LSTM/GRU</text>
+<path d="M317.8,208.0 C289.8,208.0 289.8,262.0 261.8,262.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="248.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="262.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">注意力机制动态加权输入部分</text>
+<path d="M496.5,324.0 C463.5,324.0 463.5,404.0 430.5,404.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="317.8" y="387.0" width="112.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="331.8" y="404.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Transformer</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,314.0 261.8,314.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="300.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="314.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">自注意力计算Q、K、V向量</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,350.0 261.8,350.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="336.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="350.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缩放点积除以√d_k</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,386.0 261.8,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多头注意力捕捉多种关系</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,422.0 261.8,422.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="408.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="422.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">位置编码注入词序信息</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,458.0 261.8,458.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="444.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="458.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">残差连接与层归一化稳定训练</text>
+<path d="M317.8,404.0 C289.8,404.0 289.8,494.0 261.8,494.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="480.0" width="237.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="494.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编码器-解码器结构可并行训练</text>
 </svg>

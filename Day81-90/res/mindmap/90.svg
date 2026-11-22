@@ -1,143 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1116" height="1061" viewBox="0 0 1116 1061" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1116" height="1061" fill="#ffffff"/>
-<rect x="441.5" y="507.5" width="233.8" height="46" rx="10" fill="#35495E"/>
-<text x="461.5" y="530.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 90 · 机器学习实战</text>
-<path d="M675.3,530.5 C708.3,530.5 708.3,224.5 741.3,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="741.3" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="755.3" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据探索</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,37.5 881.3,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="24.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Sex</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,71.5 881.3,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="58.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Age</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,105.5 881.3,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="92.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Mrs</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,139.5 881.3,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="126.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,173.5 881.3,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="160.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Name</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,207.5 881.3,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="194.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">male</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,241.5 881.3,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="228.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Fare</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,275.5 881.3,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="262.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Miss</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,309.5 881.3,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="296.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SibSp</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,343.5 881.3,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="330.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Parch</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,377.5 881.3,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="364.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Cabin</text>
-<path d="M825.3,224.5 C853.3,224.5 853.3,411.5 881.3,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="398.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Major</text>
-<path d="M675.3,530.5 C708.3,530.5 708.3,649.5 741.3,649.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="741.3" y="632.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="755.3" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">特征工程</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,462.5 881.3,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="449.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据清洗</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,496.5 881.3,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="483.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征转换</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,530.5 881.3,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="517.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征选择</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,564.5 881.3,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="551.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">过滤法</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,598.5 881.3,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="585.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">包裹法</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,632.5 881.3,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="619.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">嵌入法</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,666.5 881.3,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="653.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征降维</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,700.5 881.3,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="687.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PCA</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,734.5 881.3,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="721.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LDA</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,768.5 881.3,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="755.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">最大化类间散度，最小化类内散度</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,802.5 881.3,802.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="789.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">t-SNE</text>
-<path d="M825.3,649.5 C853.3,649.5 853.3,836.5 881.3,836.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="823.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">特征构造</text>
-<path d="M675.3,530.5 C708.3,530.5 708.3,955.5 741.3,955.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="741.3" y="938.5" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="755.3" y="955.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型训练</text>
-<path d="M825.3,955.5 C853.3,955.5 853.3,887.5 881.3,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="874.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">学习曲线</text>
-<path d="M825.3,955.5 C853.3,955.5 853.3,921.5 881.3,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="908.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">X_valid</text>
-<path d="M825.3,955.5 C853.3,955.5 853.3,955.5 881.3,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="942.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">y_valid</text>
-<path d="M825.3,955.5 C853.3,955.5 853.3,989.5 881.3,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="976.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">learning_curve</text>
-<path d="M825.3,955.5 C853.3,955.5 853.3,1023.5 881.3,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="881.3" y="1010.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="893.3" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">model_selection</text>
-<path d="M441.5,530.5 C408.5,530.5 408.5,420.0 375.5,420.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="291.5" y="403.0" width="84.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="305.5" y="420.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型评估</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,335.0 235.5,335.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="321.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="335.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,369.0 235.5,369.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="355.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="369.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test.Age.fillna</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,403.0 235.5,403.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="389.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="403.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test.Fare.fillna</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,437.0 235.5,437.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="423.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="437.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test.Embarked.fillna</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,471.0 235.5,471.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="457.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="471.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test.Cabin.replace</text>
-<path d="M291.5,420.0 C263.5,420.0 263.5,505.0 235.5,505.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="491.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="505.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scaler.fit_transform</text>
-<path d="M441.5,530.5 C408.5,530.5 408.5,641.0 375.5,641.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="291.5" y="624.0" width="84.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="305.5" y="641.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型部署</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,556.0 235.5,556.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="542.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="556.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dump</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,590.0 235.5,590.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="576.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="590.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">load</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,624.0 235.5,624.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="610.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="624.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">model</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,658.0 235.5,658.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="644.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="658.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">joblib</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,692.0 235.5,692.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="678.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="692.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">X_test</text>
-<path d="M291.5,641.0 C263.5,641.0 263.5,726.0 235.5,726.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="712.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="726.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DMatrix</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1245" height="720" viewBox="0 0 1245 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1245" height="720" fill="#ffffff"/>
+<rect x="505.9" y="337.0" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="525.9" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 90 · 机器学习实战</text>
+<path d="M739.7,360.0 C772.7,360.0 772.7,128.0 805.7,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="805.7" y="111.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="819.7" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据探索</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,38.0 945.7,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="24.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pd.read_csv 读取CSV并设索引</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,74.0 945.7,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="60.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">head 查看前几行数据</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,110.0 945.7,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="96.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">info 查看字段类型与缺失</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,146.0 945.7,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="132.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value_counts 统计类别分布</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,182.0 945.7,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="168.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot(kind=&#x27;bar&#x27;) 绘制柱状图</text>
+<path d="M889.7,128.0 C917.7,128.0 917.7,218.0 945.7,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="204.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">箱线图识别异常值与分布</text>
+<path d="M739.7,360.0 C772.7,360.0 772.7,360.0 805.7,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="805.7" y="343.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="819.7" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">特征工程</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,270.0 945.7,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="256.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fillna(median) 填补缺失值</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,306.0 945.7,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="292.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">StandardScaler 标准化数值特征</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,342.0 945.7,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="328.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_dummies 独热编码类别</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,378.0 945.7,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="364.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map 把称谓映射为数值</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,414.0 945.7,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="400.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">派生家庭成员数新特征</text>
+<path d="M889.7,360.0 C917.7,360.0 917.7,450.0 945.7,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="436.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">drop 删除无用特征列</text>
+<path d="M739.7,360.0 C772.7,360.0 772.7,592.0 805.7,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="805.7" y="575.0" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="819.7" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型训练</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,502.0 945.7,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="488.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">train_test_split 划分训练验证集</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,538.0 945.7,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="524.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LogisticRegression(penalty=&#x27;l1&#x27;) 建模</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,574.0 945.7,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="560.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fit 训练模型</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,610.0 945.7,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="596.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xgb.DMatrix 封装训练数据</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,646.0 945.7,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="632.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xgb.train 训练提升树</text>
+<path d="M889.7,592.0 C917.7,592.0 917.7,682.0 945.7,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="945.7" y="668.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="957.7" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">learning_curve 判断过拟合欠拟合</text>
+<path d="M505.9,360.0 C472.9,360.0 472.9,244.0 439.9,244.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="355.9" y="227.0" width="84.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="369.9" y="244.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型评估</text>
+<path d="M355.9,244.0 C327.9,244.0 327.9,172.0 299.9,172.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="158.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="172.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">classification_report 输出分类指标</text>
+<path d="M355.9,244.0 C327.9,244.0 327.9,208.0 299.9,208.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="208.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">predict 生成测试集预测</text>
+<path d="M355.9,244.0 C327.9,244.0 327.9,244.0 299.9,244.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="230.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="244.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">概率阈值0.5转类别标签</text>
+<path d="M355.9,244.0 C327.9,244.0 327.9,280.0 299.9,280.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="266.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="280.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame 组装提交结果</text>
+<path d="M355.9,244.0 C327.9,244.0 327.9,316.0 299.9,316.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="302.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="316.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">to_csv(index=False) 导出CSV</text>
+<path d="M505.9,360.0 C472.9,360.0 472.9,458.0 439.9,458.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="355.9" y="441.0" width="84.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="369.9" y="458.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型部署</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,368.0 299.9,368.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="354.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="368.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">joblib.dump 序列化保存模型</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,404.0 299.9,404.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="390.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="404.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">joblib.load 反序列化加载模型</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,440.0 299.9,440.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="426.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="440.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Flask 创建Web服务</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,476.0 299.9,476.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="462.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="476.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">@app.route 定义预测接口</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,512.0 299.9,512.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="498.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="512.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.json 接收请求数据</text>
+<path d="M355.9,458.0 C327.9,458.0 327.9,548.0 299.9,548.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="275.9" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="548.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">jsonify 返回JSON预测结果</text>
 </svg>

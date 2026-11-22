@@ -1,53 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="815" height="517" viewBox="0 0 815 517" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="815" height="517" fill="#ffffff"/>
-<rect x="24.0" y="235.5" width="199.8" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="258.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 05 · 分支结构</text>
-<path d="M223.8,258.5 C256.8,258.5 256.8,122.5 289.8,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="105.5" width="209.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="303.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用if和else构造分支结构</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,37.5 555.1,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="24.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">关键字</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,71.5 555.1,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="58.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">切换到英文输入法</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,105.5 555.1,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="92.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用缩进的方式来表示代码的层次结构</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,139.5 555.1,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="126.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">代码块</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,173.5 555.1,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="160.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通常使用4个空格</text>
-<path d="M499.1,122.5 C527.1,122.5 527.1,207.5 555.1,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="194.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不要使用制表键（Tab键）来缩进代码</text>
-<path d="M223.8,258.5 C256.8,258.5 256.8,275.5 289.8,275.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="258.5" width="209.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="303.8" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用match和case构造分支…</text>
-<path d="M499.1,275.5 C527.1,275.5 527.1,258.5 555.1,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="245.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">case</text>
-<path d="M499.1,275.5 C527.1,275.5 527.1,292.5 555.1,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="279.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">match</text>
-<path d="M223.8,258.5 C256.8,258.5 256.8,411.5 289.8,411.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="289.8" y="394.5" width="209.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="303.8" y="411.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">分支结构的应用</text>
-<path d="M499.1,411.5 C527.1,411.5 527.1,343.5 555.1,343.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="330.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子1：分段函数求值</text>
-<path d="M499.1,411.5 C527.1,411.5 527.1,377.5 555.1,377.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="364.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子2：百分制成绩转换成等级</text>
-<path d="M499.1,411.5 C527.1,411.5 527.1,411.5 555.1,411.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="398.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子3：计算三角形的周长和面积</text>
-<path d="M499.1,411.5 C527.1,411.5 527.1,445.5 555.1,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="432.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python 之禅</text>
-<path d="M499.1,411.5 C527.1,411.5 527.1,479.5 555.1,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="555.1" y="466.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="567.1" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Flat is better than nested</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="781" height="720" viewBox="0 0 781 720" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="781" height="720" fill="#ffffff"/>
+<rect x="24.0" y="337.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="360.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 05 · 分支结构</text>
+<path d="M223.8,360.0 C256.8,360.0 256.8,128.0 289.8,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="111.0" width="223.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="303.8" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用if和else构造分支结构</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,38.0 569.1,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="24.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if 条件: 成立时执行代码块</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,74.0 569.1,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="60.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">else: 处理条件不成立</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,110.0 569.1,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="96.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">elif 条件: 增加互斥分支</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,146.0 569.1,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="132.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缩进表示代码块层次</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,182.0 569.1,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="168.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">条件行以冒号结尾</text>
+<path d="M513.1,128.0 C541.1,128.0 541.1,218.0 569.1,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="204.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">支持 a &lt;= b &lt; c 链式比较</text>
+<path d="M223.8,360.0 C256.8,360.0 256.8,360.0 289.8,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="343.0" width="223.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="303.8" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用match和case构造分支结构</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,270.0 569.1,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="256.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">match 值: 按值匹配分支</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,306.0 569.1,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="292.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">case 常量: 执行对应分支</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,342.0 569.1,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="328.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">case _: 匹配其余情况</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,378.0 569.1,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="364.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">case 值1 | 值2: 合并匹配</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,414.0 569.1,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="400.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">case _ 只能放在最后</text>
+<path d="M513.1,360.0 C541.1,360.0 541.1,450.0 569.1,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="436.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">match-case 适合多值枚举</text>
+<path d="M223.8,360.0 C256.8,360.0 256.8,592.0 289.8,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="575.0" width="223.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="303.8" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">分支结构的应用</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,502.0 569.1,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="488.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">if/elif/else 实现分段函数</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,538.0 569.1,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="524.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">嵌套 if 处理多层条件</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,574.0 569.1,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="560.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">and 组合多个判断条件</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,610.0 569.1,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="596.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">** 0.5 开平方计算面积</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,646.0 569.1,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="632.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">else 输出不满足条件的提示</text>
+<path d="M513.1,592.0 C541.1,592.0 541.1,682.0 569.1,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="569.1" y="668.0" width="188.4" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="581.1" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">海伦公式需先求半周长</text>
 </svg>

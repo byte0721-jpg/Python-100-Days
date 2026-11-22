@@ -1,116 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="816" height="1231" viewBox="0 0 816 1231" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="816" height="1231" fill="#ffffff"/>
-<rect x="24.0" y="592.5" width="310.3" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="615.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 54 · RESTful架构和DRF入门</text>
-<path d="M334.3,615.5 C367.3,615.5 367.3,190.5 400.3,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="173.5" width="182.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="414.3" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">REST概述</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,37.5 638.3,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="24.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Roy Thomas Fielding</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,71.5 638.3,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="58.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RE</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,105.5 638.3,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="92.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表现层状态转移</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,139.5 638.3,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="126.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表述状态转移</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,173.5 638.3,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="160.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GET</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,207.5 638.3,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="194.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">POST</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,241.5 638.3,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="228.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PUT</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,275.5 638.3,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="262.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PATCH</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,309.5 638.3,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="296.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DELETE</text>
-<path d="M582.3,190.5 C610.3,190.5 610.3,343.5 638.3,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="330.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Accept</text>
-<path d="M334.3,615.5 C367.3,615.5 367.3,581.5 400.3,581.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="564.5" width="182.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="414.3" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">DRF使用入门</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,394.5 638.3,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="381.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">安装和配置DRF</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,428.5 638.3,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="415.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编写序列化器</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,462.5 638.3,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="449.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编写视图函数</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,496.5 638.3,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="483.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实现老师信息数据接口</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,530.5 638.3,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="517.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Meta</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,564.5 638.3,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="551.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">model</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,598.5 638.3,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="585.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fields</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,632.5 638.3,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="619.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Subject</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,666.5 638.3,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="653.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bpmapper</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,700.5 638.3,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="687.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Serializer</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,734.5 638.3,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="721.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ModelSerializer</text>
-<path d="M582.3,581.5 C610.3,581.5 610.3,768.5 638.3,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="755.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">djangorestframework</text>
-<path d="M334.3,615.5 C367.3,615.5 367.3,1006.5 400.3,1006.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="400.3" y="989.5" width="182.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="414.3" y="1006.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">前后端分离下的用户登录</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,819.5 638.3,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="806.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JWT概述</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,853.5 638.3,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="840.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JWT的优缺点</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,887.5 638.3,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="874.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用PyJWT</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,921.5 638.3,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="908.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">会话管理</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,955.5 638.3,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="942.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基于token的用户跟踪</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,989.5 638.3,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="976.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">alg</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1023.5 638.3,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1010.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">typ</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1057.5 638.3,1057.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1044.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1057.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JWT</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1091.5 638.3,1091.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1078.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1091.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PyJWT</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1125.5 638.3,1125.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1112.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1125.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">localStorage</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1159.5 638.3,1159.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1146.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1159.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">localStroage</text>
-<path d="M582.3,1006.5 C610.3,1006.5 610.3,1193.5 638.3,1193.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="638.3" y="1180.0" width="154.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="650.3" y="1193.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sessionStorage</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="902" height="952" viewBox="0 0 902 952" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="902" height="952" fill="#ffffff"/>
+<rect x="24.0" y="453.0" width="310.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="476.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 54 · RESTful架构和DRF入门</text>
+<path d="M334.3,476.0 C367.3,476.0 367.3,128.0 400.3,128.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="111.0" width="173.6" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="414.3" y="128.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">REST概述</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,38.0 629.9,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="24.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GET 获取资源</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,74.0 629.9,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="60.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">POST 新建资源</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,110.0 629.9,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="96.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PUT/PATCH 更新资源</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,146.0 629.9,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="132.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DELETE 删除资源</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,182.0 629.9,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="168.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">URI 指向资源实体</text>
+<path d="M573.9,128.0 C601.9,128.0 601.9,218.0 629.9,218.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="204.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Accept/Content-Type 描述表现层</text>
+<path d="M334.3,476.0 C367.3,476.0 367.3,360.0 400.3,360.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="343.0" width="173.6" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="414.3" y="360.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">DRF序列化器</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,270.0 629.9,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="256.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ModelSerializer 定义模型序列化器</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,306.0 629.9,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="292.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Meta.model 指定序列化模型</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,342.0 629.9,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="328.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fields=&#x27;__all__&#x27; 全字段序列化</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,378.0 629.9,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="364.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Meta.exclude 排除指定字段</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,414.0 629.9,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="400.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">many=True 序列化对象列表</text>
+<path d="M573.9,360.0 C601.9,360.0 601.9,450.0 629.9,450.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="436.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="450.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">serializer.data 取序列化结果</text>
+<path d="M334.3,476.0 C367.3,476.0 367.3,592.0 400.3,592.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="575.0" width="173.6" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="414.3" y="592.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">DRF视图与接口</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,502.0 629.9,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="488.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">api_view((&#x27;GET&#x27;,)) 声明接口方法</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,538.0 629.9,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="524.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Response 返回 JSON 响应</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,574.0 629.9,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="560.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Response(status=404) 返回状态码</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,610.0 629.9,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="596.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">request.GET.get 读取查询参数</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,646.0 629.9,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="632.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">path 映射 API 接口路径</text>
+<path d="M573.9,592.0 C601.9,592.0 601.9,682.0 629.9,682.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="668.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="682.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">only/defer 精简查询字段</text>
+<path d="M334.3,476.0 C367.3,476.0 367.3,824.0 400.3,824.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="400.3" y="807.0" width="173.6" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="414.3" y="824.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基于token的登录与JWT</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,734.0 629.9,734.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="720.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="734.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">token 存 localStorage 免服务端状态</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,770.0 629.9,770.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="756.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="770.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">请求头携带 token 做认证</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,806.0 629.9,806.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="792.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="806.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">401 响应跳转登录页</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,842.0 629.9,842.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="828.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="842.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">jwt.encode 生成令牌</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,878.0 629.9,878.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="864.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="878.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">jwt.decode(token, key) 校验解析</text>
+<path d="M573.9,824.0 C601.9,824.0 601.9,914.0 629.9,914.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="629.9" y="900.0" width="249.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="641.9" y="914.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">InvalidTokenError 捕获无效令牌</text>
 </svg>

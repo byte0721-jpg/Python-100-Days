@@ -1,41 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1336" height="198" viewBox="0 0 1336 198" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="1336" height="198" fill="#ffffff"/>
-<rect x="534.2" y="76.0" width="267.8" height="46" rx="10" fill="#35495E"/>
-<text x="554.2" y="99.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 99 · 面试中的公共问题</text>
-<path d="M802.0,99.0 C835.0,99.0 835.0,41.0 868.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="868.0" y="24.0" width="126.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="882.0" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计算机基础</text>
-<path d="M994.7,41.0 C1022.7,41.0 1022.7,41.0 1050.7,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1050.7" y="27.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1062.7" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TCP/IP模型相关问题</text>
-<path d="M802.0,99.0 C835.0,99.0 835.0,99.0 868.0,99.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="868.0" y="82.0" width="126.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
-<text x="882.0" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python基础</text>
-<path d="M994.7,99.0 C1022.7,99.0 1022.7,99.0 1050.7,99.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1050.7" y="85.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1062.7" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">开发中用过哪些标准库和三方库</text>
-<path d="M802.0,99.0 C835.0,99.0 835.0,157.0 868.0,157.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="868.0" y="140.0" width="126.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
-<text x="882.0" y="157.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django和Flask</text>
-<path d="M994.7,157.0 C1022.7,157.0 1022.7,157.0 1050.7,157.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="1050.7" y="143.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="1062.7" y="157.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MVC架构（MTV）解决了什么问题</text>
-<path d="M534.2,99.0 C501.2,99.0 501.2,41.0 468.2,41.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="341.5" y="24.0" width="126.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
-<text x="355.5" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">爬虫相关</text>
-<path d="M341.5,41.0 C313.5,41.0 313.5,41.0 285.5,41.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="27.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Scrapy框架的组件和数据处理流程</text>
-<path d="M534.2,99.0 C501.2,99.0 501.2,99.0 468.2,99.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="341.5" y="82.0" width="126.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
-<text x="355.5" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析</text>
-<path d="M341.5,99.0 C313.5,99.0 313.5,99.0 285.5,99.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="85.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">科学运算函数库（SciPy和NumPy常用运…</text>
-<path d="M534.2,99.0 C501.2,99.0 501.2,157.0 468.2,157.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="341.5" y="140.0" width="126.7" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
-<text x="355.5" y="157.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">项目相关</text>
-<path d="M341.5,157.0 C313.5,157.0 313.5,157.0 285.5,157.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="24.0" y="143.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="36.0" y="157.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">项目团队构成以及自己在团队中扮演的角…</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1208" height="684" viewBox="0 0 1208 684" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1208" height="684" fill="#ffffff"/>
+<rect x="470.5" y="319.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="490.5" y="342.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 99 · 面试中的公共问题</text>
+<path d="M738.2,342.0 C771.2,342.0 771.2,110.0 804.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="804.2" y="93.0" width="126.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="818.2" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计算机基础</text>
+<path d="M931.0,110.0 C959.0,110.0 959.0,38.0 987.0,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="24.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TCP/IP 模型与握手挥手</text>
+<path d="M931.0,110.0 C959.0,110.0 959.0,74.0 987.0,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="60.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HTTP 与 HTTPS 协议差异</text>
+<path d="M931.0,110.0 C959.0,110.0 959.0,110.0 987.0,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="96.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">进程与线程的选择</text>
+<path d="M931.0,110.0 C959.0,110.0 959.0,146.0 987.0,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="132.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ACID 与事务隔离级别</text>
+<path d="M931.0,110.0 C959.0,110.0 959.0,182.0 987.0,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="168.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CAP 与 BASE 理论</text>
+<path d="M738.2,342.0 C771.2,342.0 771.2,324.0 804.2,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="804.2" y="307.0" width="126.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="818.2" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python基础</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,234.0 987.0,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="220.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">标准库 sys/os/re/json 用途</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,270.0 987.0,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="256.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">装饰器原理与实现</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,306.0 987.0,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="292.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">魔法方法定制对象行为</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,342.0 987.0,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="328.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">生成器与迭代器区别</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,378.0 987.0,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="364.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列表字典底层实现</text>
+<path d="M931.0,324.0 C959.0,324.0 959.0,414.0 987.0,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="400.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">垃圾回收与协程异步 I/O</text>
+<path d="M738.2,342.0 C771.2,342.0 771.2,556.0 804.2,556.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="804.2" y="539.0" width="126.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="818.2" y="556.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django和Flask</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,466.0 987.0,466.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="452.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MTV 架构职责划分</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,502.0 987.0,502.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="488.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">中间件执行流程与自定义</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,538.0 987.0,538.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="524.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">REST 接口 URL 与状态码</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,574.0 987.0,574.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="560.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORM 实现 CRUD 与避免 N+1</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,610.0 987.0,610.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="596.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步任务与定时任务</text>
+<path d="M931.0,556.0 C959.0,556.0 959.0,646.0 987.0,646.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="987.0" y="632.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="999.0" y="646.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">页面缓存与查询缓存预热</text>
+<path d="M470.5,342.0 C437.5,342.0 437.5,146.0 404.5,146.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="277.8" y="129.0" width="126.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="291.8" y="146.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">爬虫相关</text>
+<path d="M277.8,146.0 C249.8,146.0 249.8,74.0 221.8,74.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="60.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Scrapy 组件与数据流</text>
+<path d="M277.8,146.0 C249.8,146.0 249.8,110.0 221.8,110.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="96.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">抓包下载清理存储工具</text>
+<path d="M277.8,146.0 C249.8,146.0 249.8,146.0 221.8,146.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="132.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">请求头与 Cookie 池反爬</text>
+<path d="M277.8,146.0 C249.8,146.0 249.8,182.0 221.8,182.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="168.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">代理池与限速规避封禁</text>
+<path d="M277.8,146.0 C249.8,146.0 249.8,218.0 221.8,218.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="204.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="218.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据持久化与补全归一化</text>
+<path d="M470.5,342.0 C437.5,342.0 437.5,324.0 404.5,324.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="277.8" y="307.0" width="126.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="291.8" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析</text>
+<path d="M277.8,324.0 C249.8,324.0 249.8,270.0 221.8,270.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="256.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">NumPy 与 SciPy 科学计算</text>
+<path d="M277.8,324.0 C249.8,324.0 249.8,306.0 221.8,306.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="292.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Pandas 数据清洗与分析</text>
+<path d="M277.8,324.0 C249.8,324.0 249.8,342.0 221.8,342.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="328.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分类回归聚类模型场景</text>
+<path d="M277.8,324.0 C249.8,324.0 249.8,378.0 221.8,378.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">指标提取与模型评价</text>
+<path d="M470.5,342.0 C437.5,342.0 437.5,520.0 404.5,520.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="277.8" y="503.0" width="126.7" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="291.8" y="520.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">项目相关</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,430.0 221.8,430.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="416.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="430.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">团队角色与职责说明</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,466.0 221.8,466.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="452.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">业务架构与技术架构</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,502.0 221.8,502.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="488.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="502.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">版本控制 缺陷管理 持续集成</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,538.0 221.8,538.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="524.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="538.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">核心实体及其关系</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,574.0 221.8,574.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="560.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="574.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Nginx/uWSGI/Redis 部署架构</text>
+<path d="M277.8,520.0 C249.8,520.0 249.8,610.0 221.8,610.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="596.0" width="197.8" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="610.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试与性能调优经验</text>
 </svg>

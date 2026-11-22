@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="705" height="449" viewBox="0 0 705 449" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
-<rect width="705" height="449" fill="#ffffff"/>
-<rect x="24.0" y="201.5" width="248.3" height="46" rx="10" fill="#35495E"/>
-<text x="44.0" y="224.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 69 · NumPy的应用-2</text>
-<path d="M272.2,224.5 C305.2,224.5 305.2,224.5 338.2,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
-<rect x="338.2" y="207.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
-<text x="352.2" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组对象的方法</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,37.5 520.2,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="24.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">获取描述统计信息</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,71.5 520.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="58.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他相关方法概述</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,105.5 520.2,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="92.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">计算总和、均值和中位数</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,139.5 520.2,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="126.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">极值、全距和四分位距离</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,173.5 520.2,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="160.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">方差、标准差和变异系数</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,207.5 520.2,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="194.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">绘制箱线图</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,241.5 520.2,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="228.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">all()</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,275.5 520.2,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="262.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">any()</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,309.5 520.2,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="296.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dump()</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,343.5 520.2,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="330.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">load()</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,377.5 520.2,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="364.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fill()</text>
-<path d="M464.2,224.5 C492.2,224.5 492.2,411.5 520.2,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
-<rect x="520.2" y="398.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
-<text x="532.2" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort()</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="739" height="452" viewBox="0 0 739 452" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="739" height="452" fill="#ffffff"/>
+<rect x="24.0" y="203.0" width="248.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="226.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 69 · NumPy的应用-2</text>
+<path d="M272.2,226.0 C305.2,226.0 305.2,110.0 338.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="93.0" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="352.2" y="110.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">描述统计信息</text>
+<path d="M450.2,110.0 C478.2,110.0 478.2,38.0 506.2,38.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="24.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="38.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sum/mean 总和与均值</text>
+<path d="M450.2,110.0 C478.2,110.0 478.2,74.0 506.2,74.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="60.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="74.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">median/quantile 中位数分位数</text>
+<path d="M450.2,110.0 C478.2,110.0 478.2,110.0 506.2,110.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="96.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="110.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max/min/ptp 极值与全距</text>
+<path d="M450.2,110.0 C478.2,110.0 478.2,146.0 506.2,146.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="132.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="146.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">var/std 方差与标准差</text>
+<path d="M450.2,110.0 C478.2,110.0 478.2,182.0 506.2,182.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="168.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="182.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">axis=0/1 按行列统计</text>
+<path d="M272.2,226.0 C305.2,226.0 305.2,324.0 338.2,324.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="307.0" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="352.2" y="324.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他常用方法</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,234.0 506.2,234.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="220.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="234.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reshape 调整数组形状</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,270.0 506.2,270.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="256.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="270.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">astype 转换元素类型</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,306.0 506.2,306.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="292.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="306.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flatten 多维转一维</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,342.0 506.2,342.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="328.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort 就地排序</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,378.0 506.2,378.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="364.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="378.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tolist 转 Python 列表</text>
+<path d="M450.2,324.0 C478.2,324.0 478.2,414.0 506.2,414.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="400.0" width="209.0" height="28" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="414.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nonzero 返回非零索引</text>
 </svg>
