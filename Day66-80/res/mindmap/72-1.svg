@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="742" height="857" viewBox="0 0 742 857" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="742" height="857" fill="#ffffff"/>
+<rect x="24.0" y="405.5" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="428.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 72 · 深入浅出pandas-1</text>
+<path d="M298.6,428.5 C331.6,428.5 331.6,71.5 364.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="54.5" width="186.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="378.6" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建Series对象</text>
+<path d="M550.8,71.5 C578.8,71.5 578.8,37.5 606.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="24.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
+<path d="M550.8,71.5 C578.8,71.5 578.8,71.5 606.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="58.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index</text>
+<path d="M550.8,71.5 C578.8,71.5 578.8,105.5 606.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="92.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M298.6,428.5 C331.6,428.5 331.6,275.5 364.6,275.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="258.5" width="186.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="378.6" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Series对象的运算</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,156.5 606.8,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="143.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">标量运算</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,190.5 606.8,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="177.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矢量运算</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,224.5 606.8,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="211.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引运算</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,258.5 606.8,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="245.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">普通索引</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,292.5 606.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="279.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">切片索引</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,326.5 606.8,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="313.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">花式索引</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,360.5 606.8,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="347.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">布尔索引</text>
+<path d="M550.8,275.5 C578.8,275.5 578.8,394.5 606.8,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="381.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M298.6,428.5 C331.6,428.5 331.6,632.5 364.6,632.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="615.5" width="186.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="378.6" y="632.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Series对象的属性和方法</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,445.5 606.8,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="432.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">统计相关</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,479.5 606.8,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="466.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">处理数据</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,513.5 606.8,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="500.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">取头部值和排序</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,547.5 606.8,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="534.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">绘制图表</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,581.5 606.8,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="568.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,615.5 606.8,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="602.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mode()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,649.5 606.8,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="636.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isna()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,683.5 606.8,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="670.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mask()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,717.5 606.8,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="704.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">notna()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,751.5 606.8,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="738.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,785.5 606.8,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="772.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">apply()</text>
+<path d="M550.8,632.5 C578.8,632.5 578.8,819.5 606.8,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="606.8" y="806.0" width="111.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="618.8" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">unique()</text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1309" height="534" viewBox="0 0 1309 534" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1309" height="534" fill="#ffffff"/>
+<rect x="509.7" y="244.0" width="289.9" height="46" rx="10" fill="#35495E"/>
+<text x="529.7" y="267.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 92 · Docker容器技术详解</text>
+<path d="M799.6,267.0 C832.6,267.0 832.6,93.5 865.6,93.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="865.6" y="76.5" width="102.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="879.6" y="93.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Docker简介</text>
+<path d="M967.8,93.5 C995.8,93.5 995.8,93.5 1023.8,93.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="80.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="93.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">软件开发中最为麻烦的事情可能就是配置…</text>
+<path d="M799.6,267.0 C832.6,267.0 832.6,151.5 865.6,151.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="865.6" y="134.5" width="102.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="879.6" y="151.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装Docker</text>
+<path d="M967.8,151.5 C995.8,151.5 995.8,151.5 1023.8,151.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="138.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="151.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mycontainer</text>
+<path d="M799.6,267.0 C832.6,267.0 832.6,325.0 865.6,325.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="865.6" y="308.0" width="102.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="879.6" y="325.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用Docker</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,206.0 1023.8,206.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="192.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="206.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运行Nginx</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,240.0 1023.8,240.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="226.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="240.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运行MySQL</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,274.0 1023.8,274.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="260.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="274.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运行Redis</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,308.0 1023.8,308.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="294.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="308.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运行GitLab</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,342.0 1023.8,342.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="328.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="342.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sshd</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,376.0 1023.8,376.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="362.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="376.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">root</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,410.0 1023.8,410.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="396.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="410.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mynginx</text>
+<path d="M967.8,325.0 C995.8,325.0 995.8,444.0 1023.8,444.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1023.8" y="430.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1035.8" y="444.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">container</text>
+<path d="M509.7,267.0 C476.7,267.0 476.7,224.5 443.7,224.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="207.5" width="102.2" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="355.5" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">构建镜像</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,37.5 285.5,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用commit命令构建镜像</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,71.5 285.5,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">使用Dockerfile构建镜像</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,105.5 285.5,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Dockerfile指令</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,139.5 285.5,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FROM</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,173.5 285.5,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RUN</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,207.5 285.5,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CMD</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,241.5 285.5,241.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ENTRYPOINT</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,275.5 285.5,275.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">WORKDIR</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,309.5 285.5,309.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ENV</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,343.5 285.5,343.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="330.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">USER</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,377.5 285.5,377.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">VOLUME</text>
+<path d="M341.5,224.5 C313.5,224.5 313.5,411.5 285.5,411.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="398.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ADD</text>
+<path d="M509.7,267.0 C476.7,267.0 476.7,479.5 443.7,479.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="462.5" width="102.2" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="355.5" y="479.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多容器管理</text>
+<path d="M341.5,479.5 C313.5,479.5 313.5,462.5 285.5,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="449.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Docker Compose</text>
+<path d="M341.5,479.5 C313.5,479.5 313.5,496.5 285.5,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="483.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Kubernetes（K8S）</text>
+</svg>

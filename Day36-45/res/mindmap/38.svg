@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="625" height="704" viewBox="0 0 625 704" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="625" height="704" fill="#ffffff"/>
+<rect x="24.0" y="329.0" width="238.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="352.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 38 · SQL详解之DML</text>
+<path d="M262.9,352.0 C295.9,352.0 295.9,190.5 328.9,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="173.5" width="109.9" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="342.9" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">insert操作</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,37.5 494.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="24.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">null</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,71.5 494.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="58.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">into</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,105.5 494.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="92.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">insert</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,139.5 494.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="126.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">values</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,173.5 494.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="160.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,207.5 494.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="194.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delete</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,241.5 494.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="228.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,275.5 494.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="262.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,309.5 494.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="296.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_temp</text>
+<path d="M438.8,190.5 C466.8,190.5 466.8,343.5 494.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="330.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">low_priority</text>
+<path d="M262.9,352.0 C295.9,352.0 295.9,428.5 328.9,428.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="411.5" width="109.9" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="342.9" y="428.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">delete 操作</text>
+<path d="M438.8,428.5 C466.8,428.5 466.8,394.5 494.8,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="381.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where</text>
+<path d="M438.8,428.5 C466.8,428.5 466.8,428.5 494.8,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="415.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delete</text>
+<path d="M438.8,428.5 C466.8,428.5 466.8,462.5 494.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="449.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">truncate</text>
+<path d="M262.9,352.0 C295.9,352.0 295.9,547.5 328.9,547.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="530.5" width="109.9" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="342.9" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">update 操作</text>
+<path d="M438.8,547.5 C466.8,547.5 466.8,513.5 494.8,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="500.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
+<path d="M438.8,547.5 C466.8,547.5 466.8,547.5 494.8,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="534.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where</text>
+<path d="M438.8,547.5 C466.8,547.5 466.8,581.5 494.8,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="568.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update</text>
+<path d="M262.9,352.0 C295.9,352.0 295.9,649.5 328.9,649.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="632.5" width="109.9" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="342.9" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">完整的数据</text>
+<path d="M438.8,649.5 C466.8,649.5 466.8,632.5 494.8,632.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="619.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">insert</text>
+<path d="M438.8,649.5 C466.8,649.5 466.8,666.5 494.8,666.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="494.8" y="653.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="506.8" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">USE</text>
+</svg>

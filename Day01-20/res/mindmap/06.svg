@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1037" height="398" viewBox="0 0 1037 398" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1037" height="398" fill="#ffffff"/>
+<rect x="419.0" y="176.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="439.0" y="199.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 06 · 循环结构</text>
+<path d="M618.8,199.0 C651.8,199.0 651.8,80.0 684.8,80.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="684.8" y="63.0" width="142.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="698.8" y="80.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">for-in循环</text>
+<path d="M826.9,80.0 C854.9,80.0 854.9,46.0 882.9,46.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="32.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="46.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sum</text>
+<path d="M826.9,80.0 C854.9,80.0 854.9,80.0 882.9,80.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="66.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="80.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">range</text>
+<path d="M826.9,80.0 C854.9,80.0 854.9,114.0 882.9,114.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="100.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="114.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">total</text>
+<path d="M618.8,199.0 C651.8,199.0 651.8,199.0 684.8,199.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="684.8" y="182.0" width="142.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="698.8" y="199.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">while循环</text>
+<path d="M826.9,199.0 C854.9,199.0 854.9,165.0 882.9,165.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="151.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="165.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">total</text>
+<path d="M826.9,199.0 C854.9,199.0 854.9,199.0 882.9,199.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="185.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
+<path d="M826.9,199.0 C854.9,199.0 854.9,233.0 882.9,233.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="219.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="233.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
+<path d="M618.8,199.0 C651.8,199.0 651.8,318.0 684.8,318.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="684.8" y="301.0" width="142.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="698.8" y="318.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">break和continue</text>
+<path d="M826.9,318.0 C854.9,318.0 854.9,284.0 882.9,284.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="270.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="284.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
+<path d="M826.9,318.0 C854.9,318.0 854.9,318.0 882.9,318.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="304.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="318.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
+<path d="M826.9,318.0 C854.9,318.0 854.9,352.0 882.9,352.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="882.9" y="338.5" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="894.9" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">total</text>
+<path d="M419.0,199.0 C386.0,199.0 386.0,71.5 353.0,71.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="210.9" y="54.5" width="142.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="224.9" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">嵌套的循环结构</text>
+<path d="M210.9,71.5 C182.9,71.5 182.9,37.5 154.9,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">print()</text>
+<path d="M210.9,71.5 C182.9,71.5 182.9,71.5 154.9,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Version</text>
+<path d="M210.9,71.5 C182.9,71.5 182.9,105.5 154.9,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Author</text>
+<path d="M419.0,199.0 C386.0,199.0 386.0,258.5 353.0,258.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="210.9" y="241.5" width="142.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="224.9" y="258.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">循环结构的应用</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,156.5 154.9,156.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="143.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子1：判断素数</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,190.5 154.9,190.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="177.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子2：最大公约数</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,224.5 154.9,224.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="211.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子3：猜数字游戏</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,258.5 154.9,258.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="245.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,292.5 154.9,292.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="279.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">counter</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,326.5 154.9,326.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="313.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_prime</text>
+<path d="M210.9,258.5 C182.9,258.5 182.9,360.5 154.9,360.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="347.0" width="130.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">randrange</text>
+</svg>

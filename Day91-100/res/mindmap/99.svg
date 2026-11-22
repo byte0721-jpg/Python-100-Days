@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1336" height="198" viewBox="0 0 1336 198" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1336" height="198" fill="#ffffff"/>
+<rect x="534.2" y="76.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="554.2" y="99.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 99 · 面试中的公共问题</text>
+<path d="M802.0,99.0 C835.0,99.0 835.0,41.0 868.0,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="868.0" y="24.0" width="126.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="882.0" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计算机基础</text>
+<path d="M994.7,41.0 C1022.7,41.0 1022.7,41.0 1050.7,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1050.7" y="27.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1062.7" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TCP/IP模型相关问题</text>
+<path d="M802.0,99.0 C835.0,99.0 835.0,99.0 868.0,99.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="868.0" y="82.0" width="126.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="882.0" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Python基础</text>
+<path d="M994.7,99.0 C1022.7,99.0 1022.7,99.0 1050.7,99.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1050.7" y="85.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1062.7" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">开发中用过哪些标准库和三方库</text>
+<path d="M802.0,99.0 C835.0,99.0 835.0,157.0 868.0,157.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="868.0" y="140.0" width="126.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="882.0" y="157.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django和Flask</text>
+<path d="M994.7,157.0 C1022.7,157.0 1022.7,157.0 1050.7,157.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1050.7" y="143.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1062.7" y="157.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MVC架构（MTV）解决了什么问题</text>
+<path d="M534.2,99.0 C501.2,99.0 501.2,41.0 468.2,41.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="24.0" width="126.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="355.5" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">爬虫相关</text>
+<path d="M341.5,41.0 C313.5,41.0 313.5,41.0 285.5,41.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="27.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Scrapy框架的组件和数据处理流程</text>
+<path d="M534.2,99.0 C501.2,99.0 501.2,99.0 468.2,99.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="82.0" width="126.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="355.5" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析</text>
+<path d="M341.5,99.0 C313.5,99.0 313.5,99.0 285.5,99.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="85.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">科学运算函数库（SciPy和NumPy常用运…</text>
+<path d="M534.2,99.0 C501.2,99.0 501.2,157.0 468.2,157.0" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="140.0" width="126.7" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="355.5" y="157.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">项目相关</text>
+<path d="M341.5,157.0 C313.5,157.0 313.5,157.0 285.5,157.0" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="143.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="157.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">项目团队构成以及自己在团队中扮演的角…</text>
+</svg>

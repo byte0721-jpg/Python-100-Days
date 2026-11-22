@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="814" height="687" viewBox="0 0 814 687" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="814" height="687" fill="#ffffff"/>
+<rect x="24.0" y="320.5" width="308.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="343.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · Python中的并发编程-2</text>
+<path d="M332.6,343.5 C365.6,343.5 365.6,156.5 398.6,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="139.5" width="168.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="412.6" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建进程</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,37.5 622.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="24.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pid</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,71.5 622.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="58.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fork</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,105.5 622.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="92.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Thread</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,139.5 622.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="126.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">target</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,173.5 622.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="160.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">getpid</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,207.5 622.6,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="194.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Process</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,241.5 622.6,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="228.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">current_process</text>
+<path d="M566.6,156.5 C594.6,156.5 594.6,275.5 622.6,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="262.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ProcessPoolExecutor</text>
+<path d="M332.6,343.5 C365.6,343.5 365.6,343.5 398.6,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="326.5" width="168.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="412.6" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多进程和多线程的比较</text>
+<path d="M566.6,343.5 C594.6,343.5 594.6,326.5 622.6,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="313.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ThreadPoolExecutor</text>
+<path d="M566.6,343.5 C594.6,343.5 594.6,360.5 622.6,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="347.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ProcessPoolExecutor</text>
+<path d="M332.6,343.5 C365.6,343.5 365.6,530.5 398.6,530.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="513.5" width="168.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="412.6" y="530.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">进程间通信</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,411.5 622.6,411.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="398.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,445.5 622.6,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="432.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">put</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,479.5 622.6,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="466.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Queue</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,513.5 622.6,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="500.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">block</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,547.5 622.6,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="534.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">counter</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,581.5 622.6,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="568.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">timeout</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,615.5 622.6,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="602.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">multiprocessing</text>
+<path d="M566.6,530.5 C594.6,530.5 594.6,649.5 622.6,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="622.6" y="636.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="634.6" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">multiprocessing.Queue</text>
+</svg>

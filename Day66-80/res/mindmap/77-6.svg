@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1086" height="670" viewBox="0 0 1086 670" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1086" height="670" fill="#ffffff"/>
+<rect x="405.8" y="312.0" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="425.8" y="335.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 77 · 深入浅出pandas-6</text>
+<path d="M680.4,335.0 C713.4,335.0 713.4,216.0 746.4,216.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="746.4" y="199.0" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="760.4" y="216.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">范围索引</text>
+<path d="M858.4,216.0 C886.4,216.0 886.4,199.0 914.4,199.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="185.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RangeIndex</text>
+<path d="M858.4,216.0 C886.4,216.0 886.4,233.0 914.4,233.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="219.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="233.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">from_range</text>
+<path d="M680.4,335.0 C713.4,335.0 713.4,301.0 746.4,301.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="746.4" y="284.0" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="760.4" y="301.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">分类索引</text>
+<path d="M858.4,301.0 C886.4,301.0 886.4,284.0 914.4,284.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="270.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="284.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sum</text>
+<path d="M858.4,301.0 C886.4,301.0 886.4,318.0 914.4,318.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="304.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="318.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">reorder_categories</text>
+<path d="M680.4,335.0 C713.4,335.0 713.4,420.0 746.4,420.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="746.4" y="403.0" width="112.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="760.4" y="420.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">多级索引</text>
+<path d="M858.4,420.0 C886.4,420.0 886.4,369.0 914.4,369.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="355.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="369.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MultiIndex</text>
+<path d="M858.4,420.0 C886.4,420.0 886.4,403.0 914.4,403.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="389.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="403.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">from_arrays</text>
+<path d="M858.4,420.0 C886.4,420.0 886.4,437.0 914.4,437.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="423.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="437.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">from_tuples</text>
+<path d="M858.4,420.0 C886.4,420.0 886.4,471.0 914.4,471.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="914.4" y="457.5" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="926.4" y="471.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">from_product</text>
+<path d="M405.8,335.0 C372.8,335.0 372.8,122.5 339.8,122.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="227.8" y="105.5" width="112.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="241.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">间隔索引</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,37.5 171.8,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">both</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,71.5 171.8,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">close</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,105.5 171.8,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">contains</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,139.5 171.8,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">overlaps</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,173.5 171.8,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">IntervalIndex</text>
+<path d="M227.8,122.5 C199.8,122.5 199.8,207.5 171.8,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">interval_range</text>
+<path d="M405.8,335.0 C372.8,335.0 372.8,445.5 339.8,445.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="227.8" y="428.5" width="112.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="241.8" y="445.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">日期时间索引</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,258.5 171.8,258.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="245.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">asfreq()</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,292.5 171.8,292.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="279.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resample()</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,326.5 171.8,326.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="313.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">date_range()</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,360.5 171.8,360.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="347.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tz_convert()</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,394.5 171.8,394.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="381.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tz_localize()</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,428.5 171.8,428.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="415.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">freq</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,462.5 171.8,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="449.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,496.5 171.8,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="483.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">asfreq</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,530.5 171.8,530.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="517.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">method</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,564.5 171.8,564.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="551.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">periods</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,598.5 171.8,598.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="585.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">columns</text>
+<path d="M227.8,445.5 C199.8,445.5 199.8,632.5 171.8,632.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="619.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+</svg>

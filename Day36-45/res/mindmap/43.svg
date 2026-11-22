@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="747" height="772" viewBox="0 0 747 772" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+<rect x="0" y="0" width="747" height="772" fill="#ffffff"/>
+<rect x="24.0" y="363.0" width="165.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="386.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 43 · 索引</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,54.5 255.8,54.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="37.5" width="154.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="269.8" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">索引的作用</text>
+<path d="M409.8,54.5 C437.8,54.5 437.8,37.5 465.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="24.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">以空间换时间，提升查询性能</text>
+<path d="M409.8,54.5 C437.8,54.5 437.8,71.5 465.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="58.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">InnoDB 支持 B+ 树、全文、R 树索引</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,156.5 255.8,156.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="139.5" width="154.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="269.8" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">B+ 树索引</text>
+<path d="M409.8,156.5 C437.8,156.5 437.8,122.5 465.8,122.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="109.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">平衡树结构</text>
+<path d="M409.8,156.5 C437.8,156.5 437.8,156.5 465.8,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="143.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">根节点、中间节点、叶子节点</text>
+<path d="M409.8,156.5 C437.8,156.5 437.8,190.5 465.8,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="177.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">叶子节点内二分查找</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,275.5 255.8,275.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="258.5" width="154.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="269.8" y="275.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">聚集索引与二级索引</text>
+<path d="M409.8,275.5 C437.8,275.5 437.8,241.5 465.8,241.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="228.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">主键即聚集索引</text>
+<path d="M409.8,275.5 C437.8,275.5 437.8,275.5 465.8,275.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="262.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">自定义索引为二级索引</text>
+<path d="M409.8,275.5 C437.8,275.5 437.8,309.5 465.8,309.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="296.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">二级索引查询需要回表</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,394.5 255.8,394.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="377.5" width="154.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="269.8" y="394.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">执行计划</text>
+<path d="M409.8,394.5 C437.8,394.5 437.8,360.5 465.8,360.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="347.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">explain 查看执行计划</text>
+<path d="M409.8,394.5 C437.8,394.5 437.8,394.5 465.8,394.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="381.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type 访问类型</text>
+<path d="M409.8,394.5 C437.8,394.5 437.8,428.5 465.8,428.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="415.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">possible_keys / key / rows / Extra</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,513.5 255.8,513.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="496.5" width="154.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="269.8" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">索引的管理</text>
+<path d="M409.8,513.5 C437.8,513.5 437.8,479.5 465.8,479.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="466.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">创建索引</text>
+<path d="M409.8,513.5 C437.8,513.5 437.8,513.5 465.8,513.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="500.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">删除索引</text>
+<path d="M409.8,513.5 C437.8,513.5 437.8,547.5 465.8,547.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="534.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">复合索引与索引覆盖</text>
+<path d="M189.8,386.0 C222.8,386.0 222.8,666.5 255.8,666.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="255.8" y="649.5" width="154.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="269.8" y="666.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">设计原则</text>
+<path d="M409.8,666.5 C437.8,666.5 437.8,598.5 465.8,598.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="585.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">WHERE 子句和连接列最适合建索引</text>
+<path d="M409.8,666.5 C437.8,666.5 437.8,632.5 465.8,632.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="619.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基数越大效果越好</text>
+<path d="M409.8,666.5 C437.8,666.5 437.8,666.5 465.8,666.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="653.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">前缀索引节省空间</text>
+<path d="M409.8,666.5 C437.8,666.5 437.8,700.5 465.8,700.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="687.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引不是越多越好</text>
+<path d="M409.8,666.5 C437.8,666.5 437.8,734.5 465.8,734.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="465.8" y="721.0" width="257.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="477.8" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">主键尽量选择较短类型</text>
+</svg>

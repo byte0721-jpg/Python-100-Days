@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="924" height="653" viewBox="0 0 924 653" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="924" height="653" fill="#ffffff"/>
+<rect x="344.5" y="303.5" width="235.5" height="46" rx="10" fill="#35495E"/>
+<text x="364.5" y="326.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 79 · 数据可视化-2</text>
+<path d="M580.0,326.5 C613.0,326.5 613.0,122.5 646.0,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="646.0" y="105.5" width="71.4" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="660.0" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">气泡图</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,37.5 773.4,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="24.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">income</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,71.5 773.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="58.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">outcome</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,105.5 773.4,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="92.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nums</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,139.5 773.4,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="126.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.scatter</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,173.5 773.4,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="160.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.colorbar</text>
+<path d="M717.4,122.5 C745.4,122.5 745.4,207.5 773.4,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="194.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.show</text>
+<path d="M580.0,326.5 C613.0,326.5 613.0,343.5 646.0,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="646.0" y="326.5" width="71.4" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="660.0" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">面积图</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,258.5 773.4,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="245.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.figure</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,292.5 773.4,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="279.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">days</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,326.5 773.4,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="313.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sleeping</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,360.5 773.4,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="347.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eating</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,394.5 773.4,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="381.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">working</text>
+<path d="M717.4,343.5 C745.4,343.5 745.4,428.5 773.4,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="415.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">playing</text>
+<path d="M580.0,326.5 C613.0,326.5 613.0,547.5 646.0,547.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="646.0" y="530.5" width="71.4" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="660.0" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">雷达图</text>
+<path d="M717.4,547.5 C745.4,547.5 745.4,479.5 773.4,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="466.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">labels</text>
+<path d="M717.4,547.5 C745.4,547.5 745.4,513.5 773.4,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="500.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">malong_values</text>
+<path d="M717.4,547.5 C745.4,547.5 745.4,547.5 773.4,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="534.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">shuigu_values</text>
+<path d="M717.4,547.5 C745.4,547.5 745.4,581.5 773.4,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="568.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">angles</text>
+<path d="M717.4,547.5 C745.4,547.5 745.4,615.5 773.4,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="773.4" y="602.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="785.4" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.figure</text>
+<path d="M344.5,326.5 C311.5,326.5 311.5,233.0 278.5,233.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="207.1" y="216.0" width="71.4" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="221.1" y="233.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">玫瑰图</text>
+<path d="M207.1,233.0 C179.1,233.0 179.1,199.0 151.1,199.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="185.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">theta</text>
+<path d="M207.1,233.0 C179.1,233.0 179.1,233.0 151.1,233.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="219.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="233.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">width</text>
+<path d="M207.1,233.0 C179.1,233.0 179.1,267.0 151.1,267.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="253.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="267.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">colors</text>
+<path d="M344.5,326.5 C311.5,326.5 311.5,386.0 278.5,386.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="207.1" y="369.0" width="71.4" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="221.1" y="386.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">3D图表</text>
+<path d="M207.1,386.0 C179.1,386.0 179.1,318.0 151.1,318.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="304.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="318.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fig</text>
+<path d="M207.1,386.0 C179.1,386.0 179.1,352.0 151.1,352.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="338.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fig.add_axes</text>
+<path d="M207.1,386.0 C179.1,386.0 179.1,386.0 151.1,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">np.meshgrid</text>
+<path d="M207.1,386.0 C179.1,386.0 179.1,420.0 151.1,420.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="406.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="420.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ax.plot_surface</text>
+<path d="M207.1,386.0 C179.1,386.0 179.1,454.0 151.1,454.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="440.5" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="454.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plt.show</text>
+</svg>

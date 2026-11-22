@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1407" height="830" viewBox="0 0 1407 830" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1407" height="830" fill="#ffffff"/>
+<rect x="552.8" y="392.0" width="301.8" height="46" rx="10" fill="#35495E"/>
+<text x="572.8" y="415.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 97 · 电商网站技术要点剖析</text>
+<path d="M854.5,415.0 C887.5,415.0 887.5,221.0 920.5,221.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="920.5" y="204.0" width="154.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="934.5" y="221.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">商业模式</text>
+<path d="M1074.5,221.0 C1102.5,221.0 1102.5,221.0 1130.5,221.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="207.5" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="221.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">C2C - 个人对个人，例如：淘宝、人人车</text>
+<path d="M854.5,415.0 C887.5,415.0 887.5,279.0 920.5,279.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="920.5" y="262.0" width="154.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="934.5" y="279.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">需求要点</text>
+<path d="M854.5,415.0 C887.5,415.0 887.5,337.0 920.5,337.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="920.5" y="320.0" width="154.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="934.5" y="337.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">物理模型设计</text>
+<path d="M854.5,415.0 C887.5,415.0 887.5,425.5 920.5,425.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="920.5" y="408.5" width="154.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="934.5" y="425.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">第三方登录</text>
+<path d="M1074.5,425.5 C1102.5,425.5 1102.5,391.5 1130.5,391.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="378.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="391.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">OAuth 2.0授权流程</text>
+<path d="M1074.5,425.5 C1102.5,425.5 1102.5,425.5 1130.5,425.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="412.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="425.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">令牌</text>
+<path d="M1074.5,425.5 C1102.5,425.5 1102.5,459.5 1130.5,459.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="446.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="459.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">密码</text>
+<path d="M854.5,415.0 C887.5,415.0 887.5,561.5 920.5,561.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="920.5" y="544.5" width="154.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="934.5" y="561.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">缓存预热和查询缓存</text>
+<path d="M1074.5,561.5 C1102.5,561.5 1102.5,510.5 1130.5,510.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="497.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="510.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缓存预热</text>
+<path d="M1074.5,561.5 C1102.5,561.5 1102.5,544.5 1130.5,544.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="531.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="544.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询缓存</text>
+<path d="M1074.5,561.5 C1102.5,561.5 1102.5,578.5 1130.5,578.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="565.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="578.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ready()</text>
+<path d="M1074.5,561.5 C1102.5,561.5 1102.5,612.5 1130.5,612.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1130.5" y="599.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1142.5" y="612.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AppConfig</text>
+<path d="M552.8,415.0 C519.8,415.0 519.8,122.5 486.8,122.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="105.5" width="154.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="346.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">购物车实现</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,37.5 276.8,37.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__init__</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,71.5 276.8,71.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self.sku</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,105.5 276.8,105.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self.amount</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,139.5 276.8,139.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self.selected</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,173.5 276.8,173.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">total</text>
+<path d="M332.8,122.5 C304.8,122.5 304.8,207.5 276.8,207.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self.items</text>
+<path d="M552.8,415.0 C519.8,415.0 519.8,343.5 486.8,343.5" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="326.5" width="154.0" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="346.8" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">集成支付功能</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,258.5 276.8,258.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="245.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALIPAY_APPID</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,292.5 276.8,292.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="279.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALIPAY_URL</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,326.5 276.8,326.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="313.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ALIPAY_DEBUG</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,360.5 276.8,360.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="347.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">alipay</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,394.5 276.8,394.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="381.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">appid</text>
+<path d="M332.8,343.5 C304.8,343.5 304.8,428.5 276.8,428.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="415.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">app_notify_url</text>
+<path d="M552.8,415.0 C519.8,415.0 519.8,513.5 486.8,513.5" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="496.5" width="154.0" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="346.8" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">秒杀和超卖</text>
+<path d="M332.8,513.5 C304.8,513.5 304.8,479.5 276.8,479.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="466.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where</text>
+<path d="M332.8,513.5 C304.8,513.5 304.8,513.5 276.8,513.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="500.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select</text>
+<path d="M332.8,513.5 C304.8,513.5 304.8,547.5 276.8,547.5" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">update</text>
+<path d="M552.8,415.0 C519.8,415.0 519.8,602.0 486.8,602.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="585.0" width="154.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="346.8" y="602.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">静态资源管理</text>
+<path d="M552.8,415.0 C519.8,415.0 519.8,724.5 486.8,724.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="332.8" y="707.5" width="154.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="346.8" y="724.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">全文检索</text>
+<path d="M332.8,724.5 C304.8,724.5 304.8,656.5 276.8,656.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="643.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">方案选择</text>
+<path d="M332.8,724.5 C304.8,724.5 304.8,690.5 276.8,690.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="677.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="690.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ElasticSearch</text>
+<path d="M332.8,724.5 C304.8,724.5 304.8,724.5 276.8,724.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="711.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="724.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">配置中文分词和拼音插件</text>
+<path d="M332.8,724.5 C304.8,724.5 304.8,758.5 276.8,758.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="745.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="758.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">全文检索功能</text>
+<path d="M332.8,724.5 C304.8,724.5 304.8,792.5 276.8,792.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="779.0" width="252.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="792.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Django对接ElasticSearch</text>
+</svg>

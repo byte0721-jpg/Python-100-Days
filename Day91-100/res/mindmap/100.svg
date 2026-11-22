@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="634" height="388" viewBox="0 0 634 388" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+<rect x="0" y="0" width="634" height="388" fill="#ffffff"/>
+<rect x="24.0" y="171.0" width="209.2" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="194.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 100 · 补充内容</text>
+<path d="M233.2,194.0 C266.1,194.0 266.1,88.5 299.1,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="299.1" y="71.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="313.1" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">面试资源</text>
+<path d="M383.1,88.5 C411.1,88.5 411.1,37.5 439.1,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="24.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Python 面试宝典</text>
+<path d="M383.1,88.5 C411.1,88.5 411.1,71.5 439.1,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="58.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">商业分析面试宝典</text>
+<path d="M383.1,88.5 C411.1,88.5 411.1,105.5 439.1,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="92.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据分析师 SQL 面试宝典</text>
+<path d="M383.1,88.5 C411.1,88.5 411.1,139.5 439.1,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="126.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">机器学习面试宝典</text>
+<path d="M233.2,194.0 C266.1,194.0 266.1,241.5 299.1,241.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="299.1" y="224.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="313.1" y="241.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数学基础</text>
+<path d="M383.1,241.5 C411.1,241.5 411.1,190.5 439.1,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="177.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">线性代数</text>
+<path d="M383.1,241.5 C411.1,241.5 411.1,224.5 439.1,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="211.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">概率论和统计学</text>
+<path d="M383.1,241.5 C411.1,241.5 411.1,258.5 439.1,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="245.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">高等数学</text>
+<path d="M383.1,241.5 C411.1,241.5 411.1,292.5 439.1,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="279.0" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">信息论</text>
+<path d="M233.2,194.0 C266.1,194.0 266.1,347.0 299.1,347.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="299.1" y="330.0" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="313.1" y="347.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">深度学习</text>
+<path d="M383.1,347.0 C411.1,347.0 411.1,347.0 439.1,347.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="439.1" y="333.5" width="170.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="451.1" y="347.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">深度学习就是大力出奇迹</text>
+</svg>

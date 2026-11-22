@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="819" height="779" viewBox="0 0 819 779" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="819" height="779" fill="#ffffff"/>
+<rect x="24.0" y="366.5" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="389.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 66 · 数据分析概述</text>
+<path d="M257.8,389.5 C290.8,389.5 290.8,224.5 323.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="207.5" width="154.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="337.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析师的职责</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,37.5 533.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据治理方向</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,71.5 533.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">商业分析方向</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,105.5 533.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据挖掘方向</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,139.5 533.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据开发方向</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,173.5 533.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据产品经理</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,207.5 533.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">业务数据分析师</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,241.5 533.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据运营</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,275.5 533.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">商业分析师</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,309.5 533.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">BI工程师</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,343.5 533.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="330.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">监控数据</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,377.5 533.8,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="364.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">揪出异常</text>
+<path d="M477.8,224.5 C505.8,224.5 505.8,411.5 533.8,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="398.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">找到原因</text>
+<path d="M257.8,389.5 C290.8,389.5 290.8,466.0 323.8,466.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="449.0" width="154.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="337.8" y="466.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析师的技能栈</text>
+<path d="M477.8,466.0 C505.8,466.0 505.8,466.0 533.8,466.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="452.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="466.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">计算机科学（数据分析工具、编程语言、…</text>
+<path d="M257.8,389.5 C290.8,389.5 290.8,537.5 323.8,537.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="520.5" width="154.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="337.8" y="537.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析通用流程</text>
+<path d="M477.8,537.5 C505.8,537.5 505.8,520.5 533.8,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="507.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">狭义的数据分析</text>
+<path d="M477.8,537.5 C505.8,537.5 505.8,554.5 533.8,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="541.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">广义的数据分析</text>
+<path d="M257.8,389.5 C290.8,389.5 290.8,673.5 323.8,673.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="656.5" width="154.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="337.8" y="673.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分析相关库</text>
+<path d="M477.8,673.5 C505.8,673.5 505.8,605.5 533.8,605.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="592.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="605.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">经典的三大神器</text>
+<path d="M477.8,673.5 C505.8,673.5 505.8,639.5 533.8,639.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="626.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="639.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他相关库</text>
+<path d="M477.8,673.5 C505.8,673.5 505.8,673.5 533.8,673.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="660.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="673.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M477.8,673.5 C505.8,673.5 505.8,707.5 533.8,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="694.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndarray</text>
+<path d="M477.8,673.5 C505.8,673.5 505.8,741.5 533.8,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.8" y="728.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.8" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+</svg>

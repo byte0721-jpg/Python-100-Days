@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1444" height="483" viewBox="0 0 1444 483" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1444" height="483" fill="#ffffff"/>
+<rect x="605.2" y="218.5" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="625.2" y="241.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 15 · 函数应用实战</text>
+<path d="M839.0,241.5 C872.0,241.5 872.0,170.0 905.0,170.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="905.0" y="153.0" width="217.7" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="919.0" y="170.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子1：随机验证码</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,51.0 1178.7,51.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="37.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="51.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">string</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,85.0 1178.7,85.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="71.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="85.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">digits</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,119.0 1178.7,119.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="105.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="119.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,153.0 1178.7,153.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="139.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="153.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sample</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,187.0 1178.7,187.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="173.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="187.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">choices</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,221.0 1178.7,221.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="207.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="221.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">code_len</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,255.0 1178.7,255.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="241.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="255.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ascii_letters</text>
+<path d="M1122.7,170.0 C1150.7,170.0 1150.7,289.0 1178.7,289.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="275.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="289.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">generate_code</text>
+<path d="M839.0,241.5 C872.0,241.5 872.0,343.5 905.0,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="905.0" y="326.5" width="217.7" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="919.0" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子2：判断素数</text>
+<path d="M1122.7,343.5 C1150.7,343.5 1150.7,343.5 1178.7,343.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="330.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_prime</text>
+<path d="M839.0,241.5 C872.0,241.5 872.0,415.0 905.0,415.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="905.0" y="398.0" width="217.7" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="919.0" y="415.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子3：最大公约数和最小公…</text>
+<path d="M1122.7,415.0 C1150.7,415.0 1150.7,398.0 1178.7,398.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="384.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="398.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lcm</text>
+<path d="M1122.7,415.0 C1150.7,415.0 1150.7,432.0 1178.7,432.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1178.7" y="418.5" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1190.7" y="432.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gcd</text>
+<path d="M605.2,241.5 C572.2,241.5 572.2,71.5 539.2,71.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="321.5" y="54.5" width="217.7" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="335.5" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子4：数据统计</text>
+<path d="M321.5,71.5 C293.5,71.5 293.5,37.5 265.5,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ddof</text>
+<path d="M321.5,71.5 C293.5,71.5 293.5,71.5 265.5,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">describe</text>
+<path d="M321.5,71.5 C293.5,71.5 293.5,105.5 265.5,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">statistics</text>
+<path d="M605.2,241.5 C572.2,241.5 572.2,173.5 539.2,173.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="321.5" y="156.5" width="217.7" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="335.5" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子5：双色球随机选号</text>
+<path d="M321.5,173.5 C293.5,173.5 293.5,156.5 265.5,156.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="143.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">choose</text>
+<path d="M321.5,173.5 C293.5,173.5 293.5,190.5 265.5,190.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="177.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">display</text>
+<path d="M605.2,241.5 C572.2,241.5 572.2,343.5 539.2,343.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="321.5" y="326.5" width="217.7" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="335.5" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">例子6：体育竞技分析</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,241.5 265.5,241.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="228.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">自顶向下（top-down）的程序设计方法</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,275.5 265.5,275.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="262.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">问题</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,309.5 265.5,309.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="296.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">main</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,343.5 265.5,343.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="330.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_inputs</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,377.5 265.5,377.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sim_n_games</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,411.5 265.5,411.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="398.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sim_a_point</text>
+<path d="M321.5,343.5 C293.5,343.5 293.5,445.5 265.5,445.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="432.0" width="241.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sim_one_game</text>
+</svg>

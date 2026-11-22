@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1334" height="653" viewBox="0 0 1334 653" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1334" height="653" fill="#ffffff"/>
+<rect x="533.5" y="303.5" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="553.5" y="326.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 18 · 面向对象编程入门</text>
+<path d="M801.3,326.5 C834.3,326.5 834.3,190.5 867.3,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="867.3" y="173.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="881.3" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">类和对象</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,37.5 1049.3,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">面向对象编程</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,71.5 1049.3,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对象</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,105.5 1049.3,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">封装</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,139.5 1049.3,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,173.5 1049.3,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多态</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,207.5 1049.3,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">类是一个抽象的概念，对象是一个具体的…</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,241.5 1049.3,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">一切皆为对象</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,275.5 1049.3,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对象都有属性和行为</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,309.5 1049.3,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">每个对象都是独一无二的</text>
+<path d="M993.3,190.5 C1021.3,190.5 1021.3,343.5 1049.3,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="330.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">对象一定属于某个类</text>
+<path d="M801.3,326.5 C834.3,326.5 834.3,428.5 867.3,428.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="867.3" y="411.5" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="881.3" y="428.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">定义类</text>
+<path d="M993.3,428.5 C1021.3,428.5 1021.3,394.5 1049.3,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="381.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">方法</text>
+<path d="M993.3,428.5 C1021.3,428.5 1021.3,428.5 1049.3,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="415.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self</text>
+<path d="M993.3,428.5 C1021.3,428.5 1021.3,462.5 1049.3,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="449.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">class</text>
+<path d="M801.3,326.5 C834.3,326.5 834.3,564.5 867.3,564.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="867.3" y="547.5" width="126.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="881.3" y="564.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建和使用对象</text>
+<path d="M993.3,564.5 C1021.3,564.5 1021.3,513.5 1049.3,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="500.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">play</text>
+<path d="M993.3,564.5 C1021.3,564.5 1021.3,547.5 1049.3,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="534.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">self</text>
+<path d="M993.3,564.5 C1021.3,564.5 1021.3,581.5 1049.3,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="568.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">study</text>
+<path d="M993.3,564.5 C1021.3,564.5 1021.3,615.5 1049.3,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1049.3" y="602.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1061.3" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Student</text>
+<path d="M533.5,326.5 C500.5,326.5 500.5,156.5 467.5,156.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="139.5" width="126.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="355.5" y="156.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">初始化方法</text>
+<path d="M341.5,156.5 C313.5,156.5 313.5,105.5 285.5,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">age</text>
+<path d="M341.5,156.5 C313.5,156.5 313.5,139.5 285.5,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">name</text>
+<path d="M341.5,156.5 C313.5,156.5 313.5,173.5 285.5,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Student</text>
+<path d="M341.5,156.5 C313.5,156.5 313.5,207.5 285.5,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__init__</text>
+<path d="M533.5,326.5 C500.5,326.5 500.5,343.5 467.5,343.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="326.5" width="126.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="355.5" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">面向对象的支柱</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,258.5 285.5,258.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="245.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">封装</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,292.5 285.5,292.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="279.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">继承</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,326.5 285.5,326.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="313.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多态</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,360.5 285.5,360.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="347.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,394.5 285.5,394.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="381.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
+<path d="M341.5,343.5 C313.5,343.5 313.5,428.5 285.5,428.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="415.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dict</text>
+<path d="M533.5,326.5 C500.5,326.5 500.5,513.5 467.5,513.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="341.5" y="496.5" width="126.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="355.5" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">面向对象案例</text>
+<path d="M341.5,513.5 C313.5,513.5 313.5,479.5 285.5,479.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="466.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子1：时钟</text>
+<path d="M341.5,513.5 C313.5,513.5 313.5,513.5 285.5,513.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="500.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">例子2：平面上的点</text>
+<path d="M341.5,513.5 C313.5,513.5 313.5,547.5 285.5,547.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">要求</text>
+</svg>

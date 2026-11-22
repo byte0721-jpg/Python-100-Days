@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="737" height="364" viewBox="0 0 737 364" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="737" height="364" fill="#ffffff"/>
+<rect x="24.0" y="159.0" width="233.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="182.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 52 · 中间件的应用</text>
+<path d="M257.8,182.0 C290.8,182.0 290.8,122.5 323.8,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="105.5" width="144.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="337.8" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Django中间件概述</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,37.5 524.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="24.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CommonMiddleware</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,71.5 524.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="58.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,105.5 524.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="92.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SecurityMiddleware</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,139.5 524.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="126.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CsrfViewMiddleware</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,173.5 524.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="160.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">XFrameOptionsMiddleware</text>
+<path d="M468.0,122.5 C496.0,122.5 496.0,207.5 524.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="194.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AuthenticationMiddleware</text>
+<path d="M257.8,182.0 C290.8,182.0 290.8,292.5 323.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="323.8" y="275.5" width="144.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="337.8" y="292.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">自定义中间件</text>
+<path d="M468.0,292.5 C496.0,292.5 496.0,258.5 524.0,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="245.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">session</text>
+<path d="M468.0,292.5 C496.0,292.5 496.0,292.5 524.0,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="279.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__call__</text>
+<path d="M468.0,292.5 C496.0,292.5 496.0,326.5 524.0,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="524.0" y="313.0" width="189.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="536.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SessionMiddleware</text>
+</svg>

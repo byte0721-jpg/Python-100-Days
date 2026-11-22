@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="706" height="704" viewBox="0 0 706 704" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="706" height="704" fill="#ffffff"/>
+<rect x="24.0" y="329.0" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="352.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 75 · 深入浅出pandas-4</text>
+<path d="M298.6,352.0 C331.6,352.0 331.6,224.5 364.6,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="378.6" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据透视</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,37.5 504.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="24.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">获取描述性统计信息</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,71.5 504.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="58.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">排序和取头部值</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,105.5 504.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="92.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分组聚合</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,139.5 504.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="126.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">透视表和交叉表</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,173.5 504.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="160.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">根据 A 列对 B 列进行统计</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,207.5 504.6,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="194.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,241.5 504.6,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="228.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,275.5 504.6,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="262.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">std</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,309.5 504.6,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="296.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">var</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,343.5 504.6,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="330.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">agg</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,377.5 504.6,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="364.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mean</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,411.5 504.6,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="398.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index</text>
+<path d="M298.6,352.0 C331.6,352.0 331.6,564.5 364.6,564.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="547.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="378.6" y="564.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据呈现</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,462.5 504.6,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="449.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pie</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,496.5 504.6,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="483.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">plot</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,530.5 504.6,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="517.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kind</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,564.5 504.6,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="551.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,598.5 504.6,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="585.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,632.5 504.6,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="619.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">matplotlib</text>
+<path d="M448.6,564.5 C476.6,564.5 476.6,666.5 504.6,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="653.0" width="177.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">matplotlib.pyplot</text>
+</svg>

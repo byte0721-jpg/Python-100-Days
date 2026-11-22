@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="692" height="262" viewBox="0 0 692 262" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="692" height="262" fill="#ffffff"/>
+<rect x="24.0" y="108.0" width="306.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="131.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 29 · Python发送邮件和短信</text>
+<path d="M330.9,131.0 C363.9,131.0 363.9,88.5 396.9,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="396.9" y="71.5" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="410.9" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">发送电子邮件</text>
+<path d="M508.9,88.5 C536.9,88.5 536.9,37.5 564.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">login</text>
+<path d="M508.9,88.5 C536.9,88.5 536.9,71.5 564.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">smtplib</text>
+<path d="M508.9,88.5 C536.9,88.5 536.9,105.5 564.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SMTP_SSL</text>
+<path d="M508.9,88.5 C536.9,88.5 536.9,139.5 564.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">send_mail</text>
+<path d="M330.9,131.0 C363.9,131.0 363.9,207.5 396.9,207.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="396.9" y="190.5" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="410.9" y="207.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">发送短信</text>
+<path d="M508.9,207.5 C536.9,207.5 536.9,190.5 564.9,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="177.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">error</text>
+<path d="M508.9,207.5 C536.9,207.5 536.9,224.5 564.9,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="564.9" y="211.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="576.9" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">requests</text>
+</svg>

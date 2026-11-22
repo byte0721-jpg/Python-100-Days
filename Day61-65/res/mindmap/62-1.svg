@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="714" height="551" viewBox="0 0 714 551" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="714" height="551" fill="#ffffff"/>
+<rect x="24.0" y="252.5" width="325.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="275.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 62 · 用Python获取网络资源-1</text>
+<path d="M349.6,275.5 C382.6,275.5 382.6,139.5 415.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="122.5" width="114.8" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="429.6" y="139.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">requests库</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,37.5 586.4,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,71.5 586.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resp</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,105.5 586.4,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">text</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,139.5 586.4,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">content</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,173.5 586.4,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="160.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">requests</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,207.5 586.4,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Response</text>
+<path d="M530.4,139.5 C558.4,139.5 558.4,241.5 586.4,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">status_code</text>
+<path d="M349.6,275.5 C382.6,275.5 382.6,343.5 415.6,343.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="326.5" width="114.8" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="429.6" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">编写爬虫代码</text>
+<path d="M530.4,343.5 C558.4,343.5 558.4,292.5 586.4,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="279.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xxx</text>
+<path d="M530.4,343.5 C558.4,343.5 558.4,326.5 586.4,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="313.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M530.4,343.5 C558.4,343.5 558.4,360.5 586.4,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="347.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">headers</text>
+<path d="M530.4,343.5 C558.4,343.5 558.4,394.5 586.4,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="381.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">requests</text>
+<path d="M349.6,275.5 C382.6,275.5 382.6,479.5 415.6,479.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="462.5" width="114.8" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="429.6" y="479.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用 IP 代理</text>
+<path d="M530.4,479.5 C558.4,479.5 558.4,445.5 586.4,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="432.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">商业 IP 代理</text>
+<path d="M530.4,479.5 C558.4,479.5 558.4,479.5 586.4,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="466.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Appkey</text>
+<path d="M530.4,479.5 C558.4,479.5 558.4,513.5 586.4,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="586.4" y="500.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="598.4" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">APP_KEY</text>
+</svg>

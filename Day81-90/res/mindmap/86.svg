@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="730" height="558" viewBox="0 0 730 558" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="730" height="558" fill="#ffffff"/>
+<rect x="24.0" y="256.0" width="265.2" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="279.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 86 · K-Means聚类算法</text>
+<path d="M289.2,279.0 C322.2,279.0 322.2,71.5 355.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="355.2" y="54.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="369.2" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">算法原理</text>
+<path d="M439.2,71.5 C467.2,71.5 467.2,37.5 495.2,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="24.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">初始化簇中心</text>
+<path d="M439.2,71.5 C467.2,71.5 467.2,71.5 495.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="58.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分配样本到最近的质心</text>
+<path d="M439.2,71.5 C467.2,71.5 467.2,105.5 495.2,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="92.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更新质心</text>
+<path d="M289.2,279.0 C322.2,279.0 322.2,160.0 355.2,160.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="355.2" y="143.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="369.2" y="160.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数学描述</text>
+<path d="M439.2,160.0 C467.2,160.0 467.2,160.0 495.2,160.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="146.5" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="160.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">更新质心为簇中所有点的均值，即</text>
+<path d="M289.2,279.0 C322.2,279.0 322.2,367.5 355.2,367.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="355.2" y="350.5" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="369.2" y="367.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">代码实现</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,214.5 495.2,214.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="201.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="214.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tol</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,248.5 495.2,248.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="235.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="248.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">init</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,282.5 495.2,282.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="269.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="282.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kmeans</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,316.5 495.2,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="303.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">y_pred</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,350.5 495.2,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="337.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">KMeans</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,384.5 495.2,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="371.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_init</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,418.5 495.2,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="405.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cluster</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,452.5 495.2,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="439.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_iter</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,486.5 495.2,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="473.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">algorithm</text>
+<path d="M439.2,367.5 C467.2,367.5 467.2,520.5 495.2,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="495.2" y="507.0" width="211.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="507.2" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_clusters</text>
+</svg>

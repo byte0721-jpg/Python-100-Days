@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="669" height="1010" viewBox="0 0 669 1010" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="669" height="1010" fill="#ffffff"/>
+<rect x="24.0" y="482.0" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="505.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 42 · 视图、函数和过程</text>
+<path d="M291.8,505.0 C324.8,505.0 324.8,224.5 357.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="371.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">视图</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,37.5 497.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="24.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sal</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,71.5 497.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="58.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SUM</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,105.5 497.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="92.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MIN</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,139.5 497.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="126.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MAX</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,173.5 497.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="160.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AVG</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,207.5 497.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="194.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">comm</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,241.5 497.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="228.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">FROM</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,275.5 497.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="262.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">COUNT</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,309.5 497.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="296.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">UNION</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,343.5 497.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="330.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">WHERE</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,377.5 497.8,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="364.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HAVING</text>
+<path d="M441.8,224.5 C469.8,224.5 469.8,411.5 497.8,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="398.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SELECT</text>
+<path d="M291.8,505.0 C324.8,505.0 324.8,547.5 357.8,547.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="530.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="371.8" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">函数</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,462.5 497.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="449.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">delimiter</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,496.5 497.8,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="483.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fn_truncate_string</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,530.5 497.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="517.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">varchar</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,564.5 497.8,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="551.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">declare</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,598.5 497.8,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="585.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">char_length</text>
+<path d="M441.8,547.5 C469.8,547.5 469.8,632.5 497.8,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="619.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
+<path d="M291.8,505.0 C324.8,505.0 324.8,717.5 357.8,717.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="700.5" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="371.8" y="717.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">过程</text>
+<path d="M441.8,717.5 C469.8,717.5 469.8,683.5 497.8,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="670.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flag</text>
+<path d="M441.8,717.5 C469.8,717.5 469.8,717.5 497.8,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="704.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">commit</text>
+<path d="M441.8,717.5 C469.8,717.5 469.8,751.5 497.8,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="738.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rollback</text>
+<path d="M291.8,505.0 C324.8,505.0 324.8,887.5 357.8,887.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="870.5" width="84.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="371.8" y="887.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他内容</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,802.5 497.8,802.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="789.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">范式理论</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,836.5 497.8,836.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="823.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据完整性</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,870.5 497.8,870.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="857.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="870.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据一致性</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,904.5 497.8,904.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="891.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="904.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">check</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,938.5 497.8,938.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="925.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="938.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">unique</text>
+<path d="M441.8,887.5 C469.8,887.5 469.8,972.5 497.8,972.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="497.8" y="959.0" width="147.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="509.8" y="972.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
+</svg>

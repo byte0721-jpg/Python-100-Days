@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="599" height="602" viewBox="0 0 599 602" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="599" height="602" fill="#ffffff"/>
+<rect x="24.0" y="278.0" width="229.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="301.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 41 · MySQL新特性</text>
+<path d="M253.6,301.0 C286.6,301.0 286.6,88.5 319.6,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="319.6" y="71.5" width="86.8" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="333.6" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">JSON类型</text>
+<path d="M406.4,88.5 C434.4,88.5 434.4,37.5 462.4,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="24.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json_extract</text>
+<path d="M406.4,88.5 C434.4,88.5 434.4,71.5 462.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="58.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json_unquote</text>
+<path d="M406.4,88.5 C434.4,88.5 434.4,105.5 462.4,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="92.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json_contains</text>
+<path d="M406.4,88.5 C434.4,88.5 434.4,139.5 462.4,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="126.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json_overlaps</text>
+<path d="M253.6,301.0 C286.6,301.0 286.6,377.5 319.6,377.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="319.6" y="360.5" width="86.8" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="333.6" y="377.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">窗口函数</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,190.5 462.4,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="177.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rank()</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,224.5 462.4,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="211.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">row_number()</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,258.5 462.4,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="245.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dense_rank()</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,292.5 462.4,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="279.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lag</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,326.5 462.4,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="313.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sum</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,360.5 462.4,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="347.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">avg</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,394.5 462.4,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="381.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,428.5 462.4,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="415.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,462.5 462.4,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="449.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sal</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,496.5 462.4,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="483.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dno</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,530.5 462.4,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="517.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lead</text>
+<path d="M406.4,377.5 C434.4,377.5 434.4,564.5 462.4,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="462.4" y="551.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="474.4" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rank</text>
+</svg>

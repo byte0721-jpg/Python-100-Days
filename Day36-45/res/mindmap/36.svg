@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="903" height="1119" viewBox="0 0 903 1119" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="903" height="1119" fill="#ffffff"/>
+<rect x="24.0" y="536.5" width="331.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="559.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 36 · 关系型数据库和MySQL概述</text>
+<path d="M355.6,559.5 C388.6,559.5 388.6,122.5 421.6,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="421.6" y="105.5" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="435.6" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">关系型数据库概述</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,37.5 617.5,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">关系模型</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,71.5 617.5,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">关系代数</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,105.5 617.5,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">二维表</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,139.5 617.5,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">结构化查询语言</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,173.5 617.5,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ER模型</text>
+<path d="M561.5,122.5 C589.5,122.5 589.5,207.5 617.5,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实体关系模型</text>
+<path d="M355.6,559.5 C388.6,559.5 388.6,262.0 421.6,262.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="421.6" y="245.0" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="435.6" y="262.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">MySQL 简介</text>
+<path d="M355.6,559.5 C388.6,559.5 388.6,486.5 421.6,486.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="421.6" y="469.5" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="435.6" y="486.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">安装 MySQL</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,316.5 617.5,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="303.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Windows 环境</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,350.5 617.5,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="337.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Linux 环境</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,384.5 617.5,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="371.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">macOS环境</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,418.5 617.5,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="405.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">攻击数据库窃取数据和劫持数据库勒索比…</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,452.5 617.5,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="439.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不要让数据库服务器暴露在公网上</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,486.5 617.5,486.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="473.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="486.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">创建其他拥有适当权限的账号来访问</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,520.5 617.5,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="507.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bin</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,554.5 617.5,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="541.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">root</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,588.5 617.5,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="575.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">my.cnf</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,622.5 617.5,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="609.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mysqld</text>
+<path d="M561.5,486.5 C589.5,486.5 589.5,656.5 617.5,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="643.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">password</text>
+<path d="M355.6,559.5 C388.6,559.5 388.6,894.5 421.6,894.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="421.6" y="877.5" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="435.6" y="894.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">MySQL 基本命令</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,707.5 617.5,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="694.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查看命令</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,741.5 617.5,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="728.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">获取帮助</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,775.5 617.5,775.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="762.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="775.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他命令</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,809.5 617.5,809.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="796.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="809.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tee</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,843.5 617.5,843.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="830.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="843.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">use</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,877.5 617.5,877.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="864.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="877.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">help</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,911.5 617.5,911.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="898.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="911.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">show</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,945.5 617.5,945.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="932.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="945.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">edit</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,979.5 617.5,979.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="966.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="979.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quit</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,1013.5 617.5,1013.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="1000.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="1013.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">exit</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,1047.5 617.5,1047.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="1034.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="1047.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">notee</text>
+<path d="M561.5,894.5 C589.5,894.5 589.5,1081.5 617.5,1081.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="617.5" y="1068.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="629.5" y="1081.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">status</text>
+</svg>

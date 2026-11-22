@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="873" height="548" viewBox="0 0 873 548" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="873" height="548" fill="#ffffff"/>
+<rect x="24.0" y="251.0" width="301.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="274.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 96 · 软件测试和自动化测试</text>
+<path d="M325.8,274.0 C358.8,274.0 358.8,105.5 391.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="88.5" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="405.8" y="105.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">软件测试概述</text>
+<path d="M531.8,105.5 C559.8,105.5 559.8,37.5 587.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试的方法</text>
+<path d="M531.8,105.5 C559.8,105.5 559.8,71.5 587.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试的种类（阶段）</text>
+<path d="M531.8,105.5 C559.8,105.5 559.8,105.5 587.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">测试驱动开发（敏捷测试）</text>
+<path d="M531.8,105.5 C559.8,105.5 559.8,139.5 587.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">互联网应用和移动应用的测试</text>
+<path d="M531.8,105.5 C559.8,105.5 559.8,173.5 587.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">在所有可能的测试用例中，哪个子集能发…</text>
+<path d="M325.8,274.0 C358.8,274.0 358.8,228.0 391.8,228.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="211.0" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="405.8" y="228.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">单元（模块）测试</text>
+<path d="M531.8,228.0 C559.8,228.0 559.8,228.0 587.8,228.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="214.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="228.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tox能便捷地为我们准备好执行测试所需…</text>
+<path d="M325.8,274.0 C358.8,274.0 358.8,367.5 391.8,367.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="350.5" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="405.8" y="367.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">自动化测试</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,282.5 587.8,282.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="269.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="282.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">UI自动化测试</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,316.5 587.8,316.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="303.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="316.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">桌面端 - PyAutoGui</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,350.5 587.8,350.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="337.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="350.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">移动端 - Appnium</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,384.5 587.8,384.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="371.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="384.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Web端 - Selenium</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,418.5 587.8,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="405.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">接口测试自动化测试</text>
+<path d="M531.8,367.5 C559.8,367.5 559.8,452.5 587.8,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="439.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他方面的自动化测试</text>
+<path d="M325.8,274.0 C358.8,274.0 358.8,507.0 391.8,507.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="490.0" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="405.8" y="507.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">测试相关工具</text>
+<path d="M531.8,507.0 C559.8,507.0 559.8,507.0 587.8,507.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="587.8" y="493.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="599.8" y="507.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PostMan</text>
+</svg>

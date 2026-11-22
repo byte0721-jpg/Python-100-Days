@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="629" height="772" viewBox="0 0 629 772" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+<rect x="0" y="0" width="629" height="772" fill="#ffffff"/>
+<rect x="24.0" y="363.0" width="238.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="386.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 39 · SQL详解之DQL</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,71.5 328.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="54.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="342.9" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">投影与别名</text>
+<path d="M426.9,71.5 C454.9,71.5 454.9,37.5 482.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="24.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询全部列</text>
+<path d="M426.9,71.5 C454.9,71.5 454.9,71.5 482.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="58.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查询指定列</text>
+<path d="M426.9,71.5 C454.9,71.5 454.9,105.5 482.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="92.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AS 取别名</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,207.5 328.9,207.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="190.5" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="342.9" y="207.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据筛选</text>
+<path d="M426.9,207.5 C454.9,207.5 454.9,156.5 482.9,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="143.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">比较运算</text>
+<path d="M426.9,207.5 C454.9,207.5 454.9,190.5 482.9,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="177.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">逻辑运算</text>
+<path d="M426.9,207.5 C454.9,207.5 454.9,224.5 482.9,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="211.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">范围与集合</text>
+<path d="M426.9,207.5 C454.9,207.5 454.9,258.5 482.9,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="245.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">空值处理</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,343.5 328.9,343.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="326.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="342.9" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模糊匹配</text>
+<path d="M426.9,343.5 C454.9,343.5 454.9,309.5 482.9,309.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="296.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LIKE 与通配符 %</text>
+<path d="M426.9,343.5 C454.9,343.5 454.9,343.5 482.9,343.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="330.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通配符 _</text>
+<path d="M426.9,343.5 C454.9,343.5 454.9,377.5 482.9,377.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="364.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">正则表达式</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,462.5 328.9,462.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="445.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="342.9" y="462.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">排序与分页</text>
+<path d="M426.9,462.5 C454.9,462.5 454.9,428.5 482.9,428.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="415.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ORDER BY 排序</text>
+<path d="M426.9,462.5 C454.9,462.5 454.9,462.5 482.9,462.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="449.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LIMIT 分页</text>
+<path d="M426.9,462.5 C454.9,462.5 454.9,496.5 482.9,496.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="483.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DISTINCT 去重</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,581.5 328.9,581.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="564.5" width="98.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="342.9" y="581.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">聚合与分组</text>
+<path d="M426.9,581.5 C454.9,581.5 454.9,547.5 482.9,547.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="534.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">聚合函数</text>
+<path d="M426.9,581.5 C454.9,581.5 454.9,581.5 482.9,581.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="568.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">GROUP BY 分组</text>
+<path d="M426.9,581.5 C454.9,581.5 454.9,615.5 482.9,615.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="602.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">HAVING 分组筛选</text>
+<path d="M262.9,386.0 C295.9,386.0 295.9,700.5 328.9,700.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="683.5" width="98.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="342.9" y="700.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">复杂查询</text>
+<path d="M426.9,700.5 C454.9,700.5 454.9,666.5 482.9,666.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="653.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">子查询</text>
+<path d="M426.9,700.5 C454.9,700.5 454.9,700.5 482.9,700.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="687.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">集合运算</text>
+<path d="M426.9,700.5 C454.9,700.5 454.9,734.5 482.9,734.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="482.9" y="721.0" width="122.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="494.9" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表连接</text>
+</svg>

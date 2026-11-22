@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1142" height="1061" viewBox="0 0 1142 1061" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1142" height="1061" fill="#ffffff"/>
+<rect x="443.1" y="507.5" width="255.9" height="46" rx="10" fill="#35495E"/>
+<text x="463.1" y="530.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 31 · Python语言进阶</text>
+<path d="M699.0,530.5 C732.0,530.5 732.0,241.5 765.0,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="765.0" y="224.5" width="140.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="779.0" y="241.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">重要知识点</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,71.5 961.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="58.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">setdefault()</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,105.5 961.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="92.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">most_common()</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,139.5 961.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="126.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dict</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,173.5 961.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="160.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">heapq</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,207.5 961.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="194.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">deque</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,241.5 961.0,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="228.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Counter</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,275.5 961.0,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="262.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">itertools</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,309.5 961.0,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="296.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">namedtuple</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,343.5 961.0,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="330.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">collections</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,377.5 961.0,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="364.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">OrderedDict</text>
+<path d="M905.0,241.5 C933.0,241.5 933.0,411.5 961.0,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="398.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">defaultdict</text>
+<path d="M699.0,530.5 C732.0,530.5 732.0,547.5 765.0,547.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="765.0" y="530.5" width="140.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="779.0" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据结构和算法</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,462.5 961.0,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="449.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select_sort</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,496.5 961.0,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="483.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">items</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,530.5 961.0,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="517.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">min_index</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,564.5 961.0,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="551.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">comp</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,598.5 961.0,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="585.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bubble_sort</text>
+<path d="M905.0,547.5 C933.0,547.5 933.0,632.5 961.0,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="619.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">swapped</text>
+<path d="M699.0,530.5 C732.0,530.5 732.0,836.5 765.0,836.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="765.0" y="819.5" width="140.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="779.0" y="836.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">函数的使用方式</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,683.5 961.0,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="670.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,717.5 961.0,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="704.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">with</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,751.5 961.0,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="738.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filter</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,785.5 961.0,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="772.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">lambda</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,819.5 961.0,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="806.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">global</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,853.5 961.0,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="840.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">wrapper</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,887.5 961.0,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="874.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nonlocal</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,921.5 961.0,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="908.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__exit__</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,955.5 961.0,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="942.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__enter__</text>
+<path d="M905.0,836.5 C933.0,836.5 933.0,989.5 961.0,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="961.0" y="976.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="973.0" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">func.__wrapped__</text>
+<path d="M443.1,530.5 C410.1,530.5 410.1,207.5 377.1,207.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="237.1" y="190.5" width="140.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="251.1" y="207.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">面向对象相关知识</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,37.5 181.1,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">引用计数</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,71.5 181.1,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">标记-清除</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,105.5 181.1,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">分代收集</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,139.5 181.1,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">SOLID</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,173.5 181.1,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gc.collect()</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,207.5 181.1,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,241.5 181.1,241.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="228.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dict</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,275.5 181.1,275.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="262.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,309.5 181.1,309.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="296.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">object</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,343.5 181.1,343.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="330.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__del__</text>
+<path d="M237.1,207.5 C209.1,207.5 209.1,377.5 181.1,377.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">weakref</text>
+<path d="M443.1,530.5 C410.1,530.5 410.1,513.5 377.1,513.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="237.1" y="496.5" width="140.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="251.1" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">迭代器和生成器</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,428.5 181.1,428.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="415.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">send()</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,462.5 181.1,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="449.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yield</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,496.5 181.1,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="483.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">protocol</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,530.5 181.1,530.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="517.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__iter__</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,564.5 181.1,564.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="551.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">__next__</text>
+<path d="M237.1,513.5 C209.1,513.5 209.1,598.5 181.1,598.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="585.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">interface</text>
+<path d="M443.1,530.5 C410.1,530.5 410.1,836.5 377.1,836.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="237.1" y="819.5" width="140.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="251.1" y="836.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">并发编程</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,649.5 181.1,649.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="636.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多线程和多进程的比较</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,683.5 181.1,683.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="670.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步I/O与多进程的比较</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,717.5 181.1,717.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="704.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Lock</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,751.5 181.1,751.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="738.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">loop</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,785.5 181.1,785.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="772.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PyMP</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,819.5 181.1,819.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="806.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Event</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,853.5 181.1,853.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="840.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Queue</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,887.5 181.1,887.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="874.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">await</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,921.5 181.1,921.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="908.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">async</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,955.5 181.1,955.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="942.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Thread</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,989.5 181.1,989.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="976.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">future</text>
+<path d="M237.1,836.5 C209.1,836.5 209.1,1023.5 181.1,1023.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="1010.0" width="157.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">gather</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1085" viewBox="0 0 820 1085" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="820" height="1085" fill="#ffffff"/>
+<rect x="24.0" y="519.5" width="301.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="542.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 11 · 常用数据结构之字符串</text>
+<path d="M325.8,542.5 C358.8,542.5 358.8,105.5 391.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="88.5" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="405.8" y="105.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">字符串的定义</text>
+<path d="M503.8,105.5 C531.8,105.5 531.8,37.5 559.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="24.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">转义字符</text>
+<path d="M503.8,105.5 C531.8,105.5 531.8,71.5 559.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="58.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">原始字符串</text>
+<path d="M503.8,105.5 C531.8,105.5 531.8,105.5 559.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="92.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字符的特殊表示</text>
+<path d="M503.8,105.5 C531.8,105.5 531.8,139.5 559.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="126.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字符串</text>
+<path d="M503.8,105.5 C531.8,105.5 531.8,173.5 559.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="160.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">由零个或多个字符组成的有限序列</text>
+<path d="M325.8,542.5 C358.8,542.5 358.8,394.5 391.8,394.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="377.5" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="405.8" y="394.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">字符串的运算</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,224.5 559.8,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="211.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">拼接和重复</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,258.5 559.8,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="245.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">比较运算</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,292.5 559.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="279.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">成员运算</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,326.5 559.8,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="313.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">获取字符串长度</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,360.5 559.8,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="347.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引和切片</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,394.5 559.8,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="381.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字符串是不可变类型</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,428.5 559.8,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="415.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不能通过索引运算修改字符串中的字符</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,462.5 559.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="449.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ord</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,496.5 559.8,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="483.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">len</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,530.5 559.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="517.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">IndexError</text>
+<path d="M503.8,394.5 C531.8,394.5 531.8,564.5 559.8,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="551.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;b&#x27;</text>
+<path d="M325.8,542.5 C358.8,542.5 358.8,619.0 391.8,619.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="602.0" width="112.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="405.8" y="619.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">字符的遍历</text>
+<path d="M325.8,542.5 C358.8,542.5 358.8,860.5 391.8,860.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="391.8" y="843.5" width="112.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="405.8" y="860.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">字符串的方法</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,673.5 559.8,673.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="660.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="673.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">大小写相关操作</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,707.5 559.8,707.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="694.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="707.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查找操作</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,741.5 559.8,741.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="728.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="741.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">性质判断</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,775.5 559.8,775.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="762.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="775.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">格式化</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,809.5 559.8,809.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="796.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="809.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">修剪操作</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,843.5 559.8,843.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="830.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="843.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">替换操作</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,877.5 559.8,877.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="864.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="877.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">拆分与合并</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,911.5 559.8,911.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="898.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="911.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">编码和解码</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,945.5 559.8,945.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="932.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="945.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">其他方法</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,979.5 559.8,979.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="966.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="979.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">由零个或多个字节组成的有限序列</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,1013.5 559.8,1013.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="1000.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="1013.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">foo.bar()</text>
+<path d="M503.8,860.5 C531.8,860.5 531.8,1047.5 559.8,1047.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="559.8" y="1034.0" width="236.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="571.8" y="1047.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">foo</text>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="858" height="1163" viewBox="0 0 858 1163" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="858" height="1163" fill="#ffffff"/>
+<rect x="24.0" y="558.5" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="581.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 73 · 深入浅出pandas-2</text>
+<path d="M298.6,581.5 C331.6,581.5 331.6,224.5 364.6,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="207.5" width="153.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="378.6" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,37.5 573.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="24.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通过二维数组创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,71.5 573.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="58.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通过字典创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,105.5 573.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="92.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">读取CSV文件创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,139.5 573.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="126.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">读取Excel工作表创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,173.5 573.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="160.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">读取关系数据库二维表创建DataFrame对象</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,207.5 573.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="194.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sep</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,241.5 573.9,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="228.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hrs</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,275.5 573.9,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="262.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,309.5 573.9,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="296.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">infer</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,343.5 573.9,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="330.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">nrows</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,377.5 573.9,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="364.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">guest</text>
+<path d="M517.9,224.5 C545.9,224.5 545.9,411.5 573.9,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="398.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pandas</text>
+<path d="M298.6,581.5 C331.6,581.5 331.6,649.5 364.6,649.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="632.5" width="153.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="378.6" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基本属性和方法</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,462.5 573.9,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="449.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">info()</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,496.5 573.9,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="483.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">head()</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,530.5 573.9,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="517.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tail()</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,564.5 573.9,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="551.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hrs</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,598.5 573.9,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="585.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dno</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,632.5 573.9,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="619.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eno</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,666.5 573.9,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="653.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">job</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,700.5 573.9,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="687.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mgr</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,734.5 573.9,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="721.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sal</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,768.5 573.9,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="755.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,802.5 573.9,802.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="789.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">NaN</text>
+<path d="M517.9,649.5 C545.9,649.5 545.9,836.5 573.9,836.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="823.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">iat</text>
+<path d="M298.6,581.5 C331.6,581.5 331.6,1006.5 364.6,1006.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="989.5" width="153.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="378.6" y="1006.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">操作数据</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,887.5 573.9,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="874.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引和切片</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,921.5 573.9,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="908.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据筛选</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,955.5 573.9,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="942.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ename</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,989.5 573.9,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="976.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">query</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,1023.5 573.9,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="1010.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">emp_df</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,1057.5 573.9,1057.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="1044.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="1057.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,1091.5 573.9,1091.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="1078.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="1091.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ndarray</text>
+<path d="M517.9,1006.5 C545.9,1006.5 545.9,1125.5 573.9,1125.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="573.9" y="1112.0" width="260.9" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="585.9" y="1125.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="629" height="364" viewBox="0 0 629 364" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="629" height="364" fill="#ffffff"/>
+<rect x="24.0" y="159.0" width="235.5" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="182.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 80 · 数据可视化-3</text>
+<path d="M259.5,182.0 C292.5,182.0 292.5,122.5 325.5,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="325.5" y="105.5" width="97.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="339.5" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Seaborn</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,37.5 478.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="24.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sns.set_theme</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,71.5 478.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="58.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">insert</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,105.5 478.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="92.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tips_df</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,139.5 478.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="126.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tips_df.info</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,173.5 478.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="160.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">RangeIndex</text>
+<path d="M422.8,122.5 C450.8,122.5 450.8,207.5 478.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="194.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">columns</text>
+<path d="M259.5,182.0 C292.5,182.0 292.5,292.5 325.5,292.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="325.5" y="275.5" width="97.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="339.5" y="292.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Pyecharts</text>
+<path d="M422.8,292.5 C450.8,292.5 450.8,258.5 478.8,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="245.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bar</text>
+<path d="M422.8,292.5 C450.8,292.5 450.8,292.5 478.8,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="279.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render</text>
+<path d="M422.8,292.5 C450.8,292.5 450.8,326.5 478.8,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="478.8" y="313.0" width="127.1" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="490.8" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">render_notebook</text>
+</svg>

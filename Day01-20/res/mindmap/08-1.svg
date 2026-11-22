@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="833" height="490" viewBox="0 0 833 490" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="833" height="490" fill="#ffffff"/>
+<rect x="24.0" y="222.0" width="303.5" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="245.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 08 · 常用数据结构之列表-1</text>
+<path d="M327.5,245.0 C360.5,245.0 360.5,173.5 393.5,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="156.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="407.5" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">创建列表</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,37.5 547.5,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">列表是由一系列元素按特定顺序构成的数…</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,71.5 547.5,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">可以用它来保存多个数据</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,105.5 547.5,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,139.5 547.5,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,173.5 547.5,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bool</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,207.5 547.5,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,241.5 547.5,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,275.5 547.5,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">float</text>
+<path d="M491.5,173.5 C519.5,173.5 519.5,309.5 547.5,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">hello</text>
+<path d="M327.5,245.0 C360.5,245.0 360.5,364.0 393.5,364.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="347.0" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="407.5" y="364.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">列表的运算</text>
+<path d="M491.5,364.0 C519.5,364.0 519.5,364.0 547.5,364.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="350.5" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="364.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">IndexError</text>
+<path d="M327.5,245.0 C360.5,245.0 360.5,435.5 393.5,435.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="418.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="407.5" y="435.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">元素的遍历</text>
+<path d="M491.5,435.5 C519.5,435.5 519.5,418.5 547.5,418.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="405.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="418.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">len</text>
+<path d="M491.5,435.5 C519.5,435.5 519.5,452.5 547.5,452.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="439.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="452.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">languages</text>
+</svg>

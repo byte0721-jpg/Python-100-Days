@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="816" height="925" viewBox="0 0 816 925" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="816" height="925" fill="#ffffff"/>
+<rect x="24.0" y="439.5" width="267.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="462.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 51 · 日志和调试工具栏</text>
+<path d="M291.8,462.5 C324.8,462.5 324.8,224.5 357.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="207.5" width="210.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="371.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置日志</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,37.5 623.8,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="24.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">日志格式化器</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,71.5 623.8,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="58.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">日志处理器</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,105.5 623.8,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="92.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">日志记录器</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,139.5 623.8,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="126.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">level</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,173.5 623.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="160.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,207.5 623.8,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="194.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">formatters</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,241.5 623.8,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="228.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sys.stdout</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,275.5 623.8,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="262.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sys.stderr</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,309.5 623.8,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="296.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django.server</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,343.5 623.8,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="330.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django.request</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,377.5 623.8,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="364.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django.template</text>
+<path d="M567.8,224.5 C595.8,224.5 595.8,411.5 623.8,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="398.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">django.db.backends</text>
+<path d="M291.8,462.5 C324.8,462.5 324.8,513.5 357.8,513.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="496.5" width="210.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="371.8" y="513.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置Django-Debug-Toolbar</text>
+<path d="M567.8,513.5 C595.8,513.5 595.8,462.5 623.8,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="449.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">INSTALLED_APPS</text>
+<path d="M567.8,513.5 C595.8,513.5 595.8,496.5 623.8,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="483.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">MIDDLEWARE</text>
+<path d="M567.8,513.5 C595.8,513.5 595.8,530.5 623.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="517.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DEBUG_TOOLBAR_CONFIG</text>
+<path d="M567.8,513.5 C595.8,513.5 595.8,564.5 623.8,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="551.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">urlpatterns.insert</text>
+<path d="M291.8,462.5 C324.8,462.5 324.8,751.5 357.8,751.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="357.8" y="734.5" width="210.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="371.8" y="751.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">优化ORM代码</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,615.5 623.8,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="602.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">only()</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,649.5 623.8,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="636.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">defer()</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,683.5 623.8,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="670.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select_related()</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,717.5 623.8,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="704.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">prefetch_related()</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,751.5 623.8,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="738.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Teacher.objects.all()</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,785.5 623.8,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="772.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bad</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,819.5 623.8,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="806.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">good</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,853.5 623.8,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="840.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subject</text>
+<path d="M567.8,751.5 C595.8,751.5 595.8,887.5 623.8,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="623.8" y="874.0" width="168.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="635.8" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">QuerySet</text>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="782" height="1153" viewBox="0 0 782 1153" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="782" height="1153" fill="#ffffff"/>
+<rect x="24.0" y="553.5" width="325.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="576.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 64 · 使用Selenium抓取网页…</text>
+<path d="M349.6,576.5 C382.6,576.5 382.6,41.0 415.6,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="24.0" width="125.3" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="429.6" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Selenium 介绍</text>
+<path d="M349.6,576.5 C382.6,576.5 382.6,282.5 415.6,282.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="265.5" width="125.3" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="429.6" y="282.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用Selenium</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,95.5 596.9,95.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="82.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="95.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">加载页面</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,129.5 596.9,129.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="116.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="129.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">查找元素和模拟用户行为</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,163.5 596.9,163.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="150.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="163.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">隐式等待和显式等待</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,197.5 596.9,197.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="184.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="197.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">执行JavaScript代码</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,231.5 596.9,231.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="218.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="231.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Selenium反爬的破解</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,265.5 596.9,265.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="252.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="265.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">无头浏览器</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,299.5 596.9,299.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="286.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="299.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,333.5 596.9,333.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="320.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="333.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bin</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,367.5 596.9,367.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="354.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="367.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">true</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,401.5 596.9,401.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="388.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="401.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">click</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,435.5 596.9,435.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="422.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="435.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value</text>
+<path d="M540.9,282.5 C568.9,282.5 568.9,469.5 596.9,469.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="456.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="469.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Chrome</text>
+<path d="M349.6,576.5 C382.6,576.5 382.6,707.5 415.6,707.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="690.5" width="125.3" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="429.6" y="707.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">API参考</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,520.5 596.9,520.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="507.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="520.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">浏览器对象</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,554.5 596.9,554.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="541.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="554.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">WebElement对象</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,588.5 596.9,588.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="575.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="588.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,622.5 596.9,622.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="609.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="622.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">name</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,656.5 596.9,656.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="643.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="656.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">back</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,690.5 596.9,690.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="677.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="690.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">quit</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,724.5 596.9,724.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="711.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="724.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">size</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,758.5 596.9,758.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="745.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="758.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">text</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,792.5 596.9,792.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="779.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="792.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">title</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,826.5 596.9,826.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="813.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="826.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">close</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,860.5 596.9,860.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="847.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="860.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">clear</text>
+<path d="M540.9,707.5 C568.9,707.5 568.9,894.5 596.9,894.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="881.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="894.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">click</text>
+<path d="M349.6,576.5 C382.6,576.5 382.6,1030.5 415.6,1030.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="415.6" y="1013.5" width="125.3" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="429.6" y="1030.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">简单案例</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,945.5 596.9,945.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="932.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="945.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DOWNLOAD_PATH</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,979.5 596.9,979.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="966.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="979.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">download_picture</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,1013.5 596.9,1013.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="1000.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="1013.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">filename</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,1047.5 596.9,1047.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="1034.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="1047.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">resp</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,1081.5 596.9,1081.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="1068.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="1081.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">file.write</text>
+<path d="M540.9,1030.5 C568.9,1030.5 568.9,1115.5 596.9,1115.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="596.9" y="1102.0" width="161.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="608.9" y="1115.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">os.path.exists</text>
+</svg>

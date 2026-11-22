@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="1095" viewBox="0 0 660 1095" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="660" height="1095" fill="#ffffff"/>
+<rect x="24.0" y="524.5" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="547.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 76 · 深入浅出pandas-5</text>
+<path d="M298.6,547.5 C331.6,547.5 331.6,173.5 364.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="156.5" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="378.6" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">计算同比环比</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,37.5 532.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">shift</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,71.5 532.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">style</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,105.5 532.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Styler</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,139.5 532.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">format</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,173.5 532.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="160.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">groupby</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,207.5 532.6,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">periods</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,241.5 532.6,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,275.5 532.6,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="262.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pct_change</text>
+<path d="M476.6,173.5 C504.6,173.5 504.6,309.5 532.6,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="296.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pivot_table</text>
+<path d="M298.6,547.5 C331.6,547.5 331.6,496.5 364.6,496.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="479.5" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="378.6" y="496.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">窗口计算</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,360.5 532.6,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="347.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Low</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,394.5 532.6,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="381.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Open</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,428.5 532.6,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="415.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">High</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,462.5 532.6,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="449.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Close</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,496.5 532.6,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="483.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">merge</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,530.5 532.6,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="517.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Volume</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,564.5 532.6,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="551.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Series</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,598.5 532.6,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="585.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rolling</text>
+<path d="M476.6,496.5 C504.6,496.5 504.6,632.5 532.6,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="619.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+<path d="M298.6,547.5 C331.6,547.5 331.6,870.5 364.6,870.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="853.5" width="112.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="378.6" y="870.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">相关性判定</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,683.5 532.6,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="670.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cov</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,717.5 532.6,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="704.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">AGE</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,751.5 532.6,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="738.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">corr</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,785.5 532.6,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="772.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,819.5 532.6,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="806.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CRIM</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,853.5 532.6,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="840.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PRICE</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,887.5 532.6,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="874.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LSTAT</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,921.5 532.6,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="908.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">method</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,955.5 532.6,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="942.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pearson</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,989.5 532.6,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="976.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kendall</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,1023.5 532.6,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="1010.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">spearman</text>
+<path d="M476.6,870.5 C504.6,870.5 504.6,1057.5 532.6,1057.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="532.6" y="1044.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="544.6" y="1057.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">DataFrame</text>
+</svg>

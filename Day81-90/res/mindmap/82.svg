@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1098" height="959" viewBox="0 0 1098 959" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1098" height="959" fill="#ffffff"/>
+<rect x="436.1" y="456.5" width="226.2" height="46" rx="10" fill="#35495E"/>
+<text x="456.1" y="479.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 82 · k最近邻算法</text>
+<path d="M662.2,479.5 C695.2,479.5 695.2,190.5 728.2,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="728.2" y="173.5" width="121.1" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="742.2" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">距离的度量</text>
+<path d="M849.4,190.5 C877.4,190.5 877.4,156.5 905.4,156.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="143.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">曼哈顿距离</text>
+<path d="M849.4,190.5 C877.4,190.5 877.4,190.5 905.4,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="177.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">欧几里得距离</text>
+<path d="M849.4,190.5 C877.4,190.5 877.4,224.5 905.4,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="211.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">切比雪夫距离</text>
+<path d="M662.2,479.5 C695.2,479.5 695.2,360.5 728.2,360.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="728.2" y="343.5" width="121.1" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="742.2" y="360.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据集介绍</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,275.5 905.4,275.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="262.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据集的加载</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,309.5 905.4,309.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="296.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数据集的划分</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,343.5 905.4,343.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="330.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">test_size</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,377.5 905.4,377.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="364.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">train_size</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,411.5 905.4,411.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="398.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random_state</text>
+<path d="M849.4,360.5 C877.4,360.5 877.4,445.5 905.4,445.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="432.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">train_test_split</text>
+<path d="M662.2,479.5 C695.2,479.5 695.2,649.5 728.2,649.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="728.2" y="632.5" width="121.1" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="742.2" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">kNN分类的实现</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,496.5 905.4,496.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="483.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基于NumPy的实现</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,530.5 905.4,530.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="517.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">基于scikit-learn的实现</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,564.5 905.4,564.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="551.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">mode</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,598.5 905.4,598.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="585.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">y_pred</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,632.5 905.4,632.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="619.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">y_test</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,666.5 905.4,666.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="653.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">y_train</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,700.5 905.4,700.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="687.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">np.partition</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,734.5 905.4,734.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="721.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random_state</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,768.5 905.4,768.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="755.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">predict_by_knn</text>
+<path d="M849.4,649.5 C877.4,649.5 877.4,802.5 905.4,802.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="905.4" y="789.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="917.4" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">np.argpartition</text>
+<path d="M436.1,479.5 C403.1,479.5 403.1,224.5 370.1,224.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="249.0" y="207.5" width="121.1" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="263.0" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">模型评估</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,37.5 193.0,37.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">混淆矩阵</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,71.5 193.0,71.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预测为正类（Positive）</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,105.5 193.0,105.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="92.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预测为负类（Negative）</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,139.5 193.0,139.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="126.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实际为正类（Positive）</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,173.5 193.0,173.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="160.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实际为负类（Negative）</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,207.5 193.0,207.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="194.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预测为患病</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,241.5 193.0,241.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="228.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预测为未患病</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,275.5 193.0,275.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="262.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实际为患病</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,309.5 193.0,309.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="296.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实际为未患病</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,343.5 193.0,343.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="330.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">准确率</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,377.5 193.0,377.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="364.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">精确率</text>
+<path d="M249.0,224.5 C221.0,224.5 221.0,411.5 193.0,411.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="398.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">召回率</text>
+<path d="M436.1,479.5 C403.1,479.5 403.1,649.5 370.1,649.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="249.0" y="632.5" width="121.1" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="263.0" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">参数调优</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,462.5 193.0,462.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="449.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">网格搜索</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,496.5 193.0,496.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="483.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">交叉验证</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,530.5 193.0,530.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="517.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">auto</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,564.5 193.0,564.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="551.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">brute</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,598.5 193.0,598.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="585.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">weights</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,632.5 193.0,632.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="619.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">uniform</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,666.5 193.0,666.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="653.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">kd_tree</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,700.5 193.0,700.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="687.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">distance</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,734.5 193.0,734.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="721.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">algorithm</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,768.5 193.0,768.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="755.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ball_tree</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,802.5 193.0,802.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="789.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">leaf_size</text>
+<path d="M249.0,649.5 C221.0,649.5 221.0,836.5 193.0,836.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="823.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">n_neighbors</text>
+<path d="M436.1,479.5 C403.1,479.5 403.1,904.5 370.1,904.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="249.0" y="887.5" width="121.1" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="263.0" y="904.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">kNN回归</text>
+<path d="M249.0,904.5 C221.0,904.5 221.0,887.5 193.0,887.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="874.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fit</text>
+<path d="M249.0,904.5 C221.0,904.5 221.0,921.5 193.0,921.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="908.0" width="169.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">KNeighborsRegressor</text>
+</svg>

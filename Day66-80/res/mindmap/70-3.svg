@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="716" height="874" viewBox="0 0 716 874" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="716" height="874" fill="#ffffff"/>
+<rect x="24.0" y="414.0" width="248.3" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="437.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 70 · NumPy的应用-3</text>
+<path d="M272.2,437.0 C305.2,437.0 305.2,224.5 338.2,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="207.5" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="352.2" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数组的运算</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,37.5 506.2,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="24.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数组跟标量的运算</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,71.5 506.2,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="58.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数组跟数组的运算</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,105.5 506.2,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="92.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通用一元函数</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,139.5 506.2,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="126.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通用二元函数</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,173.5 506.2,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="160.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">广播机制</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,207.5 506.2,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="194.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">矢量化</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,241.5 506.2,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="228.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表1：通用一元函数</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,275.5 506.2,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="262.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">abs</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,309.5 506.2,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="296.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">exp</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,343.5 506.2,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="330.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">log</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,377.5 506.2,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="364.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cos</text>
+<path d="M450.2,224.5 C478.2,224.5 478.2,411.5 506.2,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="398.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sin</text>
+<path d="M272.2,437.0 C305.2,437.0 305.2,649.5 338.2,649.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="338.2" y="632.5" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="352.2" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">其他常用函数</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,462.5 506.2,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="449.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">表3：NumPy其他常用函数</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,496.5 506.2,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="483.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">去重（重复元素只保留一项）</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,530.5 506.2,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="517.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">堆叠和拼接</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,564.5 506.2,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="551.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">追加和插入元素</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,598.5 506.2,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="585.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">抽取和处理元素</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,632.5 506.2,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="619.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">重复数组元素创建新数组</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,666.5 506.2,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="653.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">调整数组大小</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,700.5 506.2,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="687.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">替换数组元素</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,734.5 506.2,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="721.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">put</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,768.5 506.2,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="755.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">copy</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,802.5 506.2,802.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="789.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort</text>
+<path d="M450.2,649.5 C478.2,649.5 478.2,836.5 506.2,836.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="506.2" y="823.0" width="186.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="518.2" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">flip</text>
+</svg>

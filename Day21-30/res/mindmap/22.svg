@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1010" viewBox="0 0 860 1010" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="860" height="1010" fill="#ffffff"/>
+<rect x="24.0" y="482.0" width="318.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="505.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 22 · 对象的序列化和反序列化</text>
+<path d="M342.8,505.0 C375.8,505.0 375.8,224.5 408.8,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="207.5" width="172.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="422.8" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">JSON 概述</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,37.5 637.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="24.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">实现跨语言跨平台数据交换</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,71.5 637.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="58.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异构系统间交换数据的事实标准</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,105.5 637.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="92.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">obj</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,139.5 637.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="126.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,173.5 637.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="160.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,207.5 637.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="194.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">name</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,241.5 637.0,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="228.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,275.5 637.0,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="262.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dict</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,309.5 637.0,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="296.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">list</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,343.5 637.0,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="330.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">true</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,377.5 637.0,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="364.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bool</text>
+<path d="M581.0,224.5 C609.0,224.5 609.0,411.5 637.0,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="398.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">null</text>
+<path d="M342.8,505.0 C375.8,505.0 375.8,530.5 408.8,530.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="513.5" width="172.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="422.8" y="530.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">读写 JSON 格式的数据</text>
+<path d="M581.0,530.5 C609.0,530.5 609.0,462.5 637.0,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="449.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json</text>
+<path d="M581.0,530.5 C609.0,530.5 609.0,496.5 637.0,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="483.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dump</text>
+<path d="M581.0,530.5 C609.0,530.5 609.0,530.5 637.0,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="517.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">load</text>
+<path d="M581.0,530.5 C609.0,530.5 609.0,564.5 637.0,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="551.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">dumps</text>
+<path d="M581.0,530.5 C609.0,530.5 609.0,598.5 637.0,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="585.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">loads</text>
+<path d="M342.8,505.0 C375.8,505.0 375.8,700.5 408.8,700.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="683.5" width="172.2" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="422.8" y="700.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">包管理工具 pip</text>
+<path d="M581.0,700.5 C609.0,700.5 609.0,649.5 637.0,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="636.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pip</text>
+<path d="M581.0,700.5 C609.0,700.5 609.0,683.5 637.0,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="670.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json</text>
+<path d="M581.0,700.5 C609.0,700.5 609.0,717.5 637.0,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="704.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ujson</text>
+<path d="M581.0,700.5 C609.0,700.5 609.0,751.5 637.0,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="738.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">conda</text>
+<path d="M342.8,505.0 C375.8,505.0 375.8,887.5 408.8,887.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="408.8" y="870.5" width="172.2" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="422.8" y="887.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用网络API获取数据</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,802.5 637.0,802.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="789.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">json()</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,836.5 637.0,836.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="823.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,870.5 637.0,870.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="857.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="870.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">APIKey</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,904.5 637.0,904.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="891.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="904.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">requests</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,938.5 637.0,938.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="925.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="938.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Response</text>
+<path d="M581.0,887.5 C609.0,887.5 609.0,972.5 637.0,972.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="637.0" y="959.0" width="199.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="649.0" y="972.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">status_code</text>
+</svg>

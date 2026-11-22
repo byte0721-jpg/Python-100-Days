@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="833" height="908" viewBox="0 0 833 908" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="833" height="908" fill="#ffffff"/>
+<rect x="24.0" y="431.0" width="303.5" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="454.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 09 · 常用数据结构之列表-2</text>
+<path d="M327.5,454.0 C360.5,454.0 360.5,224.5 393.5,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="207.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="407.5" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">列表的方法</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,37.5 547.5,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="24.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">添加和删除元素</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,71.5 547.5,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="58.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元素位置和频次</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,105.5 547.5,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="92.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">元素排序和反转</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,139.5 547.5,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="126.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">foos.bar()</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,173.5 547.5,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="160.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bar</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,207.5 547.5,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="194.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pop</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,241.5 547.5,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="228.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">del</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,275.5 547.5,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="262.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">foos</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,309.5 547.5,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="296.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">temp</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,343.5 547.5,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="330.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sort</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,377.5 547.5,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="364.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">clear</text>
+<path d="M491.5,224.5 C519.5,224.5 519.5,411.5 547.5,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="398.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">index</text>
+<path d="M327.5,454.0 C360.5,454.0 360.5,530.5 393.5,530.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="513.5" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="407.5" y="530.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">列表生成式</text>
+<path d="M491.5,530.5 C519.5,530.5 519.5,462.5 547.5,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="449.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">强烈建议用生成式语法来创建列表</text>
+<path d="M491.5,530.5 C519.5,530.5 519.5,496.5 547.5,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="483.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">append</text>
+<path d="M491.5,530.5 C519.5,530.5 519.5,530.5 547.5,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="517.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LIST_APPEND</text>
+<path d="M491.5,530.5 C519.5,530.5 519.5,564.5 547.5,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="551.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">LOAD_METHOD</text>
+<path d="M491.5,530.5 C519.5,530.5 519.5,598.5 547.5,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="585.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">CALL_METHOD</text>
+<path d="M327.5,454.0 C360.5,454.0 360.5,683.5 393.5,683.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="666.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="407.5" y="683.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">嵌套列表</text>
+<path d="M491.5,683.5 C519.5,683.5 519.5,649.5 547.5,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="636.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">scores</text>
+<path d="M491.5,683.5 C519.5,683.5 519.5,683.5 547.5,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="670.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">temp</text>
+<path d="M491.5,683.5 C519.5,683.5 519.5,717.5 547.5,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="704.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">score</text>
+<path d="M327.5,454.0 C360.5,454.0 360.5,819.5 393.5,819.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="393.5" y="802.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="407.5" y="819.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">列表的应用</text>
+<path d="M491.5,819.5 C519.5,819.5 519.5,768.5 547.5,768.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="755.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">珍爱生命，远离赌博，尤其是你对概率一…</text>
+<path d="M491.5,819.5 C519.5,819.5 519.5,802.5 547.5,802.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="789.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">random</text>
+<path d="M491.5,819.5 C519.5,819.5 519.5,836.5 547.5,836.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="823.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sample</text>
+<path d="M491.5,819.5 C519.5,819.5 519.5,870.5 547.5,870.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="547.5" y="857.0" width="261.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="559.5" y="870.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">choice</text>
+</svg>

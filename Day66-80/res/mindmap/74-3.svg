@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="641" height="874" viewBox="0 0 641 874" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="641" height="874" fill="#ffffff"/>
+<rect x="24.0" y="414.0" width="274.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="437.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 74 · 深入浅出pandas-3</text>
+<path d="M298.6,437.0 C331.6,437.0 331.6,224.5 364.6,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="207.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="378.6" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据重塑</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,37.5 504.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="24.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">eno</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,71.5 504.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="58.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">how</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,105.5 504.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="92.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">left</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,139.5 504.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="126.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">merge</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,173.5 504.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="160.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">right</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,207.5 504.6,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="194.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">inner</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,241.5 504.6,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="228.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">outer</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,275.5 504.6,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="262.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">emp_df</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,309.5 504.6,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="296.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">pandas</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,343.5 504.6,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="330.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">concat</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,377.5 504.6,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="364.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">inplace</text>
+<path d="M448.6,224.5 C476.6,224.5 476.6,411.5 504.6,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="398.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">left_on</text>
+<path d="M298.6,437.0 C331.6,437.0 331.6,649.5 364.6,649.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="364.6" y="632.5" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="378.6" y="649.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据清洗</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,462.5 504.6,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="449.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">缺失值</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,496.5 504.6,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="483.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">重复值</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,530.5 504.6,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="517.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异常值</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,564.5 504.6,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="551.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">预处理</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,598.5 504.6,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="585.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_dummies()</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,632.5 504.6,632.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="619.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="632.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,666.5 504.6,666.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="653.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="666.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,700.5 504.6,700.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="687.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">map</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,734.5 504.6,734.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="721.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cut</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,768.5 504.6,768.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="755.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isna</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,802.5 504.6,802.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="789.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">axis</text>
+<path d="M448.6,649.5 C476.6,649.5 476.6,836.5 504.6,836.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="504.6" y="823.0" width="113.4" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="516.6" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">keep</text>
+</svg>

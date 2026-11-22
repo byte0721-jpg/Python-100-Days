@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1225" height="779" viewBox="0 0 1225 779" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1225" height="779" fill="#ffffff"/>
+<rect x="489.6" y="366.5" width="246.6" height="46" rx="10" fill="#35495E"/>
+<text x="509.6" y="389.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 93 · MySQL性能优化</text>
+<path d="M736.2,389.5 C769.2,389.5 769.2,88.5 802.2,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="802.2" y="71.5" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="816.2" y="88.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基本原则</text>
+<path d="M886.2,88.5 C914.2,88.5 914.2,88.5 942.2,88.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="75.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="88.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">想要发挥 MySQL 的最佳性能，需要遵循…</text>
+<path d="M736.2,389.5 C769.2,389.5 769.2,330.0 802.2,330.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="802.2" y="313.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="816.2" y="330.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建库建表</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,143.0 942.2,143.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="129.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="143.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">InnoDB表的注意事项</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,177.0 942.2,177.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="163.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="177.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">set</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,211.0 942.2,211.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="197.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="211.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">null</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,245.0 942.2,245.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="231.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="245.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">enum</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,279.0 942.2,279.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="265.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="279.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">blob</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,313.0 942.2,313.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="299.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="313.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">text</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,347.0 942.2,347.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="333.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="347.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">float</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,381.0 942.2,381.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="367.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="381.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">engine</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,415.0 942.2,415.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="401.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="415.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xxx_id</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,449.0 942.2,449.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="435.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="449.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">comment</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,483.0 942.2,483.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="469.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="483.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
+<path d="M886.2,330.0 C914.2,330.0 914.2,517.0 942.2,517.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="503.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="517.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">decimal</text>
+<path d="M736.2,389.5 C769.2,389.5 769.2,602.0 802.2,602.0" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="802.2" y="585.0" width="84.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="816.2" y="602.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用索引</text>
+<path d="M886.2,602.0 C914.2,602.0 914.2,568.0 942.2,568.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="554.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="568.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">索引的设计原则</text>
+<path d="M886.2,602.0 C914.2,602.0 914.2,602.0 942.2,602.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="588.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="602.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where</text>
+<path d="M886.2,602.0 C914.2,602.0 914.2,636.0 942.2,636.0" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="942.2" y="622.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="954.2" y="636.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select</text>
+<path d="M736.2,389.5 C769.2,389.5 769.2,690.5 802.2,690.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="802.2" y="673.5" width="84.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="816.2" y="690.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用过程</text>
+<path d="M489.6,389.5 C456.6,389.5 456.6,54.5 423.6,54.5" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="339.6" y="37.5" width="84.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="353.6" y="54.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">数据分区</text>
+<path d="M339.6,54.5 C311.6,54.5 311.6,37.5 283.6,37.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="24.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_emp</text>
+<path d="M339.6,54.5 C311.6,54.5 311.6,71.5 283.6,71.5" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="58.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">PARTITIONS</text>
+<path d="M489.6,389.5 C456.6,389.5 456.6,309.5 423.6,309.5" fill="none" stroke="#9661BC" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="339.6" y="292.5" width="84.0" height="34" rx="8" fill="#9661BC" fill-opacity="0.14" stroke="#74449A" stroke-width="1.4"/>
+<text x="353.6" y="309.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">SQL优化</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,122.5 283.6,122.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="109.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="122.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">key</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,156.5 283.6,156.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="143.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,190.5 283.6,190.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="177.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rows</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,224.5 283.6,224.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="211.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">table</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,258.5 283.6,258.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="245.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">extra</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,292.5 283.6,292.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="279.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">where</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,326.5 283.6,326.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="313.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ename</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,360.5 283.6,360.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="347.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">insert</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,394.5 283.6,394.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="381.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">explain</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,428.5 283.6,428.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="415.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">key_len</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,462.5 283.6,462.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="449.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">select_type</text>
+<path d="M339.6,309.5 C311.6,309.5 311.6,496.5 283.6,496.5" fill="none" stroke="#9661BC" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="483.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">possible_keys</text>
+<path d="M489.6,389.5 C456.6,389.5 456.6,615.5 423.6,615.5" fill="none" stroke="#F6903D" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="339.6" y="598.5" width="84.0" height="34" rx="8" fill="#F6903D" fill-opacity="0.14" stroke="#C06818" stroke-width="1.4"/>
+<text x="353.6" y="615.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">配置优化</text>
+<path d="M339.6,615.5 C311.6,615.5 311.6,547.5 283.6,547.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="534.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">back_log</text>
+<path d="M339.6,615.5 C311.6,615.5 311.6,581.5 283.6,581.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="568.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">max_connections</text>
+<path d="M339.6,615.5 C311.6,615.5 311.6,615.5 283.6,615.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="602.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">table_open_cache</text>
+<path d="M339.6,615.5 C311.6,615.5 311.6,649.5 283.6,649.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="636.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">innodb_buffer_pool_size</text>
+<path d="M339.6,615.5 C311.6,615.5 311.6,683.5 283.6,683.5" fill="none" stroke="#F6903D" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="670.0" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">innodb_lock_wait_timeout</text>
+<path d="M489.6,389.5 C456.6,389.5 456.6,738.0 423.6,738.0" fill="none" stroke="#008685" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="339.6" y="721.0" width="84.0" height="34" rx="8" fill="#008685" fill-opacity="0.14" stroke="#00605F" stroke-width="1.4"/>
+<text x="353.6" y="738.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">架构优化</text>
+<path d="M339.6,738.0 C311.6,738.0 311.6,738.0 283.6,738.0" fill="none" stroke="#008685" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="724.5" width="259.6" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="738.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">通过拆分提高表的访问效率</text>
+</svg>

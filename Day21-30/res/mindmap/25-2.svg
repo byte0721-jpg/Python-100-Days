@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1129" height="449" viewBox="0 0 1129 449" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="1129" height="449" fill="#ffffff"/>
+<rect x="404.0" y="201.5" width="321.4" height="46" rx="10" fill="#35495E"/>
+<text x="424.0" y="224.5" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 25 · Python读写Excel文件-2</text>
+<path d="M725.4,224.5 C758.4,224.5 758.4,71.5 791.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="791.4" y="54.5" width="154.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="805.4" y="71.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">Excel简介</text>
+<path d="M945.4,71.5 C973.4,71.5 973.4,37.5 1001.4,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlwt</text>
+<path d="M945.4,71.5 C973.4,71.5 973.4,71.5 1001.4,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">xlrd</text>
+<path d="M945.4,71.5 C973.4,71.5 973.4,105.5 1001.4,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
+<path d="M725.4,224.5 C758.4,224.5 758.4,190.5 791.4,190.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="791.4" y="173.5" width="154.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="805.4" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">读取Excel文件</text>
+<path d="M945.4,190.5 C973.4,190.5 973.4,156.5 1001.4,156.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="143.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="156.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cell</text>
+<path d="M945.4,190.5 C973.4,190.5 973.4,190.5 1001.4,190.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="177.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="190.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">value</text>
+<path d="M945.4,190.5 C973.4,190.5 973.4,224.5 1001.4,224.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="211.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="224.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
+<path d="M725.4,224.5 C758.4,224.5 758.4,343.5 791.4,343.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="791.4" y="326.5" width="154.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="805.4" y="343.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">写Excel文件</text>
+<path d="M945.4,343.5 C973.4,343.5 973.4,275.5 1001.4,275.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="262.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
+<path d="M945.4,343.5 C973.4,343.5 973.4,309.5 1001.4,309.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="296.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sheet</text>
+<path d="M945.4,343.5 C973.4,343.5 973.4,343.5 1001.4,343.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="330.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sheet.title</text>
+<path d="M945.4,343.5 C973.4,343.5 973.4,377.5 1001.4,377.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="364.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">titles</text>
+<path d="M945.4,343.5 C973.4,343.5 973.4,411.5 1001.4,411.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="1001.4" y="398.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="1013.4" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">enumerate</text>
+<path d="M404.0,224.5 C371.0,224.5 371.0,131.0 338.0,131.0" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="184.0" y="114.0" width="154.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="198.0" y="131.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">调整样式和公式计算</text>
+<path d="M184.0,131.0 C156.0,131.0 156.0,63.0 128.0,63.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="49.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="63.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Cell</text>
+<path d="M184.0,131.0 C156.0,131.0 156.0,97.0 128.0,97.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="83.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="97.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">font</text>
+<path d="M184.0,131.0 C156.0,131.0 156.0,131.0 128.0,131.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="117.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="131.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">border</text>
+<path d="M184.0,131.0 C156.0,131.0 156.0,165.0 128.0,165.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="151.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="165.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
+<path d="M184.0,131.0 C156.0,131.0 156.0,199.0 128.0,199.0" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="185.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="199.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">alignment</text>
+<path d="M404.0,224.5 C371.0,224.5 371.0,318.0 338.0,318.0" fill="none" stroke="#78D3F8" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="184.0" y="301.0" width="154.0" height="34" rx="8" fill="#78D3F8" fill-opacity="0.14" stroke="#2A93B8" stroke-width="1.4"/>
+<text x="198.0" y="318.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">生成统计图表</text>
+<path d="M184.0,318.0 C156.0,318.0 156.0,250.0 128.0,250.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="236.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="250.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">openpyxl</text>
+<path d="M184.0,318.0 C156.0,318.0 156.0,284.0 128.0,284.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="270.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="284.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">sheet</text>
+<path d="M184.0,318.0 C156.0,318.0 156.0,318.0 128.0,318.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="304.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="318.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">rows</text>
+<path d="M184.0,318.0 C156.0,318.0 156.0,352.0 128.0,352.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="338.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="352.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chart</text>
+<path d="M184.0,318.0 C156.0,318.0 156.0,386.0 128.0,386.0" fill="none" stroke="#78D3F8" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="24.0" y="372.5" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="36.0" y="386.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chart.type</text>
+</svg>

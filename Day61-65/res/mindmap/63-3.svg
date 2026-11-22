@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="739" height="976" viewBox="0 0 739 976" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="739" height="976" fill="#ffffff"/>
+<rect x="24.0" y="465.0" width="308.6" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="488.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 63 · Python中的并发编程-3</text>
+<path d="M332.6,488.0 C365.6,488.0 365.6,122.5 398.6,122.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="105.5" width="112.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="412.6" y="122.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">基本概念</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,37.5 566.6,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="24.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">阻塞</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,71.5 566.6,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="58.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">非阻塞</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,105.5 566.6,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="92.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">同步</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,139.5 566.6,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="126.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,173.5 566.6,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="160.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">消息通信机制</text>
+<path d="M510.6,122.5 C538.6,122.5 538.6,207.5 566.6,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="194.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">程序在等待消息时状态</text>
+<path d="M332.6,488.0 C365.6,488.0 365.6,326.5 398.6,326.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="309.5" width="112.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="412.6" y="326.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">生成器和协程</text>
+<path d="M510.6,326.5 C538.6,326.5 538.6,258.5 566.6,258.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="245.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="258.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fib</text>
+<path d="M510.6,326.5 C538.6,326.5 538.6,292.5 566.6,292.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="279.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="292.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">next</text>
+<path d="M510.6,326.5 C538.6,326.5 538.6,326.5 566.6,326.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="313.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="326.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">main</text>
+<path d="M510.6,326.5 C538.6,326.5 538.6,360.5 566.6,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="347.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">send</text>
+<path d="M510.6,326.5 C538.6,326.5 538.6,394.5 566.6,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="381.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">yield</text>
+<path d="M332.6,488.0 C365.6,488.0 365.6,547.5 398.6,547.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="530.5" width="112.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="412.6" y="547.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">异步函数</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,445.5 566.6,445.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="432.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="445.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">异步执行</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,479.5 566.6,479.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="466.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="479.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">async</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,513.5 566.6,513.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="500.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="513.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">await</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,547.5 566.6,547.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="534.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="547.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">display</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,581.5 566.6,581.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="568.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="581.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">asyncio</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,615.5 566.6,615.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="602.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="615.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get_event_loop</text>
+<path d="M510.6,547.5 C538.6,547.5 538.6,649.5 566.6,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="636.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">run_until_complete</text>
+<path d="M332.6,488.0 C365.6,488.0 365.6,819.5 398.6,819.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="398.6" y="802.5" width="112.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="412.6" y="819.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">aiohttp库</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,700.5 566.6,700.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="687.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="700.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">get</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,734.5 566.6,734.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="721.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="734.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">await</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,768.5 566.6,768.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="755.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="768.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">async</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,802.5 566.6,802.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="789.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="802.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">aiohttp</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,836.5 566.6,836.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="823.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="836.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Session</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,870.5 566.6,870.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="857.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="870.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">requests</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,904.5 566.6,904.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="891.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="904.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ClientSession</text>
+<path d="M510.6,819.5 C538.6,819.5 538.6,938.5 566.6,938.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="566.6" y="925.0" width="149.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="578.6" y="938.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fetch_page_title</text>
+</svg>

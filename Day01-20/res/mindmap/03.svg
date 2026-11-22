@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="749" height="1418" viewBox="0 0 749 1418" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="749" height="1418" fill="#ffffff"/>
+<rect x="24.0" y="686.0" width="289.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="709.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 03 · Python语言中的变量</text>
+<path d="M313.9,709.0 C346.9,709.0 346.9,190.5 379.9,190.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="173.5" width="98.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="393.9" y="190.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">一些常识</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,37.5 533.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="24.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">运算器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,71.5 533.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="58.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">控制器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,105.5 533.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="92.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">存储器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,139.5 533.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="126.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">输入设备</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,173.5 533.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="160.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">输出设备</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,207.5 533.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="194.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">中央处理器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,241.5 533.9,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="228.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">内部存储器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,275.5 533.9,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="262.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">外部存储器</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,309.5 533.9,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="296.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">将存储器与中央处理器分开</text>
+<path d="M477.9,190.5 C505.9,190.5 505.9,343.5 533.9,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="330.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">将数据以二进制方式编码</text>
+<path d="M313.9,709.0 C346.9,709.0 346.9,496.5 379.9,496.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="479.5" width="98.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="393.9" y="496.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">变量和类型</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,394.5 533.9,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="381.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">变量是数据的载体</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,428.5 533.9,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="415.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">变量的值可以被读取和修改</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,462.5 533.9,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="449.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,496.5 533.9,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="483.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,530.5 533.9,530.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="517.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="530.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bool</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,564.5 533.9,564.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="551.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="564.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">float</text>
+<path d="M477.9,496.5 C505.9,496.5 505.9,598.5 533.9,598.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="585.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="598.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">complex</text>
+<path d="M313.9,709.0 C346.9,709.0 346.9,836.5 379.9,836.5" fill="none" stroke="#F6BD16" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="819.5" width="98.0" height="34" rx="8" fill="#F6BD16" fill-opacity="0.14" stroke="#B8860B" stroke-width="1.4"/>
+<text x="393.9" y="836.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">变量命名</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,649.5 533.9,649.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="636.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="649.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">字母</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,683.5 533.9,683.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="670.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="683.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">数字</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,717.5 533.9,717.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="704.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="717.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">下划线</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,751.5 533.9,751.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="738.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="751.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">尽可能只使用英文字母</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,785.5 533.9,785.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="772.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="785.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">大小写敏感</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,819.5 533.9,819.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="806.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="819.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">不要跟 Python 的关键字重名</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,853.5 533.9,853.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="840.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="853.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">尽可能避开 Python 的保留字</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,887.5 533.9,887.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="874.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="887.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">小写英文字母</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,921.5 533.9,921.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="908.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="921.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">多个单词用下划线进行连接</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,955.5 533.9,955.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="942.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="955.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">见名知意</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,989.5 533.9,989.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="976.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="989.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M477.9,836.5 C505.9,836.5 505.9,1023.5 533.9,1023.5" fill="none" stroke="#F6BD16" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1010.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1023.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M313.9,709.0 C346.9,709.0 346.9,1227.5 379.9,1227.5" fill="none" stroke="#7262FD" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="379.9" y="1210.5" width="98.0" height="34" rx="8" fill="#7262FD" fill-opacity="0.14" stroke="#5546D6" stroke-width="1.4"/>
+<text x="393.9" y="1227.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">变量的使用</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1074.5 533.9,1074.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1061.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1074.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int()</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1108.5 533.9,1108.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1095.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1108.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str()</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1142.5 533.9,1142.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1129.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1142.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">chr()</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1176.5 533.9,1176.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1163.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1176.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">ord()</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1210.5 533.9,1210.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1197.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1210.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">float()</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1244.5 533.9,1244.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1231.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1244.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">str</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1278.5 533.9,1278.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1265.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1278.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">int</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1312.5 533.9,1312.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1299.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1312.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">type</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1346.5 533.9,1346.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1333.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1346.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bool</text>
+<path d="M477.9,1227.5 C505.9,1227.5 505.9,1380.5 533.9,1380.5" fill="none" stroke="#7262FD" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="533.9" y="1367.0" width="191.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="545.9" y="1380.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">&#x27;d&#x27;</text>
+</svg>

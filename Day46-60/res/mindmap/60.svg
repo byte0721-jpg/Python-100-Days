@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="140" viewBox="0 0 656 140" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+<rect x="0" y="0" width="656" height="140" fill="#ffffff"/>
+<rect x="24.0" y="47.0" width="199.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="70.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 60 · 项目上线</text>
+<path d="M223.8,70.0 C256.8,70.0 256.8,41.0 289.8,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="24.0" width="84.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="303.8" y="41.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">本节说明</text>
+<path d="M373.8,41.0 C401.8,41.0 401.8,41.0 429.8,41.0" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="429.8" y="27.5" width="202.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="441.8" y="41.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">内容已安排到后续章节</text>
+<path d="M223.8,70.0 C256.8,70.0 256.8,99.0 289.8,99.0" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="289.8" y="82.0" width="84.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="303.8" y="99.0" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">延伸阅读</text>
+<path d="M373.8,99.0 C401.8,99.0 401.8,99.0 429.8,99.0" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="429.8" y="85.5" width="202.8" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="441.8" y="99.0" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">Day98 项目部署上线和性能调优</text>
+</svg>

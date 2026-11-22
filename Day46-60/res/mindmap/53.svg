@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="719" height="534" viewBox="0 0 719 534" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="719" height="534" fill="#ffffff"/>
+<rect x="24.0" y="244.0" width="284.8" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="267.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 53 · 前后端分离开发入门</text>
+<path d="M308.8,267.0 C341.8,267.0 341.8,173.5 374.8,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="156.5" width="158.2" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="388.8" y="173.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">返回JSON格式的数据</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,37.5 589.0,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="24.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">safe</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,71.5 589.0,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="58.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">isHot</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,105.5 589.0,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="92.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">is_hot</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,139.5 589.0,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="126.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">QuerySet</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,173.5 589.0,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="160.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subjects</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,207.5 589.0,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="194.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">TypeError</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,241.5 589.0,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="228.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">bpmappers</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,275.5 589.0,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="262.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">create_date</text>
+<path d="M533.0,173.5 C561.0,173.5 561.0,309.5 589.0,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="296.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">JsonResponse</text>
+<path d="M308.8,267.0 C341.8,267.0 341.8,428.5 374.8,428.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="374.8" y="411.5" width="158.2" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="388.8" y="428.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">使用Vue.js渲染页面</text>
+<path d="M533.0,428.5 C561.0,428.5 561.0,360.5 589.0,360.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="347.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="360.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">data</text>
+<path d="M533.0,428.5 C561.0,428.5 561.0,394.5 589.0,394.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="381.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="394.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">subjects</text>
+<path d="M533.0,428.5 C561.0,428.5 561.0,428.5 589.0,428.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="415.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="428.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">created</text>
+<path d="M533.0,428.5 C561.0,428.5 561.0,462.5 589.0,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="449.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">fetch</text>
+<path d="M533.0,428.5 C561.0,428.5 561.0,496.5 589.0,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="589.0" y="483.0" width="106.5" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="601.0" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">then</text>
+</svg>

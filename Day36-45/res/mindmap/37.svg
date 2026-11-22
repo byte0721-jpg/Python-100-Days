@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="638" height="534" viewBox="0 0 638 534" font-family="Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, sans-serif">
+<rect width="638" height="534" fill="#ffffff"/>
+<rect x="24.0" y="244.0" width="238.9" height="46" rx="10" fill="#35495E"/>
+<text x="44.0" y="267.0" fill="#ffffff" font-size="17" font-weight="bold" dominant-baseline="middle">Day 37 · SQL详解之DDL</text>
+<path d="M262.9,267.0 C295.9,267.0 295.9,224.5 328.9,224.5" fill="none" stroke="#5B8FF9" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="207.5" width="126.0" height="34" rx="8" fill="#5B8FF9" fill-opacity="0.14" stroke="#3A6FD8" stroke-width="1.4"/>
+<text x="342.9" y="224.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">建库建表</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,37.5 510.9,37.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="24.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="37.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">help</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,71.5 510.9,71.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="58.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="71.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">school</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,105.5 510.9,105.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="92.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="105.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">schema</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,139.5 510.9,139.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="126.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="139.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">default</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,173.5 510.9,173.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="160.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="173.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">comment</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,207.5 510.9,207.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="194.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="207.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">database</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,241.5 510.9,241.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="228.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="241.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_course</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,275.5 510.9,275.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="262.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="275.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_record</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,309.5 510.9,309.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="296.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="309.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_college</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,343.5 510.9,343.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="330.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="343.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_student</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,377.5 510.9,377.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="364.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="377.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">tb_teacher</text>
+<path d="M454.9,224.5 C482.9,224.5 482.9,411.5 510.9,411.5" fill="none" stroke="#5B8FF9" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="398.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="411.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">references</text>
+<path d="M262.9,267.0 C295.9,267.0 295.9,479.5 328.9,479.5" fill="none" stroke="#61DDAA" stroke-width="1.6" stroke-opacity="0.65"/>
+<rect x="328.9" y="462.5" width="126.0" height="34" rx="8" fill="#61DDAA" fill-opacity="0.14" stroke="#2E9E72" stroke-width="1.4"/>
+<text x="342.9" y="479.5" fill="#1f2328" font-size="14" font-weight="bold" dominant-baseline="middle">删除表和修改表</text>
+<path d="M454.9,479.5 C482.9,479.5 482.9,462.5 510.9,462.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="449.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="462.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">cascade</text>
+<path d="M454.9,479.5 C482.9,479.5 482.9,496.5 510.9,496.5" fill="none" stroke="#61DDAA" stroke-width="1.1" stroke-opacity="0.5"/>
+<rect x="510.9" y="483.0" width="104.0" height="27" rx="7" fill="#ffffff" stroke="#d8dce3" stroke-width="1"/>
+<text x="522.9" y="496.5" fill="#3a3f45" font-size="12.5" dominant-baseline="middle">restrict</text>
+</svg>
